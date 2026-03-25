@@ -1,13 +1,13 @@
 /* Landing page — renders project cards from projects.json */
 
 const CATEGORY_ICONS = {
-  game:        '🎮',
-  tool:        '🔧',
-  saas:        '🏢',
-  marketplace: '🏪',
-  'ai-agent':  '🤖',
+  game:        '�️',
+  tool:        '🔌',
+  saas:        '📊',
+  marketplace: '🤝',
+  'ai-agent':  '☕',
   personal:    '💪',
-  research:    '🔬',
+  research:    '💪',
 };
 
 const STATUS_LABELS = {
