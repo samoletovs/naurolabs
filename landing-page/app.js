@@ -7,13 +7,12 @@ const CATEGORY_ICONS = {
   marketplace: '🤝',
   'ai-agent':  '☕',
   personal:    '💪',
-  research:    '💪',
+  experiment:   '🧪',
 };
 
 const STATUS_LABELS = {
   'in-development': 'In development',
-  'in-research':    'In research',
-  'research':       'Lab research',
+  'experiment':      'Experiment',
 };
 
 function renderStats(projects) {

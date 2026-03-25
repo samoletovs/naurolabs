@@ -52,10 +52,10 @@
   {
     "name": "Turgo",
     "tagline": "Can AI agents buy and sell better than humans?",
-    "description": "Research into automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
+    "description": "An experiment in automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
     "appUrl": "https://turgo.naurolabs.com",
     "sourceVisibility": "private",
-    "status": "in-research",
+    "status": "in-development",
     "category": "marketplace",
     "stack": ["Next.js", "PostgreSQL", "Prisma", "tRPC", "Meilisearch", "Redis", "Azure OpenAI"],
     "highlights": [
@@ -68,7 +68,7 @@
   {
     "name": "AgentMode",
     "tagline": "A useful AI agent for the price of two coffees a month",
-    "description": "Research experiment: how capable can a personal AI agent be on a tight Azure budget? Turns out — surprisingly capable. It orders water by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. 18 skills and counting, all running on about $5/month.",
+    "description": "An experiment: how capable can a personal AI agent be on a tight Azure budget? Turns out — surprisingly capable. It orders water by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. 18 skills and counting, all running on about $5/month.",
     "sourceVisibility": "private",
     "status": "in-development",
     "category": "ai-agent",
@@ -86,8 +86,8 @@
     "description": "Can AI read a training methodology book and generate correct, progressive workout programs? Turns out, yes — and it follows the progression rules more faithfully than most humans. Feed it Convict Conditioning, it builds your plan, tracks your reps, and advances you when you're ready. Currently in its 5th week of real training data.",
     "appUrl": "https://tplan.naurolabs.com",
     "sourceVisibility": "private",
-    "status": "research",
-    "category": "research",
+    "status": "experiment",
+    "category": "experiment",
     "stack": ["React", "Vite", "Azure SWA", "Azure Functions", "Cosmos DB", "Azure OpenAI"],
     "highlights": [
       "Book → Program: AI parses methodology into structured plans",
