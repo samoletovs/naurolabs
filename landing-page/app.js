@@ -1,7 +1,7 @@
 /* Landing page — renders project cards from projects.json */
 
 const CATEGORY_ICONS = {
-  game:        '⚖️',
+  game:        '🎲',
   tool:        '🔌',
   saas:        '📊',
   marketplace: '🤝',
