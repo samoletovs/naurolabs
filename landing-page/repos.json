@@ -1,0 +1,29 @@
+[
+  {
+    "name": "amberRepublic",
+    "description": "Shape Latvia's future in this political and economic simulation game. Make decisions as Latvia's leader with real data, painful trade-offs, and delayed consequences. Built with React, TypeScript, and Vite.",
+    "url": "https://github.com/samoletovs/amberRepublic",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 4,
+    "updatedAt": "2026-03-24T11:42:47Z",
+    "createdAt": "2026-03-23T21:21:45Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": [
+      "Real data based on Latvia's 2025 statistics",
+      "Every decision has trade-offs with delayed consequences",
+      "Second-order effects model complex systemic dynamics",
+      "AI-powered event generation for unique playthroughs"
+    ]
+  }
+]
