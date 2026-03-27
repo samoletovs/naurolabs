@@ -95,5 +95,22 @@
       "5 weeks of real training data tracked",
       "Multilingual: 4 languages"
     ]
+  },
+  {
+    "name": "Golazo",
+    "tagline": "FIFA meets Duolingo for a young footballer",
+    "description": "Can gamification make an 11-year-old actually track training and match data? XP, levels, achievements, skill radar charts, and a FIFA-style player card — built on coaching wisdom from 10 football development books. The kid logs a training, earns XP, sees his radar chart grow. Currently powering one RFS midfielder's journey to pro.",
+    "appUrl": "https://golazo.naurolabs.com",
+    "sourceUrl": "https://github.com/samoletovs/golazo",
+    "sourceVisibility": "public",
+    "status": "in-development",
+    "category": "game",
+    "stack": ["React", "Vite", "Tailwind CSS", "Azure SWA"],
+    "highlights": [
+      "50 levels with football ranks: Новичок → Про",
+      "25+ drills from Coerver, Horst Wein, Dan Abrahams, UEFA",
+      "FIFA-style player card with spider chart skills radar",
+      "4 languages: Russian, Latvian, English, Spanish"
+    ]
   }
 ]
