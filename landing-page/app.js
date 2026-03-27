@@ -33,7 +33,7 @@ function renderStats(projects) {
 }
 
 function renderProjectCard(project) {
-  const icon = CATEGORY_ICONS[project.category] || '📦';
+  const icon = project.icon || CATEGORY_ICONS[project.category] || '📦';
   const statusLabel = STATUS_LABELS[project.status] || project.status || '';
 
   const highlights = project.highlights
@@ -95,6 +95,17 @@ async function init() {
     const projects = await response.json();
 
     renderStats(projects);
+
+    // Warn about duplicate icons
+    const iconMap = new Map();
+    projects.forEach(p => {
+      const icon = p.icon || CATEGORY_ICONS[p.category] || '📦';
+      if (iconMap.has(icon)) {
+        console.warn(`Duplicate icon "${icon}" used by "${iconMap.get(icon)}" and "${p.name}". Add a unique "icon" field to projects.json.`);
+      } else {
+        iconMap.set(icon, p.name);
+      }
+    });
 
     const grid = document.getElementById('projects-grid');
     grid.innerHTML = projects.map(renderProjectCard).join('');
