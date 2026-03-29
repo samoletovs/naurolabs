@@ -14,6 +14,7 @@ const path = require('path');
 
 const GITHUB_USER = 'samoletovs';
 const OUTPUT_FILE = path.join(__dirname, '..', 'repos.json');
+const PROJECTS_FILE = path.join(__dirname, '..', 'projects.json');
 
 async function fetchAllRepos() {
   const headers = {
@@ -130,6 +131,47 @@ async function main() {
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(repos, null, 2) + '\n');
   console.log(`Written ${repos.length} repos to ${OUTPUT_FILE}`);
+
+  // Update lastUpdated in projects.json from GitHub pushed_at
+  await syncProjectDates(headers);
+}
+
+async function syncProjectDates(headers) {
+  let projects;
+  try {
+    projects = JSON.parse(fs.readFileSync(PROJECTS_FILE, 'utf-8'));
+  } catch {
+    console.warn('No projects.json found, skipping date sync.');
+    return;
+  }
+
+  let updated = 0;
+  for (const project of projects) {
+    if (!project.repo) continue;
+    try {
+      const url = `https://api.github.com/repos/${GITHUB_USER}/${project.repo}`;
+      const res = await fetch(url, { headers });
+      if (!res.ok) {
+        console.warn(`  Could not fetch ${project.repo}: ${res.status}`);
+        continue;
+      }
+      const data = await res.json();
+      project.lastUpdated = data.pushed_at;
+      updated++;
+    } catch (err) {
+      console.warn(`  Error fetching ${project.repo}: ${err.message}`);
+    }
+  }
+
+  // Sort by lastUpdated descending so JSON file reflects the order
+  projects.sort((a, b) => {
+    const da = a.lastUpdated ? new Date(a.lastUpdated).getTime() : 0;
+    const db = b.lastUpdated ? new Date(b.lastUpdated).getTime() : 0;
+    return db - da;
+  });
+
+  fs.writeFileSync(PROJECTS_FILE, JSON.stringify(projects, null, 2) + '\n');
+  console.log(`Updated lastUpdated for ${updated} projects in projects.json`);
 }
 
 main().catch(err => {

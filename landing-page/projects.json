@@ -1,109 +1,8 @@
 [
   {
-    "name": "Amber Republic",
-    "tagline": "What if a nation sim used real statistics?",
-    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every decision has second-order trade-offs you won't see coming for three turns.",
-    "appUrl": "https://amber.naurolabs.com",
-    "sourceUrl": "https://github.com/samoletovs/amberRepublic",
-    "sourceVisibility": "public",
-    "icon": "🏛️",
-    "status": "in-development",
-    "category": "game",
-    "stack": ["React", "Vite", "Tailwind CSS", "Azure SWA"],
-    "highlights": [
-      "Starting conditions from Latvia's actual 2025 statistics",
-      "Second-order effects — emigration causes workforce shortage causes more emigration",
-      "AI-generated events for unique playthroughs",
-      "Every decision is a painful trade-off"
-    ]
-  },
-  {
-    "name": "Rosette",
-    "tagline": "Where the hell do I put my sockets?",
-    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Currently speaks Baltic construction codes — Latvian, Lithuanian, and Estonian.",
-    "appUrl": "https://rosette.naurolabs.com",
-    "sourceUrl": null,
-    "sourceVisibility": "private",
-    "icon": "🔌",
-    "status": "in-development",
-    "category": "tool",
-    "stack": ["React", "Vite", "Azure SWA", "Azure Functions", "Azure OpenAI"],
-    "highlights": [
-      "AI analyzes floor plans to detect rooms and dimensions",
-      "Country-specific socket rules (LV, LT, EE)",
-      "SVG circuit and wiring diagrams",
-      "Possibly the world's most niche AI application"
-    ]
-  },
-  {
-    "name": "ERA",
-    "tagline": "ERP that configures itself (in theory)",
-    "description": "An experiment: can an AI agent read a country's tax code and set up the entire accounting system without a consultant? Users just throw in invoices and payments — the system figures out GL accounts, VAT, and posting rules automatically. Currently knows Latvian accounting law. World domination pending.",
-    "appUrl": "https://era.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "📊",
-    "status": "in-development",
-    "category": "saas",
-    "stack": ["React", "Express", "Cosmos DB", "Azure OpenAI", "Entra ID", "Bicep"],
-    "highlights": [
-      "AI agent researches legislation and generates accounting rules",
-      "Zero settings — posting rules replace configuration",
-      "One country done, infinite ambition",
-      "Entra ID auth, Cosmos DB, full cloud-native"
-    ]
-  },
-  {
-    "name": "Turgo",
-    "tagline": "Can AI agents buy and sell better than humans?",
-    "description": "An experiment in automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
-    "appUrl": "https://turgo.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "🤝",
-    "status": "in-development",
-    "category": "marketplace",
-    "stack": ["Next.js", "PostgreSQL", "Prisma", "tRPC", "Meilisearch", "Redis", "Azure OpenAI"],
-    "highlights": [
-      "Photo → AI listing → pricing → negotiation → sold",
-      "7 operational agents: moderation, analytics, anti-fraud, and more",
-      "Testing buy/sell strategies with agent-vs-agent scenarios",
-      "Multilingual: 5 UI languages, 3 Baltic countries"
-    ]
-  },
-  {
-    "name": "AgentMode",
-    "tagline": "A useful AI agent for the price of two coffees a month",
-    "description": "An experiment: how capable can a personal AI agent be on a tight Azure budget? Turns out — surprisingly capable. It orders water by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. 18 skills and counting, all running on about $5/month.",
-    "sourceVisibility": "private",
-    "icon": "🤖",
-    "status": "in-development",
-    "category": "ai-agent",
-    "stack": ["Azure Functions", "Azure OpenAI", "Container Apps", "Playwright", "Bicep"],
-    "highlights": [
-      "18 auto-discovered skills from weather to water ordering",
-      "AI vision fallback: when automation breaks, the agent screenshots and navigates",
-      "Full infra-as-code, deploys with one script",
-      "Multilingual, ~$5-10/month on Azure"
-    ]
-  },
-  {
-    "name": "Tplan",
-    "tagline": "Can AI turn a training book into a real coach?",
-    "description": "Can AI read a training methodology book and generate correct, progressive workout programs? Turns out, yes — and it follows the progression rules more faithfully than most humans. Feed it a calisthenics manual, it builds your plan, tracks your reps, and advances you when you're ready. Currently in its 5th week of real training data.",
-    "appUrl": "https://tplan.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "💪",
-    "status": "experiment",
-    "category": "experiment",
-    "stack": ["React", "Vite", "Azure SWA", "Azure Functions", "Cosmos DB", "Azure OpenAI"],
-    "highlights": [
-      "Book → Program: AI parses methodology into structured plans",
-      "Auto-progression based on the book's own advancement rules",
-      "5 weeks of real training data tracked",
-      "Multilingual: 4 languages"
-    ]
-  },
-  {
     "name": "Golazo",
+    "repo": "golazo",
+    "lastUpdated": "2026-03-29T12:47:36Z",
     "tagline": "Can gamification build better young athletes?",
     "description": "Can gamification make young footballers actually track their own training and match data? XP, levels, achievements, skill radar charts, and a collectible-style player card — built on coaching methodology from 10 football development books. Log a session, earn XP, watch the radar chart grow. Currently powering one youth midfielder's journey.",
     "appUrl": "https://golazo.naurolabs.com",
@@ -112,12 +11,171 @@
     "icon": "⚽",
     "status": "in-development",
     "category": "game",
-    "stack": ["React", "Vite", "Tailwind CSS", "Azure SWA"],
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA"
+    ],
     "highlights": [
       "50 levels with football ranks from Rookie to Pro",
       "25+ drills from Coerver, Horst Wein, Dan Abrahams, UEFA methodology",
       "Collectible player card with spider chart skills radar",
       "4 languages: Russian, Latvian, English, Spanish"
+    ]
+  },
+  {
+    "name": "Rosette",
+    "repo": "rosette",
+    "lastUpdated": "2026-03-29T12:41:17Z",
+    "tagline": "Where the hell do I put my sockets?",
+    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Currently speaks Baltic construction codes — Latvian, Lithuanian, and Estonian.",
+    "appUrl": "https://rosette.naurolabs.com",
+    "sourceUrl": null,
+    "sourceVisibility": "private",
+    "icon": "🔌",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "AI analyzes floor plans to detect rooms and dimensions",
+      "Country-specific socket rules (LV, LT, EE)",
+      "SVG circuit and wiring diagrams",
+      "Possibly the world's most niche AI application"
+    ]
+  },
+  {
+    "name": "Amber Republic",
+    "repo": "amberRepublic",
+    "lastUpdated": "2026-03-29T10:50:53Z",
+    "tagline": "What if a nation sim used real statistics?",
+    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every decision has second-order trade-offs you won't see coming for three turns.",
+    "appUrl": "https://amber.naurolabs.com",
+    "sourceUrl": "https://github.com/samoletovs/amberRepublic",
+    "sourceVisibility": "public",
+    "icon": "🏛️",
+    "status": "in-development",
+    "category": "game",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA"
+    ],
+    "highlights": [
+      "Starting conditions from Latvia's actual 2025 statistics",
+      "Second-order effects — emigration causes workforce shortage causes more emigration",
+      "AI-generated events for unique playthroughs",
+      "Every decision is a painful trade-off"
+    ]
+  },
+  {
+    "name": "ERA",
+    "repo": "era",
+    "lastUpdated": "2026-03-29T10:50:51Z",
+    "tagline": "ERP that configures itself (in theory)",
+    "description": "An experiment: can an AI agent read a country's tax code and set up the entire accounting system without a consultant? Users just throw in invoices and payments — the system figures out GL accounts, VAT, and posting rules automatically. Currently knows Latvian accounting law. World domination pending.",
+    "appUrl": "https://era.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "📊",
+    "status": "in-development",
+    "category": "saas",
+    "stack": [
+      "React",
+      "Express",
+      "Cosmos DB",
+      "Azure OpenAI",
+      "Entra ID",
+      "Bicep"
+    ],
+    "highlights": [
+      "AI agent researches legislation and generates accounting rules",
+      "Zero settings — posting rules replace configuration",
+      "One country done, infinite ambition",
+      "Entra ID auth, Cosmos DB, full cloud-native"
+    ]
+  },
+  {
+    "name": "AgentMode",
+    "repo": "agentMode",
+    "lastUpdated": "2026-03-29T10:50:37Z",
+    "tagline": "A useful AI agent for the price of two coffees a month",
+    "description": "An experiment: how capable can a personal AI agent be on a tight Azure budget? Turns out — surprisingly capable. It orders water by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. 18 skills and counting, all running on about $5/month.",
+    "sourceVisibility": "private",
+    "icon": "🤖",
+    "status": "in-development",
+    "category": "ai-agent",
+    "stack": [
+      "Azure Functions",
+      "Azure OpenAI",
+      "Container Apps",
+      "Playwright",
+      "Bicep"
+    ],
+    "highlights": [
+      "18 auto-discovered skills from weather to water ordering",
+      "AI vision fallback: when automation breaks, the agent screenshots and navigates",
+      "Full infra-as-code, deploys with one script",
+      "Multilingual, ~$5-10/month on Azure"
+    ]
+  },
+  {
+    "name": "Turgo",
+    "repo": "turgo",
+    "lastUpdated": "2026-03-29T08:23:31Z",
+    "tagline": "Can AI agents buy and sell better than humans?",
+    "description": "An experiment in automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
+    "appUrl": "https://turgo.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "🤝",
+    "status": "in-development",
+    "category": "marketplace",
+    "stack": [
+      "Next.js",
+      "PostgreSQL",
+      "Prisma",
+      "tRPC",
+      "Meilisearch",
+      "Redis",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "Photo → AI listing → pricing → negotiation → sold",
+      "7 operational agents: moderation, analytics, anti-fraud, and more",
+      "Testing buy/sell strategies with agent-vs-agent scenarios",
+      "Multilingual: 5 UI languages, 3 Baltic countries"
+    ]
+  },
+  {
+    "name": "Tplan",
+    "repo": "tPlan",
+    "lastUpdated": "2026-03-29T08:22:50Z",
+    "tagline": "Can AI turn a training book into a real coach?",
+    "description": "Can AI read a training methodology book and generate correct, progressive workout programs? Turns out, yes — and it follows the progression rules more faithfully than most humans. Feed it a calisthenics manual, it builds your plan, tracks your reps, and advances you when you're ready. Currently in its 5th week of real training data.",
+    "appUrl": "https://tplan.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "💪",
+    "status": "experiment",
+    "category": "experiment",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Cosmos DB",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "Book → Program: AI parses methodology into structured plans",
+      "Auto-progression based on the book's own advancement rules",
+      "5 weeks of real training data tracked",
+      "Multilingual: 4 languages"
     ]
   }
 ]

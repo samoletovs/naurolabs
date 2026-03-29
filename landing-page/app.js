@@ -15,6 +15,20 @@ const STATUS_LABELS = {
   'experiment':      'Experiment',
 };
 
+function timeAgo(dateStr) {
+  if (!dateStr) return null;
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 60) return 'just now';
+  const hours = Math.floor(mins / 60);
+  if (hours < 24) return `${hours}h ago`;
+  const days = Math.floor(hours / 24);
+  if (days === 1) return 'yesterday';
+  if (days < 30) return `${days}d ago`;
+  const months = Math.floor(days / 30);
+  return months === 1 ? '1 month ago' : `${months} months ago`;
+}
+
 function renderStats(projects) {
   const container = document.getElementById('stats');
   const techs = new Set();
@@ -67,6 +81,10 @@ function renderProjectCard(project) {
     ? `<span class="status-badge">${statusLabel}</span>`
     : '';
 
+  const updatedBadge = project.lastUpdated
+    ? `<span class="updated-badge" title="Last pushed ${new Date(project.lastUpdated).toLocaleDateString()}">${timeAgo(project.lastUpdated)}</span>`
+    : '';
+
   return `
     <article class="project-card">
       <div class="project-card-top">
@@ -78,6 +96,7 @@ function renderProjectCard(project) {
           </div>
         </div>
         ${statusBadge}
+        ${updatedBadge}
       </div>
 
       <p class="project-description">${project.description}</p>
@@ -95,6 +114,13 @@ async function init() {
     const projects = await response.json();
 
     renderStats(projects);
+
+    // Sort by last updated — most recently active projects first
+    projects.sort((a, b) => {
+      const da = a.lastUpdated ? new Date(a.lastUpdated).getTime() : 0;
+      const db = b.lastUpdated ? new Date(b.lastUpdated).getTime() : 0;
+      return db - da;
+    });
 
     // Warn about duplicate icons
     const iconMap = new Map();
