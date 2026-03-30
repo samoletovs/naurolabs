@@ -1,0 +1,39 @@
+name: Sync Project Order
+
+on:
+  schedule:
+    # Run at 08:00 and 20:00 UTC (twice per day)
+    - cron: '0 8,20 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync project dates from GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: node landing-page/scripts/sync-repos.js
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet landing-page/projects.json landing-page/repos.json || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add landing-page/projects.json landing-page/repos.json
+          git commit -m "chore: sync project order from GitHub activity"
+          git push
