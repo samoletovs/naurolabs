@@ -2,7 +2,7 @@
   {
     "name": "Tplan",
     "repo": "tPlan",
-    "lastUpdated": "2026-03-30T19:11:17Z",
+    "lastUpdated": "2026-03-31T07:59:02Z",
     "tagline": "Can AI turn a training book into a real coach?",
     "description": "Can AI read a training methodology book and generate correct, progressive workout programs? Turns out, yes — and it follows the progression rules more faithfully than most humans. Feed it a calisthenics manual, it builds your plan, tracks your reps, and advances you when you're ready. Currently in its 5th week of real training data.",
     "appUrl": "https://tplan.naurolabs.com",
@@ -23,6 +23,32 @@
       "Auto-progression based on the book's own advancement rules",
       "5 weeks of real training data tracked",
       "Multilingual: 4 languages"
+    ]
+  },
+  {
+    "name": "Rosette",
+    "repo": "rosette",
+    "lastUpdated": "2026-03-31T06:54:52Z",
+    "tagline": "Where the hell do I put my sockets?",
+    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Currently speaks Baltic construction codes — Latvian, Lithuanian, and Estonian.",
+    "appUrl": "https://rosette.naurolabs.com",
+    "sourceUrl": null,
+    "sourceVisibility": "private",
+    "icon": "🔌",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "AI analyzes floor plans to detect rooms and dimensions",
+      "Country-specific socket rules (LV, LT, EE)",
+      "SVG circuit and wiring diagrams",
+      "Possibly the world's most niche AI application"
     ]
   },
   {
@@ -99,32 +125,6 @@
       "Zero settings — posting rules replace configuration",
       "One country done, infinite ambition",
       "Entra ID auth, Cosmos DB, full cloud-native"
-    ]
-  },
-  {
-    "name": "Rosette",
-    "repo": "rosette",
-    "lastUpdated": "2026-03-30T07:17:29Z",
-    "tagline": "Where the hell do I put my sockets?",
-    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Currently speaks Baltic construction codes — Latvian, Lithuanian, and Estonian.",
-    "appUrl": "https://rosette.naurolabs.com",
-    "sourceUrl": null,
-    "sourceVisibility": "private",
-    "icon": "🔌",
-    "status": "in-development",
-    "category": "tool",
-    "stack": [
-      "React",
-      "Vite",
-      "Azure SWA",
-      "Azure Functions",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "AI analyzes floor plans to detect rooms and dimensions",
-      "Country-specific socket rules (LV, LT, EE)",
-      "SVG circuit and wiring diagrams",
-      "Possibly the world's most niche AI application"
     ]
   },
   {
