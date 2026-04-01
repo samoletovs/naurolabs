@@ -2,7 +2,7 @@
   {
     "name": "Golazo",
     "repo": "golazo",
-    "lastUpdated": "2026-03-31T20:50:42Z",
+    "lastUpdated": "2026-04-01T08:41:41Z",
     "tagline": "Can gamification build better young athletes?",
     "description": "Can gamification make young footballers actually track their own training and match data? XP, levels, achievements, skill radar charts, and a collectible-style player card — built on coaching methodology from 10 football development books. Log a session, earn XP, watch the radar chart grow. Currently powering one youth midfielder's journey.",
     "appUrl": "https://golazo.naurolabs.com",
@@ -27,7 +27,7 @@
   {
     "name": "AgentMode",
     "repo": "agentMode",
-    "lastUpdated": "2026-03-31T20:49:03Z",
+    "lastUpdated": "2026-04-01T07:01:22Z",
     "tagline": "A useful AI agent for the price of two coffees a month",
     "description": "An experiment: how capable can a personal AI agent be on a tight Azure budget? Turns out — surprisingly capable. It orders water by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. 18 skills and counting, all running on about $5/month.",
     "sourceVisibility": "private",
