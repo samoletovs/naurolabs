@@ -177,5 +177,32 @@
       "Testing buy/sell strategies with agent-vs-agent scenarios",
       "Multilingual: 5 UI languages, 3 Baltic countries"
     ]
+  },
+  {
+    "name": "Porta Baltica",
+    "repo": "portaBaltica",
+    "lastUpdated": "2026-04-02T12:00:00Z",
+    "tagline": "What is actually happening in Baltic ports right now?",
+    "description": "A live maritime dashboard for Latvia's three major ports — Riga, Ventspils, and Liepaja. Combines government open data on ship visits, cargo volumes, and ferry passengers with real-time marine weather forecasts. See which ships visited today, wave heights, sea surface temperature, and cargo trends — all from free public APIs. Designed to expand across all Baltic states.",
+    "appUrl": "https://portabaltica.naurolabs.com",
+    "sourceUrl": "https://github.com/samoletovs/portaBaltica",
+    "sourceVisibility": "public",
+    "icon": "⚓",
+    "status": "experiment",
+    "category": "experiment",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA",
+      "Open-Meteo",
+      "data.gov.lv"
+    ],
+    "highlights": [
+      "Live marine weather: waves, wind, sea temperature for 3 ports",
+      "Ship visit data from Latvia's Maritime Single Window (SKLOIS)",
+      "Cargo volume trends and ferry passenger statistics",
+      "Free APIs only — no paid subscriptions required"
+    ]
   }
 ]
