@@ -1,5 +1,26 @@
 [
   {
+    "name": "portaBaltica",
+    "description": "Live maritime dashboard for Baltic ports - Riga, Ventspils, Liepaja",
+    "url": "https://github.com/samoletovs/portaBaltica",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-04-02T08:46:27Z",
+    "createdAt": "2026-04-02T08:46:18Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "amberRepublic",
     "description": "Amber Republic - Latvia political simulation game",
     "url": "https://github.com/samoletovs/amberRepublic",
