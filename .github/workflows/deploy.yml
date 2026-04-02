@@ -5,10 +5,17 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_run:
+    workflows: ["Sync Project Order"]
+    types: [completed]
+    branches: [main]
 
 jobs:
   build_and_deploy:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+    if: |
+      github.event_name == 'push' ||
+      (github.event_name == 'pull_request' && github.event.action != 'closed') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
     name: Build and Deploy
     steps:
