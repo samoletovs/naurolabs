@@ -2,7 +2,7 @@
   {
     "name": "golazo",
     "repo": "golazo",
-    "lastUpdated": "2026-04-06T18:51:27Z",
+    "lastUpdated": "2026-04-06T18:58:30Z",
     "tagline": "Can gamification build better young athletes?",
     "description": "Can gamification make young footballers actually track their own training and match data? XP, levels, achievements, skill radar charts, and a collectible-style player card — built on coaching methodology from 10 football development books. Log a session, earn XP, watch the radar chart grow. Currently powering one youth midfielder's journey.",
     "appUrl": "https://golazo.naurolabs.com",
@@ -27,7 +27,7 @@
     "name": "portaBaltica",
     "accentColor": "#0ea5e9",
     "repo": "portaBaltica",
-    "lastUpdated": "2026-04-06T18:47:45Z",
+    "lastUpdated": "2026-04-06T18:55:36Z",
     "tagline": "What is actually happening in Baltic ports right now?",
     "description": "A live maritime dashboard for Latvia's three major ports — Riga, Ventspils, and Liepaja. Combines government open data on ship visits, cargo volumes, and ferry passengers with real-time marine weather forecasts. See which ships visited today, wave heights, sea surface temperature, and cargo trends — all from free public APIs. Designed to expand across all Baltic states.",
     "appUrl": "https://portabaltica.naurolabs.com",
