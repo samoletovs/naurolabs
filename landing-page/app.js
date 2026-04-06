@@ -96,8 +96,10 @@ function renderProjectCard(project, isAuthenticated) {
               <p class="project-tagline">${project.tagline}</p>
             </div>
           </div>
-          ${statusBadge}
-          ${updatedBadge}
+          <div class="badge-group">
+            ${statusBadge}
+            ${updatedBadge}
+          </div>
         </div>
       </article>
     `;
@@ -141,8 +143,10 @@ function renderProjectCard(project, isAuthenticated) {
             <p class="project-tagline">${project.tagline}</p>
           </div>
         </div>
-        ${statusBadge}
-        ${updatedBadge}
+        <div class="badge-group">
+          ${statusBadge}
+          ${updatedBadge}
+        </div>
       </div>
 
       <p class="project-description">${project.description}</p>
