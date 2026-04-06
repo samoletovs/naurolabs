@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * sync-repos.js — Fetches all public repos for samoletovs from GitHub API
+ * sync-repos.js — Fetches all repos for samoletovs from GitHub API
  * and writes/updates repos.json for the landing page.
  *
  * Usage: node scripts/sync-repos.js
  *
  * Requires: Node.js 18+ (native fetch)
- * Optional: set GITHUB_TOKEN env var for higher rate limits
+ * Optional: set GITHUB_TOKEN env var for higher rate limits and private repo access
  */
 
 const fs = require('fs');
@@ -29,8 +29,13 @@ async function fetchAllRepos() {
   const repos = [];
   let page = 1;
 
+  // Use authenticated endpoint for private repo access, fall back to public endpoint
+  const baseUrl = process.env.GITHUB_TOKEN
+    ? `https://api.github.com/user/repos?per_page=100&affiliation=owner&sort=updated`
+    : `https://api.github.com/users/${GITHUB_USER}/repos?per_page=100&sort=updated&type=owner`;
+
   while (true) {
-    const url = `https://api.github.com/users/${GITHUB_USER}/repos?per_page=100&page=${page}&sort=updated&type=public`;
+    const url = `${baseUrl}&page=${page}`;
     const res = await fetch(url, { headers });
 
     if (!res.ok) {
@@ -88,7 +93,7 @@ async function main() {
   }
 
   const rawRepos = await fetchAllRepos();
-  console.log(`Found ${rawRepos.length} public repos.`);
+  console.log(`Found ${rawRepos.length} repos.`);
 
   // Load existing repos.json to preserve manually added highlights
   let existing = {};
