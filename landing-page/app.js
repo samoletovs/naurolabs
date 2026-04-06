@@ -88,8 +88,12 @@ function renderProjectCard(project, isAuthenticated) {
     ? `<span class="updated-badge" title="Last pushed ${new Date(project.lastUpdated).toLocaleDateString()}">${timeAgo(project.lastUpdated)}</span>`
     : '';
 
-  // Teaser card for anonymous users — name, icon, tagline, status only
+  // Teaser card for anonymous users — show blurred preview to entice login
   if (!isAuthenticated) {
+    const previewText = project.description
+      ? project.description.substring(0, 120) + '...'
+      : '';
+
     return `
       <article class="project-card project-card-teaser">
         <div class="project-card-top">
@@ -103,8 +107,8 @@ function renderProjectCard(project, isAuthenticated) {
           ${statusBadge}
           ${updatedBadge}
         </div>
-        <div class="teaser-overlay">
-          <a href="/.auth/login/google?post_login_redirect_uri=/" class="teaser-login">Sign in to see details</a>
+        <div class="teaser-fade">
+          <p class="teaser-preview">${previewText}</p>
         </div>
       </article>
     `;

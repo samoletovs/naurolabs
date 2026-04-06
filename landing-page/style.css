@@ -514,20 +514,28 @@ a:hover {
 
 .project-card-teaser {
   position: relative;
+  cursor: default;
 }
 
-.teaser-overlay {
-  text-align: center;
-  padding: var(--space-3) 0;
-  border-top: 1px solid var(--border);
+.teaser-fade {
+  position: relative;
+  overflow: hidden;
+  max-height: 3.2em;
 }
 
-.teaser-login {
-  font-size: 0.8125rem;
-  font-weight: 500;
-  color: var(--accent);
+.teaser-fade::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 0%, var(--bg-card) 90%);
+  pointer-events: none;
 }
 
-.teaser-login:hover {
-  color: var(--accent-hover);
+.teaser-preview {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
 }
