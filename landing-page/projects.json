@@ -1,6 +1,6 @@
 [
   {
-    "name": "Porta Baltica",
+    "name": "portaBaltica",
     "repo": "portaBaltica",
     "lastUpdated": "2026-04-06T11:50:35Z",
     "tagline": "What is actually happening in Baltic ports right now?",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "name": "Golazo",
+    "name": "golazo",
     "repo": "golazo",
     "lastUpdated": "2026-04-06T11:49:07Z",
     "tagline": "Can gamification build better young athletes?",
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "name": "Amber Republic",
+    "name": "amberRepublic",
     "repo": "amberRepublic",
     "lastUpdated": "2026-04-06T11:39:29Z",
     "tagline": "What if a nation sim used real statistics?",
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "name": "AgentMode",
+    "name": "agentMode",
     "repo": "agentMode",
     "lastUpdated": "2026-04-02T14:58:17Z",
     "tagline": "A useful AI agent for the price of two coffees a month",
@@ -98,7 +98,7 @@
     ]
   },
   {
-    "name": "Turgo",
+    "name": "turgo",
     "repo": "turgo",
     "lastUpdated": "2026-04-02T14:55:36Z",
     "tagline": "Can AI agents buy and sell better than humans?",
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "name": "Tplan",
+    "name": "tPlan",
     "repo": "tPlan",
     "lastUpdated": "2026-04-02T14:44:12Z",
     "tagline": "Can AI turn a training book into a real coach?",
@@ -151,7 +151,7 @@
     ]
   },
   {
-    "name": "Rosette",
+    "name": "rosette",
     "repo": "rosette",
     "lastUpdated": "2026-04-02T14:43:29Z",
     "tagline": "Where the hell do I put my sockets?",
@@ -177,7 +177,7 @@
     ]
   },
   {
-    "name": "ERA",
+    "name": "era",
     "repo": "era",
     "lastUpdated": "2026-04-02T14:42:34Z",
     "tagline": "ERP that configures itself (in theory)",
