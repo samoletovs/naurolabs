@@ -1,5 +1,32 @@
 [
   {
+    "name": "Turgo",
+    "repo": "turgo",
+    "lastUpdated": "2026-04-06T17:15:29Z",
+    "tagline": "Can AI agents buy and sell better than humans?",
+    "description": "An experiment in automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
+    "appUrl": "https://turgo.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "🤝",
+    "status": "in-development",
+    "category": "marketplace",
+    "stack": [
+      "Next.js",
+      "PostgreSQL",
+      "Prisma",
+      "tRPC",
+      "Meilisearch",
+      "Redis",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "Photo → AI listing → pricing → negotiation → sold",
+      "7 operational agents: moderation, analytics, anti-fraud, and more",
+      "Testing buy/sell strategies with agent-vs-agent scenarios",
+      "Multilingual: 5 UI languages, 3 Baltic countries"
+    ]
+  },
+  {
     "name": "Rosette",
     "repo": "rosette",
     "lastUpdated": "2026-04-06T17:14:27Z",
@@ -173,33 +200,6 @@
       "25+ drills from Coerver, Horst Wein, Dan Abrahams, UEFA methodology",
       "Collectible player card with spider chart skills radar",
       "4 languages: Russian, Latvian, English, Spanish"
-    ]
-  },
-  {
-    "name": "Turgo",
-    "repo": "turgo",
-    "lastUpdated": "2026-04-02T14:55:36Z",
-    "tagline": "Can AI agents buy and sell better than humans?",
-    "description": "An experiment in automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
-    "appUrl": "https://turgo.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "🤝",
-    "status": "in-development",
-    "category": "marketplace",
-    "stack": [
-      "Next.js",
-      "PostgreSQL",
-      "Prisma",
-      "tRPC",
-      "Meilisearch",
-      "Redis",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "Photo → AI listing → pricing → negotiation → sold",
-      "7 operational agents: moderation, analytics, anti-fraud, and more",
-      "Testing buy/sell strategies with agent-vs-agent scenarios",
-      "Multilingual: 5 UI languages, 3 Baltic countries"
     ]
   }
 ]
