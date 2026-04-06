@@ -499,43 +499,4 @@ a:hover {
   color: var(--text-primary);
 }
 
-.auth-prompt {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: var(--space-4) var(--space-6);
-  text-align: center;
-  font-size: 0.8125rem;
-  color: var(--text-secondary);
-  background: var(--accent-bg);
-  border-bottom: 1px solid var(--border);
-}
 
-/* ---- Teaser card (anonymous) ---- */
-
-.project-card-teaser {
-  position: relative;
-  cursor: default;
-}
-
-.teaser-fade {
-  position: relative;
-  overflow: hidden;
-  max-height: 3.2em;
-}
-
-.teaser-fade::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  background: linear-gradient(to bottom, transparent 0%, var(--bg-card) 90%);
-  pointer-events: none;
-}
-
-.teaser-preview {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
-}

@@ -43,7 +43,6 @@ async function getAuthUser() {
 
 function renderAuthUI(user) {
   const container = document.getElementById('header-actions');
-  const prompt = document.getElementById('auth-prompt');
 
   if (user) {
     const name = user.userDetails || user.userId || 'User';
@@ -53,9 +52,6 @@ function renderAuthUI(user) {
         <a href="/.auth/logout?post_logout_redirect_uri=/" class="auth-link">Sign out</a>
       </span>
     `;
-    prompt.style.display = 'none';
-  } else {
-    prompt.style.display = '';
   }
 }
 
@@ -88,14 +84,10 @@ function renderProjectCard(project, isAuthenticated) {
     ? `<span class="updated-badge" title="Last pushed ${new Date(project.lastUpdated).toLocaleDateString()}">${timeAgo(project.lastUpdated)}</span>`
     : '';
 
-  // Teaser card for anonymous users — show blurred preview to entice login
+  // Teaser card for anonymous users — just the header
   if (!isAuthenticated) {
-    const previewText = project.description
-      ? project.description.substring(0, 120) + '...'
-      : '';
-
     return `
-      <article class="project-card project-card-teaser">
+      <article class="project-card">
         <div class="project-card-top">
           <div class="project-card-header">
             <span class="project-icon">${icon}</span>
@@ -106,9 +98,6 @@ function renderProjectCard(project, isAuthenticated) {
           </div>
           ${statusBadge}
           ${updatedBadge}
-        </div>
-        <div class="teaser-fade">
-          <p class="teaser-preview">${previewText}</p>
         </div>
       </article>
     `;
