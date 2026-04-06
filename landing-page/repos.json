@@ -1,25 +1,5 @@
 [
   {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-04-06T11:06:25Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "golazo",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/golazo",
@@ -36,7 +16,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-04-06T11:02:09Z",
+    "updatedAt": "2026-04-06T11:39:45Z",
     "createdAt": "2026-03-27T19:53:26Z",
     "homepage": null,
     "archived": false,
@@ -57,7 +37,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-04-06T10:39:14Z",
+    "updatedAt": "2026-04-06T11:39:40Z",
     "createdAt": "2026-04-02T08:46:18Z",
     "homepage": null,
     "archived": false,
@@ -80,13 +60,33 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-04-06T10:39:12Z",
+    "updatedAt": "2026-04-06T11:39:32Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": null,
     "archived": false,
     "highlights": [
       "Interactive simulation"
     ]
+  },
+  {
+    "name": "naurolabs",
+    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-04-06T11:39:24Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
   },
   {
     "name": "agentMode",
