@@ -1,26 +1,5 @@
 [
   {
-    "name": "portaBaltica",
-    "description": "Live maritime dashboard for Baltic ports - Riga, Ventspils, Liepaja",
-    "url": "https://github.com/samoletovs/portaBaltica",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-04-06T11:50:38Z",
-    "createdAt": "2026-04-02T08:46:18Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "golazo",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/golazo",
@@ -37,8 +16,29 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-04-06T11:49:15Z",
+    "updatedAt": "2026-04-06T12:09:08Z",
     "createdAt": "2026-03-27T19:53:26Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "portaBaltica",
+    "description": "Live maritime dashboard for Baltic ports - Riga, Ventspils, Liepaja",
+    "url": "https://github.com/samoletovs/portaBaltica",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-04-06T12:02:38Z",
+    "createdAt": "2026-04-02T08:46:18Z",
     "homepage": null,
     "archived": false,
     "highlights": []
@@ -57,7 +57,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-04-06T11:45:15Z",
+    "updatedAt": "2026-04-06T12:01:08Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
