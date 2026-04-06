@@ -80,6 +80,7 @@
   },
   {
     "name": "tPlan",
+    "accentColor": "#2563EB",
     "repo": "tPlan",
     "lastUpdated": "2026-04-06T17:13:33Z",
     "tagline": "Can AI turn a training book into a real coach?",
@@ -106,6 +107,7 @@
   },
   {
     "name": "agentMode",
+    "accentColor": "#F59E0B",
     "repo": "agentMode",
     "lastUpdated": "2026-04-06T17:13:29Z",
     "tagline": "A useful AI agent for the price of two coffees a month",
@@ -130,6 +132,7 @@
   },
   {
     "name": "amberRepublic",
+    "accentColor": "#9E3039",
     "repo": "amberRepublic",
     "lastUpdated": "2026-04-06T17:13:26Z",
     "tagline": "What if a nation sim used real statistics?",
@@ -154,6 +157,7 @@
   },
   {
     "name": "portaBaltica",
+    "accentColor": "#0ea5e9",
     "repo": "portaBaltica",
     "lastUpdated": "2026-04-06T17:13:22Z",
     "tagline": "What is actually happening in Baltic ports right now?",

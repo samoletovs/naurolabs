@@ -72,6 +72,21 @@ function renderStats(projects) {
   `;
 }
 
+/**
+ * Render a project name with the second word colored (lowerCamelCase split).
+ * e.g. "amberRepublic" → amber<span style="color:#9E3039">Republic</span>
+ * Single-word names render plain. Uses project.accentColor if present.
+ */
+function renderProjectName(project) {
+  const name = project.name;
+  const color = project.accentColor;
+  if (!color) return name;
+  // Split at first uppercase letter that marks the second word
+  const match = name.match(/^([a-z]+)([A-Z].*)$/);
+  if (!match) return name;
+  return `${match[1]}<span style="color:${color}">${match[2]}</span>`;
+}
+
 function renderProjectCard(project, isAuthenticated) {
   const icon = project.icon || CATEGORY_ICONS[project.category] || '📦';
   const statusLabel = STATUS_LABELS[project.status] || project.status || '';
@@ -92,7 +107,7 @@ function renderProjectCard(project, isAuthenticated) {
           <div class="project-card-header">
             <span class="project-icon">${icon}</span>
             <div>
-              <h3 class="project-name">${project.name}</h3>
+              <h3 class="project-name">${renderProjectName(project)}</h3>
               <p class="project-tagline">${project.tagline}</p>
             </div>
           </div>
@@ -139,7 +154,7 @@ function renderProjectCard(project, isAuthenticated) {
         <div class="project-card-header">
           <span class="project-icon">${icon}</span>
           <div>
-            <h3 class="project-name">${project.name}</h3>
+            <h3 class="project-name">${renderProjectName(project)}</h3>
             <p class="project-tagline">${project.tagline}</p>
           </div>
         </div>
