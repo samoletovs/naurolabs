@@ -1,5 +1,25 @@
 [
   {
+    "name": "naurolabs",
+    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-04-06T20:46:49Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "portaBaltica",
     "description": "Live maritime dashboard for Baltic ports - Riga, Ventspils, Liepaja",
     "url": "https://github.com/samoletovs/portaBaltica",
@@ -39,26 +59,6 @@
     "openIssues": 1,
     "updatedAt": "2026-04-06T20:44:57Z",
     "createdAt": "2026-03-27T19:53:26Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-04-06T19:54:48Z",
-    "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
     "highlights": []
