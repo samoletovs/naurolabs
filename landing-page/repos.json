@@ -1,5 +1,99 @@
 [
   {
+    "name": "era",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/era",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "Python",
+      "JavaScript",
+      "Bicep",
+      "HTML",
+      "Dockerfile"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-04-06T17:47:59Z",
+    "createdAt": "2026-03-22T08:41:06Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "amberRepublic",
+    "description": "Amber Republic - Latvia political simulation game",
+    "url": "https://github.com/samoletovs/amberRepublic",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-04-06T17:47:43Z",
+    "createdAt": "2026-03-23T21:21:45Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": [
+      "Interactive simulation"
+    ]
+  },
+  {
+    "name": "agentMode",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/agentMode",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "Bicep",
+      "PowerShell",
+      "Dockerfile",
+      "Shell"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-04-06T17:47:40Z",
+    "createdAt": "2026-03-25T06:50:39Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "rosette",
+    "description": "Rosette project",
+    "url": "https://github.com/samoletovs/rosette",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "HTML",
+      "Bicep",
+      "JavaScript"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-04-06T17:47:35Z",
+    "createdAt": "2026-03-21T07:44:36Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "naurolabs",
     "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -13,7 +107,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-04-06T17:35:14Z",
+    "updatedAt": "2026-04-06T17:36:57Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
@@ -39,31 +133,6 @@
     "homepage": null,
     "archived": false,
     "highlights": []
-  },
-  {
-    "name": "amberRepublic",
-    "description": "Amber Republic - Latvia political simulation game",
-    "url": "https://github.com/samoletovs/amberRepublic",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "Python",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-04-06T17:34:51Z",
-    "createdAt": "2026-03-23T21:21:45Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": [
-      "Interactive simulation"
-    ]
   },
   {
     "name": "golazo",
@@ -113,53 +182,6 @@
     "highlights": []
   },
   {
-    "name": "rosette",
-    "description": "Rosette project",
-    "url": "https://github.com/samoletovs/rosette",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "HTML",
-      "Bicep",
-      "JavaScript"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-04-06T17:14:36Z",
-    "createdAt": "2026-03-21T07:44:36Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "era",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/era",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "Python",
-      "JavaScript",
-      "Bicep",
-      "HTML",
-      "Dockerfile"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-04-06T17:14:32Z",
-    "createdAt": "2026-03-22T08:41:06Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "tPlan",
     "description": "Tplan - Training planner",
     "url": "https://github.com/samoletovs/tPlan",
@@ -182,27 +204,5 @@
     "highlights": [
       "AI-powered"
     ]
-  },
-  {
-    "name": "agentMode",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/agentMode",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "Bicep",
-      "PowerShell",
-      "Dockerfile",
-      "Shell"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-04-06T17:13:33Z",
-    "createdAt": "2026-03-25T06:50:39Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
   }
 ]
