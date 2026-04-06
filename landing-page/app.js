@@ -1,4 +1,5 @@
-/* Landing page — renders project cards from projects.json */
+/* Landing page — renders project cards from projects.json
+   Auth-aware: teaser cards for anonymous, full cards for authenticated users */
 
 const CATEGORY_ICONS = {
   game:        '🎲',
@@ -15,6 +16,8 @@ const STATUS_LABELS = {
   'experiment':      'Experiment',
 };
 
+let currentUser = null;
+
 function timeAgo(dateStr) {
   if (!dateStr) return null;
   const diff = Date.now() - new Date(dateStr).getTime();
@@ -27,6 +30,33 @@ function timeAgo(dateStr) {
   if (days < 30) return `${days}d ago`;
   const months = Math.floor(days / 30);
   return months === 1 ? '1 month ago' : `${months} months ago`;
+}
+
+async function getAuthUser() {
+  try {
+    const res = await fetch('/.auth/me');
+    const data = await res.json();
+    if (data.clientPrincipal) return data.clientPrincipal;
+  } catch { /* not logged in */ }
+  return null;
+}
+
+function renderAuthUI(user) {
+  const container = document.getElementById('header-actions');
+  const prompt = document.getElementById('auth-prompt');
+
+  if (user) {
+    const name = user.userDetails || user.userId || 'User';
+    container.innerHTML = `
+      <span class="auth-user">
+        <span class="auth-user-name">${name}</span>
+        <a href="/.auth/logout?post_logout_redirect_uri=/" class="auth-link">Sign out</a>
+      </span>
+    `;
+    prompt.style.display = 'none';
+  } else {
+    prompt.style.display = '';
+  }
 }
 
 function renderStats(projects) {
@@ -46,10 +76,41 @@ function renderStats(projects) {
   `;
 }
 
-function renderProjectCard(project) {
+function renderProjectCard(project, isAuthenticated) {
   const icon = project.icon || CATEGORY_ICONS[project.category] || '📦';
   const statusLabel = STATUS_LABELS[project.status] || project.status || '';
 
+  const statusBadge = statusLabel
+    ? `<span class="status-badge">${statusLabel}</span>`
+    : '';
+
+  const updatedBadge = project.lastUpdated
+    ? `<span class="updated-badge" title="Last pushed ${new Date(project.lastUpdated).toLocaleDateString()}">${timeAgo(project.lastUpdated)}</span>`
+    : '';
+
+  // Teaser card for anonymous users — name, icon, tagline, status only
+  if (!isAuthenticated) {
+    return `
+      <article class="project-card project-card-teaser">
+        <div class="project-card-top">
+          <div class="project-card-header">
+            <span class="project-icon">${icon}</span>
+            <div>
+              <h3 class="project-name">${project.name}</h3>
+              <p class="project-tagline">${project.tagline}</p>
+            </div>
+          </div>
+          ${statusBadge}
+          ${updatedBadge}
+        </div>
+        <div class="teaser-overlay">
+          <a href="/.auth/login/google?post_login_redirect_uri=/" class="teaser-login">Sign in to see details</a>
+        </div>
+      </article>
+    `;
+  }
+
+  // Full card for authenticated users
   const highlights = project.highlights
     ? `<ul class="project-highlights">${project.highlights.map(h => `<li>${h}</li>`).join('')}</ul>`
     : '';
@@ -77,14 +138,6 @@ function renderProjectCard(project) {
     ? `<div class="project-actions">${appLink}${sourceLink}</div>`
     : '';
 
-  const statusBadge = statusLabel
-    ? `<span class="status-badge">${statusLabel}</span>`
-    : '';
-
-  const updatedBadge = project.lastUpdated
-    ? `<span class="updated-badge" title="Last pushed ${new Date(project.lastUpdated).toLocaleDateString()}">${timeAgo(project.lastUpdated)}</span>`
-    : '';
-
   return `
     <article class="project-card">
       <div class="project-card-top">
@@ -108,12 +161,42 @@ function renderProjectCard(project) {
   `;
 }
 
+async function trackLogin(user) {
+  try {
+    await fetch('/api/track-login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name: user.userDetails || user.userId,
+        provider: user.identityProvider,
+        timestamp: new Date().toISOString()
+      })
+    });
+  } catch { /* tracking is best-effort */ }
+}
+
 async function init() {
   try {
-    const response = await fetch('projects.json');
-    const projects = await response.json();
+    // Check auth status and load projects in parallel
+    const [user, projectsRes] = await Promise.all([
+      getAuthUser(),
+      fetch('projects.json')
+    ]);
 
+    currentUser = user;
+    const projects = await projectsRes.json();
+    const isAuthenticated = !!currentUser;
+
+    renderAuthUI(currentUser);
     renderStats(projects);
+
+    // Track login for authenticated users
+    if (isAuthenticated) {
+      trackLogin(currentUser);
+      if (typeof gtag === 'function') {
+        gtag('event', 'login', { method: 'google', user_id: currentUser.userId });
+      }
+    }
 
     // Sort by last updated — most recently active projects first
     projects.sort((a, b) => {
@@ -134,7 +217,7 @@ async function init() {
     });
 
     const grid = document.getElementById('projects-grid');
-    grid.innerHTML = projects.map(renderProjectCard).join('');
+    grid.innerHTML = projects.map(p => renderProjectCard(p, isAuthenticated)).join('');
   } catch (err) {
     console.error('Failed to load projects:', err);
     document.getElementById('projects-grid').innerHTML =

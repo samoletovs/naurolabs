@@ -448,3 +448,86 @@ a:hover {
     flex-wrap: wrap;
   }
 }
+
+/* ---- Auth UI ---- */
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.auth-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-body);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-sm);
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+
+.auth-btn:hover {
+  color: var(--text-primary);
+  border-color: var(--border-hover);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.auth-user {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: 0.8125rem;
+}
+
+.auth-user-name {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.auth-link {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+}
+
+.auth-link:hover {
+  color: var(--text-primary);
+}
+
+.auth-prompt {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-6);
+  text-align: center;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  background: var(--accent-bg);
+  border-bottom: 1px solid var(--border);
+}
+
+/* ---- Teaser card (anonymous) ---- */
+
+.project-card-teaser {
+  position: relative;
+}
+
+.teaser-overlay {
+  text-align: center;
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--border);
+}
+
+.teaser-login {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.teaser-login:hover {
+  color: var(--accent-hover);
+}
