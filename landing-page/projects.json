@@ -3,7 +3,7 @@
     "name": "portaBaltica",
     "accentColor": "#0ea5e9",
     "repo": "portaBaltica",
-    "lastUpdated": "2026-04-06T20:45:30Z",
+    "lastUpdated": "2026-04-07T08:31:56Z",
     "tagline": "What is actually happening in Baltic ports right now?",
     "description": "A live maritime dashboard for Latvia's three major ports — Riga, Ventspils, and Liepaja. Combines government open data on ship visits, cargo volumes, and ferry passengers with real-time marine weather forecasts. See which ships visited today, wave heights, sea surface temperature, and cargo trends — all from free public APIs. Designed to expand across all Baltic states.",
     "appUrl": "https://portabaltica.naurolabs.com",
