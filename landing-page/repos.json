@@ -1,5 +1,28 @@
 [
   {
+    "name": "rosette",
+    "description": "Rosette project",
+    "url": "https://github.com/samoletovs/rosette",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "HTML",
+      "Bicep",
+      "JavaScript"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-04-11T15:51:23Z",
+    "createdAt": "2026-03-21T07:44:36Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "naurolabs",
     "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -13,7 +36,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-04-10T20:49:06Z",
+    "updatedAt": "2026-04-11T08:55:07Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
@@ -154,29 +177,6 @@
     "openIssues": 2,
     "updatedAt": "2026-04-06T17:47:40Z",
     "createdAt": "2026-03-25T06:50:39Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "rosette",
-    "description": "Rosette project",
-    "url": "https://github.com/samoletovs/rosette",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "HTML",
-      "Bicep",
-      "JavaScript"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-04-06T17:47:35Z",
-    "createdAt": "2026-03-21T07:44:36Z",
     "homepage": null,
     "archived": false,
     "highlights": []
