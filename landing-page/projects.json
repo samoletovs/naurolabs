@@ -1,5 +1,54 @@
 [
   {
+    "name": "golazo",
+    "repo": "golazo",
+    "lastUpdated": "2026-04-13T17:39:07Z",
+    "tagline": "Can gamification build better young athletes?",
+    "description": "Can gamification make young footballers actually track their own training and match data? XP, levels, achievements, skill radar charts, and a collectible-style player card — built on coaching methodology from 10 football development books. Log a session, earn XP, watch the radar chart grow. Currently powering one youth midfielder's journey.",
+    "appUrl": "https://golazo.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "⚽",
+    "status": "in-development",
+    "category": "game",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA"
+    ],
+    "highlights": [
+      "50 levels with football ranks from Rookie to Pro",
+      "25+ drills from Coerver, Horst Wein, Dan Abrahams, UEFA methodology",
+      "Collectible player card with spider chart skills radar",
+      "4 languages: Russian, Latvian, English, Spanish"
+    ]
+  },
+  {
+    "name": "agentMode",
+    "accentColor": "#F59E0B",
+    "repo": "agentMode",
+    "lastUpdated": "2026-04-13T17:24:04Z",
+    "tagline": "A useful AI agent for the price of two coffees a month",
+    "description": "An experiment: how capable can a personal AI agent be on a tight Azure budget? Turns out — surprisingly capable. It orders water by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. 18 skills and counting, all running on about $5/month.",
+    "sourceVisibility": "private",
+    "icon": "🤖",
+    "status": "in-development",
+    "category": "ai-agent",
+    "stack": [
+      "Azure Functions",
+      "Azure OpenAI",
+      "Container Apps",
+      "Playwright",
+      "Bicep"
+    ],
+    "highlights": [
+      "18 auto-discovered skills from weather to water ordering",
+      "AI vision fallback: when automation breaks, the agent screenshots and navigates",
+      "Full infra-as-code, deploys with one script",
+      "Multilingual, ~$5-10/month on Azure"
+    ]
+  },
+  {
     "name": "turgo",
     "repo": "turgo",
     "lastUpdated": "2026-04-13T08:21:38Z",
@@ -107,30 +156,6 @@
     ]
   },
   {
-    "name": "golazo",
-    "repo": "golazo",
-    "lastUpdated": "2026-04-13T08:20:59Z",
-    "tagline": "Can gamification build better young athletes?",
-    "description": "Can gamification make young footballers actually track their own training and match data? XP, levels, achievements, skill radar charts, and a collectible-style player card — built on coaching methodology from 10 football development books. Log a session, earn XP, watch the radar chart grow. Currently powering one youth midfielder's journey.",
-    "appUrl": "https://golazo.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "⚽",
-    "status": "in-development",
-    "category": "game",
-    "stack": [
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA"
-    ],
-    "highlights": [
-      "50 levels with football ranks from Rookie to Pro",
-      "25+ drills from Coerver, Horst Wein, Dan Abrahams, UEFA methodology",
-      "Collectible player card with spider chart skills radar",
-      "4 languages: Russian, Latvian, English, Spanish"
-    ]
-  },
-  {
     "name": "era",
     "repo": "era",
     "lastUpdated": "2026-04-13T08:20:49Z",
@@ -179,31 +204,6 @@
       "Second-order effects — emigration causes workforce shortage causes more emigration",
       "AI-generated events for unique playthroughs",
       "Every decision is a painful trade-off"
-    ]
-  },
-  {
-    "name": "agentMode",
-    "accentColor": "#F59E0B",
-    "repo": "agentMode",
-    "lastUpdated": "2026-04-13T08:14:30Z",
-    "tagline": "A useful AI agent for the price of two coffees a month",
-    "description": "An experiment: how capable can a personal AI agent be on a tight Azure budget? Turns out — surprisingly capable. It orders water by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. 18 skills and counting, all running on about $5/month.",
-    "sourceVisibility": "private",
-    "icon": "🤖",
-    "status": "in-development",
-    "category": "ai-agent",
-    "stack": [
-      "Azure Functions",
-      "Azure OpenAI",
-      "Container Apps",
-      "Playwright",
-      "Bicep"
-    ],
-    "highlights": [
-      "18 auto-discovered skills from weather to water ordering",
-      "AI vision fallback: when automation breaks, the agent screenshots and navigates",
-      "Full infra-as-code, deploys with one script",
-      "Multilingual, ~$5-10/month on Azure"
     ]
   }
 ]
