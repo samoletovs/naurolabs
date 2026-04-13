@@ -1,32 +1,34 @@
 [
   {
-    "name": "golazo",
-    "repo": "golazo",
-    "lastUpdated": "2026-04-13T19:23:38Z",
-    "tagline": "Can gamification build better young athletes?",
-    "description": "Can gamification make young footballers actually track their own training and match data? XP, levels, achievements, skill radar charts, and a collectible-style player card — built on coaching methodology from 10 football development books. Log a session, earn XP, watch the radar chart grow. Currently powering one youth midfielder's journey.",
-    "appUrl": "https://golazo.naurolabs.com",
+    "name": "era",
+    "repo": "era",
+    "lastUpdated": "2026-04-13T19:29:55Z",
+    "tagline": "ERP that configures itself (in theory)",
+    "description": "An experiment: can an AI agent read a country's tax code and set up the entire accounting system without a consultant? Users just throw in invoices and payments — the system figures out GL accounts, VAT, and posting rules automatically. Currently knows Latvian accounting law. World domination pending.",
+    "appUrl": "https://era.naurolabs.com",
     "sourceVisibility": "private",
-    "icon": "⚽",
+    "icon": "📊",
     "status": "in-development",
-    "category": "game",
+    "category": "saas",
     "stack": [
       "React",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA"
+      "Express",
+      "Cosmos DB",
+      "Azure OpenAI",
+      "Entra ID",
+      "Bicep"
     ],
     "highlights": [
-      "50 levels with football ranks from Rookie to Pro",
-      "25+ drills from Coerver, Horst Wein, Dan Abrahams, UEFA methodology",
-      "Collectible player card with spider chart skills radar",
-      "4 languages: Russian, Latvian, English, Spanish"
+      "AI agent researches legislation and generates accounting rules",
+      "Zero settings — posting rules replace configuration",
+      "One country done, infinite ambition",
+      "Entra ID auth, Cosmos DB, full cloud-native"
     ]
   },
   {
     "name": "turgo",
     "repo": "turgo",
-    "lastUpdated": "2026-04-13T18:47:58Z",
+    "lastUpdated": "2026-04-13T19:29:40Z",
     "tagline": "Can AI agents buy and sell better than humans?",
     "description": "An experiment in automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
     "appUrl": "https://turgo.naurolabs.com",
@@ -51,61 +53,10 @@
     ]
   },
   {
-    "name": "amberRepublic",
-    "accentColor": "#9E3039",
-    "repo": "amberRepublic",
-    "lastUpdated": "2026-04-13T18:31:57Z",
-    "tagline": "What if a nation sim used real statistics?",
-    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every decision has second-order trade-offs you won't see coming for three turns.",
-    "appUrl": "https://amber.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "🏛️",
-    "status": "in-development",
-    "category": "game",
-    "stack": [
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA"
-    ],
-    "highlights": [
-      "Starting conditions from Latvia's actual 2025 statistics",
-      "Second-order effects — emigration causes workforce shortage causes more emigration",
-      "AI-generated events for unique playthroughs",
-      "Every decision is a painful trade-off"
-    ]
-  },
-  {
-    "name": "rosette",
-    "repo": "rosette",
-    "lastUpdated": "2026-04-13T18:31:48Z",
-    "tagline": "Where the hell do I put my sockets?",
-    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Currently speaks Baltic construction codes — Latvian, Lithuanian, and Estonian.",
-    "appUrl": "https://rosette.naurolabs.com",
-    "sourceUrl": null,
-    "sourceVisibility": "private",
-    "icon": "🔌",
-    "status": "in-development",
-    "category": "tool",
-    "stack": [
-      "React",
-      "Vite",
-      "Azure SWA",
-      "Azure Functions",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "AI analyzes floor plans to detect rooms and dimensions",
-      "Country-specific socket rules (LV, LT, EE)",
-      "SVG circuit and wiring diagrams",
-      "Possibly the world's most niche AI application"
-    ]
-  },
-  {
     "name": "tPlan",
     "accentColor": "#2563EB",
     "repo": "tPlan",
-    "lastUpdated": "2026-04-13T18:31:14Z",
+    "lastUpdated": "2026-04-13T19:29:22Z",
     "tagline": "Can AI turn a training book into a real coach?",
     "description": "Can AI read a training methodology book and generate correct, progressive workout programs? Turns out, yes — and it follows the progression rules more faithfully than most humans. Feed it a calisthenics manual, it builds your plan, tracks your reps, and advances you when you're ready. Currently in its 5th week of real training data.",
     "appUrl": "https://tplan.naurolabs.com",
@@ -129,10 +80,36 @@
     ]
   },
   {
+    "name": "rosette",
+    "repo": "rosette",
+    "lastUpdated": "2026-04-13T19:29:20Z",
+    "tagline": "Where the hell do I put my sockets?",
+    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Currently speaks Baltic construction codes — Latvian, Lithuanian, and Estonian.",
+    "appUrl": "https://rosette.naurolabs.com",
+    "sourceUrl": null,
+    "sourceVisibility": "private",
+    "icon": "🔌",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "AI analyzes floor plans to detect rooms and dimensions",
+      "Country-specific socket rules (LV, LT, EE)",
+      "SVG circuit and wiring diagrams",
+      "Possibly the world's most niche AI application"
+    ]
+  },
+  {
     "name": "portaBaltica",
     "accentColor": "#0ea5e9",
     "repo": "portaBaltica",
-    "lastUpdated": "2026-04-13T18:31:05Z",
+    "lastUpdated": "2026-04-13T19:29:17Z",
     "tagline": "What is actually happening in Baltic ports right now?",
     "description": "A live maritime dashboard for Latvia's three major ports — Riga, Ventspils, and Liepaja. Combines government open data on ship visits, cargo volumes, and ferry passengers with real-time marine weather forecasts. See which ships visited today, wave heights, sea surface temperature, and cargo trends — all from free public APIs. Designed to expand across all Baltic states.",
     "appUrl": "https://portabaltica.naurolabs.com",
@@ -153,6 +130,55 @@
       "Ship visit data from Latvia's Maritime Single Window (SKLOIS)",
       "Cargo volume trends and ferry passenger statistics",
       "Free APIs only — no paid subscriptions required"
+    ]
+  },
+  {
+    "name": "amberRepublic",
+    "accentColor": "#9E3039",
+    "repo": "amberRepublic",
+    "lastUpdated": "2026-04-13T19:29:08Z",
+    "tagline": "What if a nation sim used real statistics?",
+    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every decision has second-order trade-offs you won't see coming for three turns.",
+    "appUrl": "https://amber.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "🏛️",
+    "status": "in-development",
+    "category": "game",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA"
+    ],
+    "highlights": [
+      "Starting conditions from Latvia's actual 2025 statistics",
+      "Second-order effects — emigration causes workforce shortage causes more emigration",
+      "AI-generated events for unique playthroughs",
+      "Every decision is a painful trade-off"
+    ]
+  },
+  {
+    "name": "golazo",
+    "repo": "golazo",
+    "lastUpdated": "2026-04-13T19:23:38Z",
+    "tagline": "Can gamification build better young athletes?",
+    "description": "Can gamification make young footballers actually track their own training and match data? XP, levels, achievements, skill radar charts, and a collectible-style player card — built on coaching methodology from 10 football development books. Log a session, earn XP, watch the radar chart grow. Currently powering one youth midfielder's journey.",
+    "appUrl": "https://golazo.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "⚽",
+    "status": "in-development",
+    "category": "game",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA"
+    ],
+    "highlights": [
+      "50 levels with football ranks from Rookie to Pro",
+      "25+ drills from Coerver, Horst Wein, Dan Abrahams, UEFA methodology",
+      "Collectible player card with spider chart skills radar",
+      "4 languages: Russian, Latvian, English, Spanish"
     ]
   },
   {
@@ -178,32 +204,6 @@
       "AI vision fallback: when automation breaks, the agent screenshots and navigates",
       "Full infra-as-code, deploys with one script",
       "Multilingual, ~$5-10/month on Azure"
-    ]
-  },
-  {
-    "name": "era",
-    "repo": "era",
-    "lastUpdated": "2026-04-13T08:20:49Z",
-    "tagline": "ERP that configures itself (in theory)",
-    "description": "An experiment: can an AI agent read a country's tax code and set up the entire accounting system without a consultant? Users just throw in invoices and payments — the system figures out GL accounts, VAT, and posting rules automatically. Currently knows Latvian accounting law. World domination pending.",
-    "appUrl": "https://era.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "📊",
-    "status": "in-development",
-    "category": "saas",
-    "stack": [
-      "React",
-      "Express",
-      "Cosmos DB",
-      "Azure OpenAI",
-      "Entra ID",
-      "Bicep"
-    ],
-    "highlights": [
-      "AI agent researches legislation and generates accounting rules",
-      "Zero settings — posting rules replace configuration",
-      "One country done, infinite ambition",
-      "Entra ID auth, Cosmos DB, full cloud-native"
     ]
   }
 ]
