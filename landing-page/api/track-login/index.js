@@ -1,6 +1,6 @@
 const { TableClient, AzureNamedKeyCredential } = require('@azure/data-tables');
 
-const TELEGRAM_NOTIFY_URL = 'https://func-agents-s6vbks3oteo4y.azurewebsites.net/api/notify?code=r_R7xLV9tH3-9XjJ0dbniNan9OXwkZ2S8luCASzGE8OZAzFuxePshQ==';
+const TELEGRAM_NOTIFY_URL = process.env.TELEGRAM_NOTIFY_URL || '';
 
 module.exports = async function (context, req) {
   const header = req.headers['x-ms-client-principal'];
