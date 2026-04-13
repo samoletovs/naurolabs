@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: sync-project-order
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -38,4 +42,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add landing-page/projects.json landing-page/repos.json
           git commit -m "chore: sync project order from GitHub activity"
+          git pull --rebase
           git push
