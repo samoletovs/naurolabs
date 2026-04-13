@@ -1,5 +1,110 @@
 [
   {
+    "name": "amberRepublic",
+    "accentColor": "#9E3039",
+    "repo": "amberRepublic",
+    "lastUpdated": "2026-04-13T18:31:57Z",
+    "tagline": "What if a nation sim used real statistics?",
+    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every decision has second-order trade-offs you won't see coming for three turns.",
+    "appUrl": "https://amber.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "🏛️",
+    "status": "in-development",
+    "category": "game",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA"
+    ],
+    "highlights": [
+      "Starting conditions from Latvia's actual 2025 statistics",
+      "Second-order effects — emigration causes workforce shortage causes more emigration",
+      "AI-generated events for unique playthroughs",
+      "Every decision is a painful trade-off"
+    ]
+  },
+  {
+    "name": "rosette",
+    "repo": "rosette",
+    "lastUpdated": "2026-04-13T18:31:48Z",
+    "tagline": "Where the hell do I put my sockets?",
+    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Currently speaks Baltic construction codes — Latvian, Lithuanian, and Estonian.",
+    "appUrl": "https://rosette.naurolabs.com",
+    "sourceUrl": null,
+    "sourceVisibility": "private",
+    "icon": "🔌",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "AI analyzes floor plans to detect rooms and dimensions",
+      "Country-specific socket rules (LV, LT, EE)",
+      "SVG circuit and wiring diagrams",
+      "Possibly the world's most niche AI application"
+    ]
+  },
+  {
+    "name": "tPlan",
+    "accentColor": "#2563EB",
+    "repo": "tPlan",
+    "lastUpdated": "2026-04-13T18:31:14Z",
+    "tagline": "Can AI turn a training book into a real coach?",
+    "description": "Can AI read a training methodology book and generate correct, progressive workout programs? Turns out, yes — and it follows the progression rules more faithfully than most humans. Feed it a calisthenics manual, it builds your plan, tracks your reps, and advances you when you're ready. Currently in its 5th week of real training data.",
+    "appUrl": "https://tplan.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "💪",
+    "status": "experiment",
+    "category": "experiment",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Cosmos DB",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "Book → Program: AI parses methodology into structured plans",
+      "Auto-progression based on the book's own advancement rules",
+      "5 weeks of real training data tracked",
+      "Multilingual: 4 languages"
+    ]
+  },
+  {
+    "name": "portaBaltica",
+    "accentColor": "#0ea5e9",
+    "repo": "portaBaltica",
+    "lastUpdated": "2026-04-13T18:31:05Z",
+    "tagline": "What is actually happening in Baltic ports right now?",
+    "description": "A live maritime dashboard for Latvia's three major ports — Riga, Ventspils, and Liepaja. Combines government open data on ship visits, cargo volumes, and ferry passengers with real-time marine weather forecasts. See which ships visited today, wave heights, sea surface temperature, and cargo trends — all from free public APIs. Designed to expand across all Baltic states.",
+    "appUrl": "https://portabaltica.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "⚓",
+    "status": "experiment",
+    "category": "experiment",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA",
+      "Open-Meteo",
+      "data.gov.lv"
+    ],
+    "highlights": [
+      "Live marine weather: waves, wind, sea temperature for 3 ports",
+      "Ship visit data from Latvia's Maritime Single Window (SKLOIS)",
+      "Cargo volume trends and ferry passenger statistics",
+      "Free APIs only — no paid subscriptions required"
+    ]
+  },
+  {
     "name": "turgo",
     "repo": "turgo",
     "lastUpdated": "2026-04-13T18:30:44Z",
@@ -76,86 +181,6 @@
     ]
   },
   {
-    "name": "tPlan",
-    "accentColor": "#2563EB",
-    "repo": "tPlan",
-    "lastUpdated": "2026-04-13T08:21:28Z",
-    "tagline": "Can AI turn a training book into a real coach?",
-    "description": "Can AI read a training methodology book and generate correct, progressive workout programs? Turns out, yes — and it follows the progression rules more faithfully than most humans. Feed it a calisthenics manual, it builds your plan, tracks your reps, and advances you when you're ready. Currently in its 5th week of real training data.",
-    "appUrl": "https://tplan.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "💪",
-    "status": "experiment",
-    "category": "experiment",
-    "stack": [
-      "React",
-      "Vite",
-      "Azure SWA",
-      "Azure Functions",
-      "Cosmos DB",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "Book → Program: AI parses methodology into structured plans",
-      "Auto-progression based on the book's own advancement rules",
-      "5 weeks of real training data tracked",
-      "Multilingual: 4 languages"
-    ]
-  },
-  {
-    "name": "rosette",
-    "repo": "rosette",
-    "lastUpdated": "2026-04-13T08:21:18Z",
-    "tagline": "Where the hell do I put my sockets?",
-    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Currently speaks Baltic construction codes — Latvian, Lithuanian, and Estonian.",
-    "appUrl": "https://rosette.naurolabs.com",
-    "sourceUrl": null,
-    "sourceVisibility": "private",
-    "icon": "🔌",
-    "status": "in-development",
-    "category": "tool",
-    "stack": [
-      "React",
-      "Vite",
-      "Azure SWA",
-      "Azure Functions",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "AI analyzes floor plans to detect rooms and dimensions",
-      "Country-specific socket rules (LV, LT, EE)",
-      "SVG circuit and wiring diagrams",
-      "Possibly the world's most niche AI application"
-    ]
-  },
-  {
-    "name": "portaBaltica",
-    "accentColor": "#0ea5e9",
-    "repo": "portaBaltica",
-    "lastUpdated": "2026-04-13T08:21:08Z",
-    "tagline": "What is actually happening in Baltic ports right now?",
-    "description": "A live maritime dashboard for Latvia's three major ports — Riga, Ventspils, and Liepaja. Combines government open data on ship visits, cargo volumes, and ferry passengers with real-time marine weather forecasts. See which ships visited today, wave heights, sea surface temperature, and cargo trends — all from free public APIs. Designed to expand across all Baltic states.",
-    "appUrl": "https://portabaltica.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "⚓",
-    "status": "experiment",
-    "category": "experiment",
-    "stack": [
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA",
-      "Open-Meteo",
-      "data.gov.lv"
-    ],
-    "highlights": [
-      "Live marine weather: waves, wind, sea temperature for 3 ports",
-      "Ship visit data from Latvia's Maritime Single Window (SKLOIS)",
-      "Cargo volume trends and ferry passenger statistics",
-      "Free APIs only — no paid subscriptions required"
-    ]
-  },
-  {
     "name": "era",
     "repo": "era",
     "lastUpdated": "2026-04-13T08:20:49Z",
@@ -179,31 +204,6 @@
       "Zero settings — posting rules replace configuration",
       "One country done, infinite ambition",
       "Entra ID auth, Cosmos DB, full cloud-native"
-    ]
-  },
-  {
-    "name": "amberRepublic",
-    "accentColor": "#9E3039",
-    "repo": "amberRepublic",
-    "lastUpdated": "2026-04-13T08:14:43Z",
-    "tagline": "What if a nation sim used real statistics?",
-    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every decision has second-order trade-offs you won't see coming for three turns.",
-    "appUrl": "https://amber.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "🏛️",
-    "status": "in-development",
-    "category": "game",
-    "stack": [
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA"
-    ],
-    "highlights": [
-      "Starting conditions from Latvia's actual 2025 statistics",
-      "Second-order effects — emigration causes workforce shortage causes more emigration",
-      "AI-generated events for unique playthroughs",
-      "Every decision is a painful trade-off"
     ]
   }
 ]
