@@ -1,5 +1,52 @@
 [
   {
+    "name": "amberRepublic",
+    "description": "Amber Republic - Latvia political simulation game",
+    "url": "https://github.com/samoletovs/amberRepublic",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-04-13T08:14:47Z",
+    "createdAt": "2026-03-23T21:21:45Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": [
+      "Interactive simulation"
+    ]
+  },
+  {
+    "name": "agentMode",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/agentMode",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "Bicep",
+      "PowerShell",
+      "Dockerfile",
+      "Shell"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-04-13T08:14:33Z",
+    "createdAt": "2026-03-25T06:50:39Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "naurolabs",
     "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -13,7 +60,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-04-12T08:58:10Z",
+    "updatedAt": "2026-04-12T20:45:44Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
@@ -41,31 +88,6 @@
     "homepage": null,
     "archived": false,
     "highlights": []
-  },
-  {
-    "name": "amberRepublic",
-    "description": "Amber Republic - Latvia political simulation game",
-    "url": "https://github.com/samoletovs/amberRepublic",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "Python",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-04-10T16:09:21Z",
-    "createdAt": "2026-03-23T21:21:45Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": [
-      "Interactive simulation"
-    ]
   },
   {
     "name": "portaBaltica",
@@ -155,28 +177,6 @@
     "openIssues": 2,
     "updatedAt": "2026-04-06T17:47:59Z",
     "createdAt": "2026-03-22T08:41:06Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "agentMode",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/agentMode",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "Bicep",
-      "PowerShell",
-      "Dockerfile",
-      "Shell"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-04-06T17:47:40Z",
-    "createdAt": "2026-03-25T06:50:39Z",
     "homepage": null,
     "archived": false,
     "highlights": []

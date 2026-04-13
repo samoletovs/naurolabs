@@ -1,5 +1,55 @@
 [
   {
+    "name": "amberRepublic",
+    "accentColor": "#9E3039",
+    "repo": "amberRepublic",
+    "lastUpdated": "2026-04-13T08:14:43Z",
+    "tagline": "What if a nation sim used real statistics?",
+    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every decision has second-order trade-offs you won't see coming for three turns.",
+    "appUrl": "https://amber.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "🏛️",
+    "status": "in-development",
+    "category": "game",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA"
+    ],
+    "highlights": [
+      "Starting conditions from Latvia's actual 2025 statistics",
+      "Second-order effects — emigration causes workforce shortage causes more emigration",
+      "AI-generated events for unique playthroughs",
+      "Every decision is a painful trade-off"
+    ]
+  },
+  {
+    "name": "agentMode",
+    "accentColor": "#F59E0B",
+    "repo": "agentMode",
+    "lastUpdated": "2026-04-13T08:14:30Z",
+    "tagline": "A useful AI agent for the price of two coffees a month",
+    "description": "An experiment: how capable can a personal AI agent be on a tight Azure budget? Turns out — surprisingly capable. It orders water by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. 18 skills and counting, all running on about $5/month.",
+    "sourceVisibility": "private",
+    "icon": "🤖",
+    "status": "in-development",
+    "category": "ai-agent",
+    "stack": [
+      "Azure Functions",
+      "Azure OpenAI",
+      "Container Apps",
+      "Playwright",
+      "Bicep"
+    ],
+    "highlights": [
+      "18 auto-discovered skills from weather to water ordering",
+      "AI vision fallback: when automation breaks, the agent screenshots and navigates",
+      "Full infra-as-code, deploys with one script",
+      "Multilingual, ~$5-10/month on Azure"
+    ]
+  },
+  {
     "name": "rosette",
     "repo": "rosette",
     "lastUpdated": "2026-04-11T15:51:19Z",
@@ -23,31 +73,6 @@
       "Country-specific socket rules (LV, LT, EE)",
       "SVG circuit and wiring diagrams",
       "Possibly the world's most niche AI application"
-    ]
-  },
-  {
-    "name": "amberRepublic",
-    "accentColor": "#9E3039",
-    "repo": "amberRepublic",
-    "lastUpdated": "2026-04-10T16:09:16Z",
-    "tagline": "What if a nation sim used real statistics?",
-    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every decision has second-order trade-offs you won't see coming for three turns.",
-    "appUrl": "https://amber.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "🏛️",
-    "status": "in-development",
-    "category": "game",
-    "stack": [
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA"
-    ],
-    "highlights": [
-      "Starting conditions from Latvia's actual 2025 statistics",
-      "Second-order effects — emigration causes workforce shortage causes more emigration",
-      "AI-generated events for unique playthroughs",
-      "Every decision is a painful trade-off"
     ]
   },
   {
@@ -125,31 +150,6 @@
       "Zero settings — posting rules replace configuration",
       "One country done, infinite ambition",
       "Entra ID auth, Cosmos DB, full cloud-native"
-    ]
-  },
-  {
-    "name": "agentMode",
-    "accentColor": "#F59E0B",
-    "repo": "agentMode",
-    "lastUpdated": "2026-04-06T17:47:36Z",
-    "tagline": "A useful AI agent for the price of two coffees a month",
-    "description": "An experiment: how capable can a personal AI agent be on a tight Azure budget? Turns out — surprisingly capable. It orders water by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. 18 skills and counting, all running on about $5/month.",
-    "sourceVisibility": "private",
-    "icon": "🤖",
-    "status": "in-development",
-    "category": "ai-agent",
-    "stack": [
-      "Azure Functions",
-      "Azure OpenAI",
-      "Container Apps",
-      "Playwright",
-      "Bicep"
-    ],
-    "highlights": [
-      "18 auto-discovered skills from weather to water ordering",
-      "AI vision fallback: when automation breaks, the agent screenshots and navigates",
-      "Full infra-as-code, deploys with one script",
-      "Multilingual, ~$5-10/month on Azure"
     ]
   },
   {
