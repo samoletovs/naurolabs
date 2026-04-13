@@ -15,6 +15,12 @@ module.exports = async function (context, req) {
   const name = req.body?.name || email;
   const timestamp = new Date().toISOString();
 
+  // Skip notifications for the owner
+  if (email === 'd.146099412+samoletovs@users.noreply.github.comgmail.com') {
+    context.res = { status: 200, body: { ok: true } };
+    return;
+  }
+
   try {
     const storageAccount = process.env.AZURE_STORAGE_ACCOUNT;
     const storageKey = process.env.AZURE_STORAGE_KEY;
