@@ -1,8 +1,35 @@
 [
   {
+    "name": "turgo",
+    "repo": "turgo",
+    "lastUpdated": "2026-04-13T18:30:44Z",
+    "tagline": "Can AI agents buy and sell better than humans?",
+    "description": "An experiment in automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
+    "appUrl": "https://turgo.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "🤝",
+    "status": "in-development",
+    "category": "marketplace",
+    "stack": [
+      "Next.js",
+      "PostgreSQL",
+      "Prisma",
+      "tRPC",
+      "Meilisearch",
+      "Redis",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "Photo → AI listing → pricing → negotiation → sold",
+      "7 operational agents: moderation, analytics, anti-fraud, and more",
+      "Testing buy/sell strategies with agent-vs-agent scenarios",
+      "Multilingual: 5 UI languages, 3 Baltic countries"
+    ]
+  },
+  {
     "name": "golazo",
     "repo": "golazo",
-    "lastUpdated": "2026-04-13T18:11:07Z",
+    "lastUpdated": "2026-04-13T18:27:47Z",
     "tagline": "Can gamification build better young athletes?",
     "description": "Can gamification make young footballers actually track their own training and match data? XP, levels, achievements, skill radar charts, and a collectible-style player card — built on coaching methodology from 10 football development books. Log a session, earn XP, watch the radar chart grow. Currently powering one youth midfielder's journey.",
     "appUrl": "https://golazo.naurolabs.com",
@@ -46,33 +73,6 @@
       "AI vision fallback: when automation breaks, the agent screenshots and navigates",
       "Full infra-as-code, deploys with one script",
       "Multilingual, ~$5-10/month on Azure"
-    ]
-  },
-  {
-    "name": "turgo",
-    "repo": "turgo",
-    "lastUpdated": "2026-04-13T08:21:38Z",
-    "tagline": "Can AI agents buy and sell better than humans?",
-    "description": "An experiment in automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
-    "appUrl": "https://turgo.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "🤝",
-    "status": "in-development",
-    "category": "marketplace",
-    "stack": [
-      "Next.js",
-      "PostgreSQL",
-      "Prisma",
-      "tRPC",
-      "Meilisearch",
-      "Redis",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "Photo → AI listing → pricing → negotiation → sold",
-      "7 operational agents: moderation, analytics, anti-fraud, and more",
-      "Testing buy/sell strategies with agent-vs-agent scenarios",
-      "Multilingual: 5 UI languages, 3 Baltic countries"
     ]
   },
   {
