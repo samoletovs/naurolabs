@@ -1,5 +1,28 @@
 [
   {
+    "name": "golazo",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/golazo",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "CSS",
+      "Python",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-04-19T08:06:54Z",
+    "createdAt": "2026-03-27T19:53:26Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "naurolabs",
     "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -13,7 +36,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-04-18T08:59:36Z",
+    "updatedAt": "2026-04-18T20:46:07Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
@@ -159,29 +182,6 @@
     "highlights": [
       "AI-powered"
     ]
-  },
-  {
-    "name": "golazo",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/golazo",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "CSS",
-      "Python",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-04-14T10:29:15Z",
-    "createdAt": "2026-03-27T19:53:26Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "amberRepublic",
