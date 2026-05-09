@@ -1,5 +1,31 @@
 [
   {
+    "name": "era",
+    "repo": "era",
+    "lastUpdated": "2026-05-09T20:57:19Z",
+    "tagline": "ERP that configures itself (in theory)",
+    "description": "An experiment: can an AI agent read a country's tax code and set up the entire accounting system without a consultant? Users just throw in invoices and payments — the system figures out GL accounts, VAT, and posting rules automatically. Currently knows Latvian accounting law. World domination pending.",
+    "appUrl": "https://era.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "📊",
+    "status": "in-development",
+    "category": "saas",
+    "stack": [
+      "React",
+      "Express",
+      "Cosmos DB",
+      "Azure OpenAI",
+      "Entra ID",
+      "Bicep"
+    ],
+    "highlights": [
+      "AI agent researches legislation and generates accounting rules",
+      "Zero settings — posting rules replace configuration",
+      "One country done, infinite ambition",
+      "Entra ID auth, Cosmos DB, full cloud-native"
+    ]
+  },
+  {
     "name": "agentMode",
     "accentColor": "#F59E0B",
     "repo": "agentMode",
@@ -156,32 +182,6 @@
       "25+ drills from Coerver, Horst Wein, Dan Abrahams, UEFA methodology",
       "Collectible player card with spider chart skills radar",
       "4 languages: Russian, Latvian, English, Spanish"
-    ]
-  },
-  {
-    "name": "era",
-    "repo": "era",
-    "lastUpdated": "2026-04-14T10:31:24Z",
-    "tagline": "ERP that configures itself (in theory)",
-    "description": "An experiment: can an AI agent read a country's tax code and set up the entire accounting system without a consultant? Users just throw in invoices and payments — the system figures out GL accounts, VAT, and posting rules automatically. Currently knows Latvian accounting law. World domination pending.",
-    "appUrl": "https://era.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "📊",
-    "status": "in-development",
-    "category": "saas",
-    "stack": [
-      "React",
-      "Express",
-      "Cosmos DB",
-      "Azure OpenAI",
-      "Entra ID",
-      "Bicep"
-    ],
-    "highlights": [
-      "AI agent researches legislation and generates accounting rules",
-      "Zero settings — posting rules replace configuration",
-      "One country done, infinite ambition",
-      "Entra ID auth, Cosmos DB, full cloud-native"
     ]
   },
   {

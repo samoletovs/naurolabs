@@ -1,5 +1,49 @@
 [
   {
+    "name": "era",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/era",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "Python",
+      "JavaScript",
+      "Bicep",
+      "HTML",
+      "Dockerfile"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-05-09T20:57:22Z",
+    "createdAt": "2026-03-22T08:41:06Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-05-09T20:53:49Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "foundryLab",
     "description": "Azure AI Foundry experiments - agents, evaluations, and research",
     "url": "https://github.com/samoletovs/foundryLab",
@@ -114,26 +158,6 @@
     "highlights": []
   },
   {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-09T18:49:31Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "rosette",
     "description": "Rosette project",
     "url": "https://github.com/samoletovs/rosette",
@@ -197,30 +221,6 @@
     "openIssues": 2,
     "updatedAt": "2026-05-09T11:45:16Z",
     "createdAt": "2026-03-27T19:53:26Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "era",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/era",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "Python",
-      "JavaScript",
-      "Bicep",
-      "HTML",
-      "Dockerfile"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-04-14T10:31:30Z",
-    "createdAt": "2026-03-22T08:41:06Z",
     "homepage": null,
     "archived": false,
     "highlights": []
