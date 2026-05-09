@@ -13,13 +13,125 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-05-09T11:46:13Z",
+    "updatedAt": "2026-05-09T20:52:25Z",
     "createdAt": "2026-05-09T11:46:05Z",
     "homepage": null,
     "archived": false,
     "highlights": [
       "AI-powered"
     ]
+  },
+  {
+    "name": "agentMode",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/agentMode",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "Bicep",
+      "PowerShell",
+      "Dockerfile",
+      "Shell"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-05-09T20:51:40Z",
+    "createdAt": "2026-03-25T06:50:39Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "nauroLabs-github",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/nauroLabs-github",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "HTML",
+      "PowerShell",
+      "JavaScript",
+      "Shell",
+      "TypeScript",
+      "Bicep"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 4,
+    "updatedAt": "2026-05-09T20:42:35Z",
+    "createdAt": "2026-04-06T18:07:15Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "playGround",
+    "description": "Apps and games playground",
+    "url": "https://github.com/samoletovs/playGround",
+    "language": "HTML",
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "Python"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-09T20:36:59Z",
+    "createdAt": "2026-05-09T11:48:34Z",
+    "homepage": "https://playground.naurolabs.com/",
+    "archived": false,
+    "highlights": [
+      "Interactive simulation",
+      "Live demo available"
+    ]
+  },
+  {
+    "name": "atlas",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/atlas",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "Bicep",
+      "PowerShell",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-09T19:23:06Z",
+    "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-05-09T18:49:31Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
   },
   {
     "name": "rosette",
@@ -85,50 +197,6 @@
     "openIssues": 2,
     "updatedAt": "2026-05-09T11:45:16Z",
     "createdAt": "2026-03-27T19:53:26Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-09T09:25:39Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "nauroLabs-github",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/nauroLabs-github",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "HTML",
-      "PowerShell",
-      "JavaScript",
-      "Shell",
-      "TypeScript",
-      "Bicep"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 4,
-    "updatedAt": "2026-05-03T21:05:10Z",
-    "createdAt": "2026-04-06T18:07:15Z",
     "homepage": null,
     "archived": false,
     "highlights": []
@@ -229,27 +297,5 @@
     "highlights": [
       "Interactive simulation"
     ]
-  },
-  {
-    "name": "agentMode",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/agentMode",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "Bicep",
-      "PowerShell",
-      "Dockerfile",
-      "Shell"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-04-13T17:24:08Z",
-    "createdAt": "2026-03-25T06:50:39Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
   }
 ]
