@@ -5,7 +5,7 @@
     "repo": "playGround",
     "lastUpdated": "2026-05-09T14:17:01Z",
     "tagline": "Can kids build their own games with AI?",
-    "description": "An open workspace where kids design and ship their own browser games with an AI partner. The four starter games — Snake, Tetris, Breakout, Table Tennis — are just seeds; the real experiment is what grows next. Each game is a single self-contained HTML file, so a young creator can read it, remix it, or start from scratch. The catalog expands as kids ship their ideas. Watching how a play space evolves when the cost of building drops to near zero.",
+    "description": "An experiment in lowering the floor for who gets to ship software. The starter shelf has four classic arcade games — Snake, Tetris, Breakout, Table Tennis — each built as a single self-contained HTML file so a kid can open the source, change it, and put it back online. The hypothesis: when AI handles the boring parts, the catalog grows with whatever kids actually want to make. Four games today. The rest is up to whoever shows up.",
     "appUrl": "https://playground.naurolabs.com",
     "sourceUrl": "https://github.com/samoletovs/playGround",
     "sourceVisibility": "public",
@@ -19,10 +19,10 @@
       "GitHub Pages"
     ],
     "highlights": [
-      "A workspace for young creators, not just a games arcade",
-      "Starter games are examples — the catalog grows with what kids ship",
-      "Single-file builds — readable, remixable, no toolchain",
-      "Watching how creativity scales when AI handles the boilerplate"
+      "Workspace for young creators, not a finished games arcade",
+      "Four starter games — Snake, Tetris, Breakout, Table Tennis",
+      "Single-file source — readable, remixable, no toolchain",
+      "Catalog grows as kids ship their own ideas"
     ]
   },
   {
