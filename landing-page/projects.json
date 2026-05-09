@@ -4,8 +4,8 @@
     "accentColor": "#4ade80",
     "repo": "playGround",
     "lastUpdated": "2026-05-09T14:17:01Z",
-    "tagline": "Tiny browser games, no install required",
-    "description": "A handful of classic arcade games rebuilt as single-file HTML pages — Snake, Tetris, Breakout, and Table Tennis. No frameworks, no build step, no accounts. Just open a link and play. Mobile-friendly, touch controls included, and each game lives in its own self-contained file so the source doubles as a tiny tutorial.",
+    "tagline": "Can kids build their own games with AI?",
+    "description": "An open workspace where kids design and ship their own browser games with an AI partner. The four starter games — Snake, Tetris, Breakout, Table Tennis — are just seeds; the real experiment is what grows next. Each game is a single self-contained HTML file, so a young creator can read it, remix it, or start from scratch. The catalog expands as kids ship their ideas. Watching how a play space evolves when the cost of building drops to near zero.",
     "appUrl": "https://playground.naurolabs.com",
     "sourceUrl": "https://github.com/samoletovs/playGround",
     "sourceVisibility": "public",
@@ -19,10 +19,10 @@
       "GitHub Pages"
     ],
     "highlights": [
-      "Four classic arcade games in one place",
-      "Single-file builds — zero dependencies, zero build step",
-      "Touch controls and responsive layout for mobile",
-      "Hosted on GitHub Pages at playground.naurolabs.com"
+      "A workspace for young creators, not just a games arcade",
+      "Starter games are examples — the catalog grows with what kids ship",
+      "Single-file builds — readable, remixable, no toolchain",
+      "Watching how creativity scales when AI handles the boilerplate"
     ]
   },
   {
