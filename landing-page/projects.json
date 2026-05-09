@@ -56,8 +56,8 @@
     "accentColor": "#0ea5e9",
     "repo": "portaBaltica",
     "lastUpdated": "2026-05-09T11:45:26Z",
-    "tagline": "What is actually happening in Baltic ports right now?",
-    "description": "A live maritime dashboard for Latvia's three major ports — Riga, Ventspils, and Liepaja. Combines government open data on ship visits, cargo volumes, and ferry passengers with real-time marine weather forecasts. See which ships visited today, wave heights, sea surface temperature, and cargo trends — all from free public APIs. Designed to expand across all Baltic states.",
+    "tagline": "Can a public dashboard pay its own bills?",
+    "description": "NauroLabs' first attempt at a self-sustaining experiment. A Bloomberg-style live dashboard for the Baltics — 30+ economic, trade, labour, energy, environmental, and maritime indicators across Latvia, Estonia, and Lithuania, all from free government APIs with an AI layer on top reading the trends. The hypothesis: free raw data is a commodity, but the interpretation isn't. Free public dashboard, paid API and alerts. Goal: prove an experiment can cover its own infrastructure cost, then fund the next one.",
     "appUrl": "https://portabaltica.naurolabs.com",
     "sourceVisibility": "private",
     "icon": "⚓",
@@ -65,17 +65,19 @@
     "category": "experiment",
     "stack": [
       "React",
+      "TypeScript",
       "Vite",
       "Tailwind CSS",
       "Azure SWA",
+      "Eurostat",
       "Open-Meteo",
       "data.gov.lv"
     ],
     "highlights": [
-      "Live marine weather: waves, wind, sea temperature for 3 ports",
-      "Ship visit data from Latvia's Maritime Single Window (SKLOIS)",
-      "Cargo volume trends and ferry passenger statistics",
-      "Free APIs only — no paid subscriptions required"
+      "30+ live indicators across LV, EE, LT — economy, trade, labour, energy, property, environment",
+      "AI insights generated from live feeds, not canned summaries",
+      "Free dashboard, paid API and alerts — Moonshot v1 of the lab",
+      "All data from free public APIs: Eurostat, NordPool, ECB, Open-Meteo, data.gov.lv"
     ]
   },
   {
@@ -161,7 +163,7 @@
     "repo": "tPlan",
     "lastUpdated": "2026-04-14T10:29:20Z",
     "tagline": "Can AI turn a training book into a real coach?",
-    "description": "Can AI read a training methodology book and generate correct, progressive workout programs? Turns out, yes — and it follows the progression rules more faithfully than most humans. Feed it a calisthenics manual, it builds your plan, tracks your reps, and advances you when you're ready. Currently in its 5th week of real training data.",
+    "description": "Can AI read a training methodology book and act as a coach — not a tracker, not a generator, an actual coach? Feed it a calisthenics manual, it parses the progression rules, builds your plan, tracks your reps, and advances you when the book says you're ready. Turns out it follows the rules more faithfully than most humans. Now running on real training data and Phase 2 web app, with user-uploaded books planned next.",
     "appUrl": "https://tplan.naurolabs.com",
     "sourceVisibility": "private",
     "icon": "💪",
@@ -176,10 +178,10 @@
       "Azure OpenAI"
     ],
     "highlights": [
-      "Book → Program: AI parses methodology into structured plans",
-      "Auto-progression based on the book's own advancement rules",
-      "5 weeks of real training data tracked",
-      "Multilingual: 4 languages"
+      "Book → program: AI parses methodology into structured plans",
+      "Auto-progression follows the book's own advancement rules",
+      "Multilingual — English, Russian, Latvian, Spanish",
+      "Phase 2 web app live; user-uploaded books planned for Phase 3"
     ]
   },
   {
@@ -212,8 +214,8 @@
     "accentColor": "#F59E0B",
     "repo": "agentMode",
     "lastUpdated": "2026-04-13T17:24:04Z",
-    "tagline": "A useful AI agent for the price of two coffees a month",
-    "description": "An experiment: how capable can a personal AI agent be on a tight Azure budget? Turns out — surprisingly capable. It orders water by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. 18 skills and counting, all running on about $5/month.",
+    "tagline": "Do we still need apps if a chat agent can do the job?",
+    "description": "A Telegram-based personal assistant that lives on a tight Azure budget. It orders groceries by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. The experiment: how much daily-app behaviour can be replaced by a single conversational agent — and how cheaply? 22 auto-discovered skills today, running for the price of two coffees a month.",
     "sourceVisibility": "private",
     "icon": "🤖",
     "status": "in-development",
@@ -226,10 +228,10 @@
       "Bicep"
     ],
     "highlights": [
-      "18 auto-discovered skills from weather to water ordering",
+      "22 auto-discovered skills — from weather to grocery ordering",
       "AI vision fallback: when automation breaks, the agent screenshots and navigates",
       "Full infra-as-code, deploys with one script",
-      "Multilingual, ~$5-10/month on Azure"
+      "Multilingual (EN, LV, RU), ~$5–10/month on Azure"
     ]
   }
 ]
