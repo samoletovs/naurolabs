@@ -1,5 +1,31 @@
 [
   {
+    "name": "playGround",
+    "accentColor": "#4ade80",
+    "repo": "playGround",
+    "lastUpdated": "2026-05-09T14:17:01Z",
+    "tagline": "Tiny browser games, no install required",
+    "description": "A handful of classic arcade games rebuilt as single-file HTML pages — Snake, Tetris, Breakout, and Table Tennis. No frameworks, no build step, no accounts. Just open a link and play. Mobile-friendly, touch controls included, and each game lives in its own self-contained file so the source doubles as a tiny tutorial.",
+    "appUrl": "https://playground.naurolabs.com",
+    "sourceUrl": "https://github.com/samoletovs/playGround",
+    "sourceVisibility": "public",
+    "icon": "🎮",
+    "status": "experiment",
+    "category": "game",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "GitHub Pages"
+    ],
+    "highlights": [
+      "Four classic arcade games in one place",
+      "Single-file builds — zero dependencies, zero build step",
+      "Touch controls and responsive layout for mobile",
+      "Hosted on GitHub Pages at playground.naurolabs.com"
+    ]
+  },
+  {
     "name": "rosette",
     "repo": "rosette",
     "lastUpdated": "2026-05-09T11:45:33Z",
