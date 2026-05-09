@@ -1,5 +1,48 @@
 [
   {
+    "name": "atlas",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/atlas",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "Bicep",
+      "PowerShell",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-09T21:01:17Z",
+    "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-05-09T21:00:13Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "era",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/era",
@@ -19,26 +62,6 @@
     "openIssues": 2,
     "updatedAt": "2026-05-09T20:57:22Z",
     "createdAt": "2026-03-22T08:41:06Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-09T20:53:49Z",
-    "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
     "highlights": []
@@ -133,29 +156,6 @@
       "Interactive simulation",
       "Live demo available"
     ]
-  },
-  {
-    "name": "atlas",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/atlas",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "Bicep",
-      "PowerShell",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-09T19:23:06Z",
-    "createdAt": "2026-05-09T18:07:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "rosette",
