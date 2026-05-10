@@ -2,7 +2,7 @@
   {
     "name": "era",
     "repo": "era",
-    "lastUpdated": "2026-05-10T18:09:17Z",
+    "lastUpdated": "2026-05-10T18:34:00Z",
     "tagline": "ERP that configures itself (in theory)",
     "description": "An experiment: can an AI agent read a country's tax code and set up the entire accounting system without a consultant? Users just throw in invoices and payments — the system figures out GL accounts, VAT, and posting rules automatically. Currently knows Latvian accounting law. World domination pending.",
     "appUrl": "https://era.naurolabs.com",
@@ -29,7 +29,7 @@
     "name": "atlas",
     "accentColor": "#d4a574",
     "repo": "atlas",
-    "lastUpdated": "2026-05-10T17:14:07Z",
+    "lastUpdated": "2026-05-10T18:26:50Z",
     "tagline": "Can AI teach you what AI just helped you build?",
     "description": "When Copilot writes the code, you get the result without the understanding. atlas closes that gap. It watches your GitHub activity, generates phone-readable lessons grounded in both your work and Microsoft Learn, and tracks what you've covered so it never repeats itself. A quiet librarian sitting between your build sessions and your understanding.",
     "appUrl": "https://atlas.naurolabs.com",
