@@ -1,5 +1,29 @@
 [
   {
+    "name": "era",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/era",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "Python",
+      "JavaScript",
+      "Bicep",
+      "HTML",
+      "Dockerfile"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-05-10T17:11:29Z",
+    "createdAt": "2026-03-22T08:41:06Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "naurolabs",
     "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -13,7 +37,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-05-10T16:51:02Z",
+    "updatedAt": "2026-05-10T16:51:22Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
@@ -225,30 +249,6 @@
       "Interactive simulation",
       "Live demo available"
     ]
-  },
-  {
-    "name": "era",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/era",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "Python",
-      "JavaScript",
-      "Bicep",
-      "HTML",
-      "Dockerfile"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-05-09T20:57:22Z",
-    "createdAt": "2026-03-22T08:41:06Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "agentMode",
