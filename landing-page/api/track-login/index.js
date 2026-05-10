@@ -16,7 +16,7 @@ module.exports = async function (context, req) {
   const timestamp = new Date().toISOString();
 
   // Skip notifications for the owner
-  if (email === 'd.146099412+samoletovs@users.noreply.github.comgmail.com') {
+  if (process.env.OWNER_EMAIL && email === process.env.OWNER_EMAIL) {
     context.res = { status: 200, body: { ok: true } };
     return;
   }
