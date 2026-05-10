@@ -48,7 +48,7 @@
   },
   {
     "name": "art",
-    "description": "Art gallery - static HTML pages at art.naurolabs.com",
+    "description": "Art gallery — single-file HTML pages at art.naurolabs.com",
     "url": "https://github.com/samoletovs/art",
     "language": "HTML",
     "languages": [
