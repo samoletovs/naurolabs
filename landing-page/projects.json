@@ -3,7 +3,7 @@
     "name": "atlas",
     "accentColor": "#d4a574",
     "repo": "atlas",
-    "lastUpdated": "2026-05-11T14:27:12Z",
+    "lastUpdated": "2026-05-11T18:43:14Z",
     "tagline": "Can AI teach you what AI just helped you build?",
     "description": "When Copilot writes the code, you get the result without the understanding. atlas closes that gap. It watches your GitHub activity, generates phone-readable lessons grounded in both your work and Microsoft Learn, and tracks what you've covered so it never repeats itself. A quiet librarian sitting between your build sessions and your understanding.",
     "appUrl": "https://atlas.naurolabs.com",
