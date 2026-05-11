@@ -1,5 +1,25 @@
 [
   {
+    "name": "mindMe",
+    "description": "A quiet companion that runs my Personal OS — Foundry hosted agent + Azure Functions harness. Tagline: can a quiet companion run a life?",
+    "url": "https://github.com/samoletovs/mindMe",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "Bicep",
+      "PowerShell"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-11T13:48:25Z",
+    "createdAt": "2026-05-10T18:30:31Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "atlas",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/atlas",
@@ -16,8 +36,28 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-05-11T07:11:39Z",
+    "updatedAt": "2026-05-11T13:23:55Z",
     "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-05-11T11:31:37Z",
+    "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
     "highlights": []
@@ -47,26 +87,6 @@
     "highlights": []
   },
   {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-10T20:56:50Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "era",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/era",
@@ -86,22 +106,6 @@
     "openIssues": 0,
     "updatedAt": "2026-05-10T19:24:06Z",
     "createdAt": "2026-03-22T08:41:06Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "comes",
-    "description": "A quiet companion that runs my Personal OS — Foundry hosted agent + Azure Functions harness. Tagline: can a quiet companion run a life?",
-    "url": "https://github.com/samoletovs/comes",
-    "language": null,
-    "languages": [],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-10T18:30:32Z",
-    "createdAt": "2026-05-10T18:30:31Z",
     "homepage": null,
     "archived": false,
     "highlights": []
