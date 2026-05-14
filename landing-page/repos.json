@@ -1,5 +1,26 @@
 [
   {
+    "name": "art",
+    "description": "Art gallery — single-file HTML pages at art.naurolabs.com",
+    "url": "https://github.com/samoletovs/art",
+    "language": "HTML",
+    "languages": [
+      "HTML",
+      "PowerShell"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-14T16:55:58Z",
+    "createdAt": "2026-05-10T15:52:36Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": [
+      "Live demo available"
+    ]
+  },
+  {
     "name": "naurolabs",
     "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -13,7 +34,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-05-13T21:40:47Z",
+    "updatedAt": "2026-05-14T10:26:35Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
@@ -250,27 +271,6 @@
     "homepage": null,
     "archived": false,
     "highlights": []
-  },
-  {
-    "name": "art",
-    "description": "Art gallery — single-file HTML pages at art.naurolabs.com",
-    "url": "https://github.com/samoletovs/art",
-    "language": "PowerShell",
-    "languages": [
-      "PowerShell",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-11T14:11:51Z",
-    "createdAt": "2026-05-10T15:52:36Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": [
-      "Live demo available"
-    ]
   },
   {
     "name": "amberRepublic",
