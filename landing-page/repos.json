@@ -1,38 +1,22 @@
 [
   {
-    "name": "autoRefine",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/autoRefine",
-    "language": "Python",
+    "name": "agentFlow",
+    "description": "Visualize how nauroLabs agents work",
+    "url": "https://github.com/samoletovs/agentFlow",
+    "language": "TypeScript",
     "languages": [
-      "Python"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-17T06:35:53Z",
-    "createdAt": "2026-05-17T06:20:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
+      "TypeScript",
       "CSS",
+      "Bicep",
+      "JavaScript",
       "HTML"
     ],
     "topics": [],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-17T06:24:25Z",
-    "createdAt": "2026-03-25T14:46:12Z",
+    "openIssues": 0,
+    "updatedAt": "2026-05-17T08:36:22Z",
+    "createdAt": "2026-05-17T07:23:09Z",
     "homepage": null,
     "archived": false,
     "highlights": []
@@ -55,8 +39,70 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 5,
-    "updatedAt": "2026-05-17T06:22:56Z",
+    "updatedAt": "2026-05-17T07:22:55Z",
     "createdAt": "2026-04-06T18:07:15Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "autoRefine",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/autoRefine",
+    "language": "Python",
+    "languages": [
+      "Python"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-17T07:00:13Z",
+    "createdAt": "2026-05-17T06:20:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "playGround",
+    "description": "Apps and games playground",
+    "url": "https://github.com/samoletovs/playGround",
+    "language": "HTML",
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "PowerShell",
+      "Python"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-17T06:50:22Z",
+    "createdAt": "2026-05-09T11:48:34Z",
+    "homepage": "https://playground.naurolabs.com/",
+    "archived": false,
+    "highlights": [
+      "Interactive simulation",
+      "Live demo available"
+    ]
+  },
+  {
+    "name": "naurolabs",
+    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-05-17T06:42:30Z",
+    "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
     "highlights": []
@@ -156,30 +202,6 @@
     "homepage": null,
     "archived": false,
     "highlights": []
-  },
-  {
-    "name": "playGround",
-    "description": "Apps and games playground",
-    "url": "https://github.com/samoletovs/playGround",
-    "language": "HTML",
-    "languages": [
-      "HTML",
-      "JavaScript",
-      "PowerShell",
-      "Python"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-17T06:21:42Z",
-    "createdAt": "2026-05-09T11:48:34Z",
-    "homepage": "https://playground.naurolabs.com/",
-    "archived": false,
-    "highlights": [
-      "Interactive simulation",
-      "Live demo available"
-    ]
   },
   {
     "name": "payArc",
