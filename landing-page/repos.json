@@ -1,5 +1,49 @@
 [
   {
+    "name": "nauroLabs-github",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/nauroLabs-github",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "HTML",
+      "PowerShell",
+      "JavaScript",
+      "Shell",
+      "TypeScript",
+      "Bicep"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 5,
+    "updatedAt": "2026-05-17T06:22:56Z",
+    "createdAt": "2026-04-06T18:07:15Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-05-17T06:22:44Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "turgo",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/turgo",
@@ -316,30 +360,6 @@
     "highlights": []
   },
   {
-    "name": "nauroLabs-github",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/nauroLabs-github",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "HTML",
-      "PowerShell",
-      "JavaScript",
-      "Shell",
-      "TypeScript",
-      "Bicep"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 5,
-    "updatedAt": "2026-05-17T05:51:13Z",
-    "createdAt": "2026-04-06T18:07:15Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "art",
     "description": "Art gallery — single-file HTML pages at art.naurolabs.com",
     "url": "https://github.com/samoletovs/art",
@@ -359,25 +379,5 @@
     "highlights": [
       "Live demo available"
     ]
-  },
-  {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-16T20:57:52Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
   }
 ]
