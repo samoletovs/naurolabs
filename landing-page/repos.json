@@ -1,5 +1,29 @@
 [
   {
+    "name": "nauroLabs-github",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/nauroLabs-github",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "PowerShell",
+      "HTML",
+      "JavaScript",
+      "Shell",
+      "TypeScript",
+      "Bicep"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 5,
+    "updatedAt": "2026-05-18T19:28:08Z",
+    "createdAt": "2026-04-06T18:07:15Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "naurolabs",
     "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -13,7 +37,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-05-18T12:32:02Z",
+    "updatedAt": "2026-05-18T12:32:23Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
@@ -213,30 +237,6 @@
     "highlights": []
   },
   {
-    "name": "nauroLabs-github",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/nauroLabs-github",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "HTML",
-      "PowerShell",
-      "JavaScript",
-      "Shell",
-      "TypeScript",
-      "Bicep"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 6,
-    "updatedAt": "2026-05-18T10:47:37Z",
-    "createdAt": "2026-04-06T18:07:15Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "agentMode",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/agentMode",
@@ -309,7 +309,7 @@
     "topics": [],
     "stars": 0,
     "forks": 0,
-    "openIssues": 2,
+    "openIssues": 3,
     "updatedAt": "2026-05-17T06:21:34Z",
     "createdAt": "2026-05-16T16:27:49Z",
     "homepage": null,
