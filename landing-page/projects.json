@@ -1,5 +1,109 @@
 [
   {
+    "name": "era",
+    "repo": "era",
+    "lastUpdated": "2026-05-18T11:17:02Z",
+    "tagline": "ERP that configures itself (in theory)",
+    "description": "An experiment: can an AI agent read a country's tax code and set up the entire accounting system without a consultant? Users just throw in invoices and payments — the system figures out GL accounts, VAT, and posting rules automatically. Currently knows Latvian accounting law. World domination pending.",
+    "appUrl": "https://era.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "📊",
+    "status": "in-development",
+    "category": "saas",
+    "stack": [
+      "React",
+      "Express",
+      "Cosmos DB",
+      "Azure OpenAI",
+      "Entra ID",
+      "Bicep"
+    ],
+    "highlights": [
+      "AI agent researches legislation and generates accounting rules",
+      "Zero settings — posting rules replace configuration",
+      "One country done, infinite ambition",
+      "Entra ID auth, Cosmos DB, full cloud-native"
+    ]
+  },
+  {
+    "name": "amberRepublic",
+    "accentColor": "#9E3039",
+    "repo": "amberRepublic",
+    "lastUpdated": "2026-05-18T11:16:27Z",
+    "tagline": "What if a nation sim used real statistics?",
+    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every decision has second-order trade-offs you won't see coming for three turns.",
+    "appUrl": "https://amber.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "🏛️",
+    "status": "in-development",
+    "category": "game",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA"
+    ],
+    "highlights": [
+      "Starting conditions from Latvia's actual 2025 statistics",
+      "Second-order effects — emigration causes workforce shortage causes more emigration",
+      "AI-generated events for unique playthroughs",
+      "Every decision is a painful trade-off"
+    ]
+  },
+  {
+    "name": "rosette",
+    "repo": "rosette",
+    "lastUpdated": "2026-05-18T11:16:23Z",
+    "tagline": "Where the hell do I put my sockets?",
+    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Currently speaks Baltic construction codes — Latvian, Lithuanian, and Estonian.",
+    "appUrl": "https://rosette.naurolabs.com",
+    "sourceUrl": null,
+    "sourceVisibility": "private",
+    "icon": "🔌",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "AI analyzes floor plans to detect rooms and dimensions",
+      "Country-specific socket rules (LV, LT, EE)",
+      "SVG circuit and wiring diagrams",
+      "Possibly the world's most niche AI application"
+    ]
+  },
+  {
+    "name": "turgo",
+    "repo": "turgo",
+    "lastUpdated": "2026-05-18T11:08:41Z",
+    "tagline": "Can AI agents buy and sell better than humans?",
+    "description": "An experiment in automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
+    "appUrl": "https://turgo.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "🤝",
+    "status": "in-development",
+    "category": "marketplace",
+    "stack": [
+      "Next.js",
+      "PostgreSQL",
+      "Prisma",
+      "tRPC",
+      "Meilisearch",
+      "Redis",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "Photo → AI listing → pricing → negotiation → sold",
+      "7 operational agents: moderation, analytics, anti-fraud, and more",
+      "Testing buy/sell strategies with agent-vs-agent scenarios",
+      "Multilingual: 5 UI languages, 3 Baltic countries"
+    ]
+  },
+  {
     "name": "agentMode",
     "accentColor": "#F59E0B",
     "repo": "agentMode",
@@ -81,32 +185,6 @@
     ]
   },
   {
-    "name": "rosette",
-    "repo": "rosette",
-    "lastUpdated": "2026-05-18T09:28:52Z",
-    "tagline": "Where the hell do I put my sockets?",
-    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Currently speaks Baltic construction codes — Latvian, Lithuanian, and Estonian.",
-    "appUrl": "https://rosette.naurolabs.com",
-    "sourceUrl": null,
-    "sourceVisibility": "private",
-    "icon": "🔌",
-    "status": "in-development",
-    "category": "tool",
-    "stack": [
-      "React",
-      "Vite",
-      "Azure SWA",
-      "Azure Functions",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "AI analyzes floor plans to detect rooms and dimensions",
-      "Country-specific socket rules (LV, LT, EE)",
-      "SVG circuit and wiring diagrams",
-      "Possibly the world's most niche AI application"
-    ]
-  },
-  {
     "name": "golazo",
     "repo": "golazo",
     "lastUpdated": "2026-05-18T09:28:44Z",
@@ -128,57 +206,6 @@
       "25+ drills from Coerver, Horst Wein, Dan Abrahams, UEFA methodology",
       "Collectible player card with spider chart skills radar",
       "4 languages: Russian, Latvian, English, Spanish"
-    ]
-  },
-  {
-    "name": "era",
-    "repo": "era",
-    "lastUpdated": "2026-05-18T09:28:39Z",
-    "tagline": "ERP that configures itself (in theory)",
-    "description": "An experiment: can an AI agent read a country's tax code and set up the entire accounting system without a consultant? Users just throw in invoices and payments — the system figures out GL accounts, VAT, and posting rules automatically. Currently knows Latvian accounting law. World domination pending.",
-    "appUrl": "https://era.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "📊",
-    "status": "in-development",
-    "category": "saas",
-    "stack": [
-      "React",
-      "Express",
-      "Cosmos DB",
-      "Azure OpenAI",
-      "Entra ID",
-      "Bicep"
-    ],
-    "highlights": [
-      "AI agent researches legislation and generates accounting rules",
-      "Zero settings — posting rules replace configuration",
-      "One country done, infinite ambition",
-      "Entra ID auth, Cosmos DB, full cloud-native"
-    ]
-  },
-  {
-    "name": "amberRepublic",
-    "accentColor": "#9E3039",
-    "repo": "amberRepublic",
-    "lastUpdated": "2026-05-18T09:28:01Z",
-    "tagline": "What if a nation sim used real statistics?",
-    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every decision has second-order trade-offs you won't see coming for three turns.",
-    "appUrl": "https://amber.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "🏛️",
-    "status": "in-development",
-    "category": "game",
-    "stack": [
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA"
-    ],
-    "highlights": [
-      "Starting conditions from Latvia's actual 2025 statistics",
-      "Second-order effects — emigration causes workforce shortage causes more emigration",
-      "AI-generated events for unique playthroughs",
-      "Every decision is a painful trade-off"
     ]
   },
   {
@@ -205,33 +232,6 @@
       "Four starter games — Snake, Tetris, Breakout, Table Tennis",
       "Single-file source — readable, remixable, no toolchain",
       "Catalog grows as kids ship their own ideas"
-    ]
-  },
-  {
-    "name": "turgo",
-    "repo": "turgo",
-    "lastUpdated": "2026-05-17T06:22:27Z",
-    "tagline": "Can AI agents buy and sell better than humans?",
-    "description": "An experiment in automating the entire buy-sell lifecycle with AI agents. The idea: you say 'sell this' with a photo, and agents handle listing creation, pricing, negotiation, and market monitoring. Testing different purchase and sales strategies to see what actually works when agents do the haggling.",
-    "appUrl": "https://turgo.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "🤝",
-    "status": "in-development",
-    "category": "marketplace",
-    "stack": [
-      "Next.js",
-      "PostgreSQL",
-      "Prisma",
-      "tRPC",
-      "Meilisearch",
-      "Redis",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "Photo → AI listing → pricing → negotiation → sold",
-      "7 operational agents: moderation, analytics, anti-fraud, and more",
-      "Testing buy/sell strategies with agent-vs-agent scenarios",
-      "Multilingual: 5 UI languages, 3 Baltic countries"
     ]
   },
   {
