@@ -1,5 +1,30 @@
 [
   {
+    "name": "agentMode",
+    "accentColor": "#F59E0B",
+    "repo": "agentMode",
+    "lastUpdated": "2026-05-18T10:09:24Z",
+    "tagline": "Do we still need apps if a chat agent can do the job?",
+    "description": "A Telegram-based personal assistant that lives on a tight Azure budget. It orders groceries by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. The experiment: how much daily-app behaviour can be replaced by a single conversational agent — and how cheaply? 22 auto-discovered skills today, running for the price of two coffees a month.",
+    "sourceVisibility": "private",
+    "icon": "🤖",
+    "status": "in-development",
+    "category": "ai-agent",
+    "stack": [
+      "Azure Functions",
+      "Azure OpenAI",
+      "Container Apps",
+      "Playwright",
+      "Bicep"
+    ],
+    "highlights": [
+      "22 auto-discovered skills — from weather to grocery ordering",
+      "AI vision fallback: when automation breaks, the agent screenshots and navigates",
+      "Full infra-as-code, deploys with one script",
+      "Multilingual (EN, LV, RU), ~$5–10/month on Azure"
+    ]
+  },
+  {
     "name": "portaBaltica",
     "accentColor": "#0ea5e9",
     "repo": "portaBaltica",
@@ -154,31 +179,6 @@
       "Second-order effects — emigration causes workforce shortage causes more emigration",
       "AI-generated events for unique playthroughs",
       "Every decision is a painful trade-off"
-    ]
-  },
-  {
-    "name": "agentMode",
-    "accentColor": "#F59E0B",
-    "repo": "agentMode",
-    "lastUpdated": "2026-05-18T09:27:56Z",
-    "tagline": "Do we still need apps if a chat agent can do the job?",
-    "description": "A Telegram-based personal assistant that lives on a tight Azure budget. It orders groceries by literally looking at websites with AI vision, tracks expenses, hunts cheap flights, and delivers morning briefings. The experiment: how much daily-app behaviour can be replaced by a single conversational agent — and how cheaply? 22 auto-discovered skills today, running for the price of two coffees a month.",
-    "sourceVisibility": "private",
-    "icon": "🤖",
-    "status": "in-development",
-    "category": "ai-agent",
-    "stack": [
-      "Azure Functions",
-      "Azure OpenAI",
-      "Container Apps",
-      "Playwright",
-      "Bicep"
-    ],
-    "highlights": [
-      "22 auto-discovered skills — from weather to grocery ordering",
-      "AI vision fallback: when automation breaks, the agent screenshots and navigates",
-      "Full infra-as-code, deploys with one script",
-      "Multilingual (EN, LV, RU), ~$5–10/month on Azure"
     ]
   },
   {

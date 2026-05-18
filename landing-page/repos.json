@@ -1,5 +1,69 @@
 [
   {
+    "name": "agentFlow",
+    "description": "Visualize how nauroLabs agents work",
+    "url": "https://github.com/samoletovs/agentFlow",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-18T10:11:44Z",
+    "createdAt": "2026-05-17T07:23:09Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "agentMode",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/agentMode",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "Bicep",
+      "PowerShell",
+      "Dockerfile",
+      "Shell"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-05-18T10:09:28Z",
+    "createdAt": "2026-03-25T06:50:39Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-05-18T10:08:31Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "nauroLabs-github",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/nauroLabs-github",
@@ -42,26 +106,6 @@
     "openIssues": 0,
     "updatedAt": "2026-05-18T10:01:19Z",
     "createdAt": "2026-04-02T08:46:18Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-18T09:50:08Z",
-    "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
     "highlights": []
@@ -189,50 +233,6 @@
     "highlights": [
       "Interactive simulation"
     ]
-  },
-  {
-    "name": "agentMode",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/agentMode",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "Bicep",
-      "PowerShell",
-      "Dockerfile",
-      "Shell"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-05-18T09:28:00Z",
-    "createdAt": "2026-03-25T06:50:39Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "agentFlow",
-    "description": "Visualize how nauroLabs agents work",
-    "url": "https://github.com/samoletovs/agentFlow",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-18T09:27:56Z",
-    "createdAt": "2026-05-17T07:23:09Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "autoRefine",
