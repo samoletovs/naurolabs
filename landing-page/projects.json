@@ -1,5 +1,32 @@
 [
   {
+    "name": "tPlan",
+    "accentColor": "#2563EB",
+    "repo": "tPlan",
+    "lastUpdated": "2026-05-18T09:33:17Z",
+    "tagline": "Can AI turn a training book into a real coach?",
+    "description": "Can AI read a training methodology book and act as a coach — not a tracker, not a generator, an actual coach? Feed it a calisthenics manual, it parses the progression rules, builds your plan, tracks your reps, and advances you when the book says you're ready. Turns out it follows the rules more faithfully than most humans. Now running on real training data and Phase 2 web app, with user-uploaded books planned next.",
+    "appUrl": "https://tplan.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "💪",
+    "status": "experiment",
+    "category": "experiment",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Cosmos DB",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "Book → program: AI parses methodology into structured plans",
+      "Auto-progression follows the book's own advancement rules",
+      "Multilingual — English, Russian, Latvian, Spanish",
+      "Phase 2 web app live; user-uploaded books planned for Phase 3"
+    ]
+  },
+  {
     "name": "rosette",
     "repo": "rosette",
     "lastUpdated": "2026-05-18T09:28:52Z",
@@ -205,33 +232,6 @@
       "7 operational agents: moderation, analytics, anti-fraud, and more",
       "Testing buy/sell strategies with agent-vs-agent scenarios",
       "Multilingual: 5 UI languages, 3 Baltic countries"
-    ]
-  },
-  {
-    "name": "tPlan",
-    "accentColor": "#2563EB",
-    "repo": "tPlan",
-    "lastUpdated": "2026-05-17T06:21:52Z",
-    "tagline": "Can AI turn a training book into a real coach?",
-    "description": "Can AI read a training methodology book and act as a coach — not a tracker, not a generator, an actual coach? Feed it a calisthenics manual, it parses the progression rules, builds your plan, tracks your reps, and advances you when the book says you're ready. Turns out it follows the rules more faithfully than most humans. Now running on real training data and Phase 2 web app, with user-uploaded books planned next.",
-    "appUrl": "https://tplan.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "💪",
-    "status": "experiment",
-    "category": "experiment",
-    "stack": [
-      "React",
-      "Vite",
-      "Azure SWA",
-      "Azure Functions",
-      "Cosmos DB",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "Book → program: AI parses methodology into structured plans",
-      "Auto-progression follows the book's own advancement rules",
-      "Multilingual — English, Russian, Latvian, Spanish",
-      "Phase 2 web app live; user-uploaded books planned for Phase 3"
     ]
   },
   {
