@@ -1,5 +1,23 @@
 [
   {
+    "name": "autoRefine",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/autoRefine",
+    "language": "Python",
+    "languages": [
+      "Python"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 6,
+    "updatedAt": "2026-05-19T12:05:06Z",
+    "createdAt": "2026-05-17T06:20:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "nauroLabs-github",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/nauroLabs-github",
@@ -16,27 +34,9 @@
     "topics": [],
     "stars": 0,
     "forks": 0,
-    "openIssues": 7,
-    "updatedAt": "2026-05-19T11:25:27Z",
+    "openIssues": 9,
+    "updatedAt": "2026-05-19T11:49:02Z",
     "createdAt": "2026-04-06T18:07:15Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "autoRefine",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/autoRefine",
-    "language": "Python",
-    "languages": [
-      "Python"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 7,
-    "updatedAt": "2026-05-19T11:25:11Z",
-    "createdAt": "2026-05-17T06:20:12Z",
     "homepage": null,
     "archived": false,
     "highlights": []
@@ -55,7 +55,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-05-19T06:07:10Z",
+    "updatedAt": "2026-05-19T11:27:26Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
