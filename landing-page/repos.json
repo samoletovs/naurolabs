@@ -1,5 +1,49 @@
 [
   {
+    "name": "nauroLabs-github",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/nauroLabs-github",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "PowerShell",
+      "HTML",
+      "JavaScript",
+      "Shell",
+      "TypeScript",
+      "Bicep"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 13,
+    "updatedAt": "2026-05-23T08:31:25Z",
+    "createdAt": "2026-04-06T18:07:15Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "mindMe",
+    "description": "A quiet companion that runs my Personal OS — Foundry hosted agent + Azure Functions harness. Tagline: can a quiet companion run a life?",
+    "url": "https://github.com/samoletovs/mindMe",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "Bicep",
+      "PowerShell"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-23T08:07:39Z",
+    "createdAt": "2026-05-10T18:30:31Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "naurolabs",
     "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -13,7 +57,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-05-22T10:56:35Z",
+    "updatedAt": "2026-05-22T21:17:34Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": null,
     "archived": false,
@@ -41,30 +85,6 @@
     "openIssues": 3,
     "updatedAt": "2026-05-22T10:06:12Z",
     "createdAt": "2026-03-22T08:41:06Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "nauroLabs-github",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/nauroLabs-github",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "PowerShell",
-      "HTML",
-      "JavaScript",
-      "Shell",
-      "TypeScript",
-      "Bicep"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 12,
-    "updatedAt": "2026-05-22T08:28:00Z",
-    "createdAt": "2026-04-06T18:07:15Z",
     "homepage": null,
     "archived": false,
     "highlights": []
@@ -338,26 +358,6 @@
       "Interactive simulation",
       "Live demo available"
     ]
-  },
-  {
-    "name": "mindMe",
-    "description": "A quiet companion that runs my Personal OS — Foundry hosted agent + Azure Functions harness. Tagline: can a quiet companion run a life?",
-    "url": "https://github.com/samoletovs/mindMe",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "Bicep",
-      "PowerShell"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-17T06:21:32Z",
-    "createdAt": "2026-05-10T18:30:31Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "atlas",
