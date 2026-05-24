@@ -2,7 +2,7 @@
   {
     "name": "era",
     "repo": "era",
-    "lastUpdated": "2026-05-22T10:06:09Z",
+    "lastUpdated": "2026-05-24T06:48:18Z",
     "tagline": "ERP that configures itself (in theory)",
     "description": "An experiment: can an AI agent read a country's tax code and set up the entire accounting system without a consultant? Users just throw in invoices and payments — the system figures out GL accounts, VAT, and posting rules automatically. Currently knows Latvian accounting law. World domination pending.",
     "appUrl": "https://era.naurolabs.com",
