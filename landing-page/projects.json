@@ -31,6 +31,7 @@
     "lastUpdated": "2026-05-18T12:29:33Z",
     "tagline": "Can we make multi-agent logic visible and debuggable?",
     "description": "A visual playground for understanding how nauroLabs agents collaborate. It maps agents, tool calls, and transitions into a live flow so complex orchestration is easier to inspect, explain, and improve.",
+    "appUrl": "https://agentflow.naurolabs.com",
     "sourceUrl": "https://github.com/samoletovs/agentFlow",
     "sourceVisibility": "public",
     "icon": "🧬",
