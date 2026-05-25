@@ -1,5 +1,138 @@
 [
   {
+    "name": "portaBaltica",
+    "description": "Live maritime dashboard for Baltic ports - Riga, Ventspils, Liepaja",
+    "url": "https://github.com/samoletovs/portaBaltica",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-25T10:10:00Z",
+    "createdAt": "2026-04-02T08:46:18Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "atlas",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/atlas",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-05-25T10:01:39Z",
+    "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "autoRefine",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/autoRefine",
+    "language": "Python",
+    "languages": [
+      "Python"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 6,
+    "updatedAt": "2026-05-25T09:27:21Z",
+    "createdAt": "2026-05-17T06:20:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "nauroLabs-github",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/nauroLabs-github",
+    "language": "Python",
+    "languages": [
+      "Python",
+      "PowerShell",
+      "HTML",
+      "JavaScript",
+      "Shell",
+      "TypeScript",
+      "Bicep"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 14,
+    "updatedAt": "2026-05-25T09:27:08Z",
+    "createdAt": "2026-04-06T18:07:15Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "tPlan",
+    "description": "Tplan - Training planner",
+    "url": "https://github.com/samoletovs/tPlan",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-25T09:24:38Z",
+    "createdAt": "2026-03-26T13:14:31Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": [
+      "AI-powered"
+    ]
+  },
+  {
+    "name": "naurolabs",
+    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-25T08:58:38Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "amberRepublic",
     "description": "Amber Republic - Latvia political simulation game",
     "url": "https://github.com/samoletovs/amberRepublic",
@@ -26,26 +159,6 @@
     ]
   },
   {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-25T08:33:43Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "rosette",
     "description": "Rosette project",
     "url": "https://github.com/samoletovs/rosette",
@@ -65,53 +178,6 @@
     "openIssues": 1,
     "updatedAt": "2026-05-25T08:32:20Z",
     "createdAt": "2026-03-21T07:44:36Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "atlas",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/atlas",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-25T08:13:27Z",
-    "createdAt": "2026-05-09T18:07:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "nauroLabs-github",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/nauroLabs-github",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "PowerShell",
-      "HTML",
-      "JavaScript",
-      "Shell",
-      "TypeScript",
-      "Bicep"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 13,
-    "updatedAt": "2026-05-25T08:13:22Z",
-    "createdAt": "2026-04-06T18:07:15Z",
     "homepage": null,
     "archived": false,
     "highlights": []
@@ -165,54 +231,6 @@
     "highlights": []
   },
   {
-    "name": "tPlan",
-    "description": "Tplan - Training planner",
-    "url": "https://github.com/samoletovs/tPlan",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-25T08:12:00Z",
-    "createdAt": "2026-03-26T13:14:31Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": [
-      "AI-powered"
-    ]
-  },
-  {
-    "name": "portaBaltica",
-    "description": "Live maritime dashboard for Baltic ports - Riga, Ventspils, Liepaja",
-    "url": "https://github.com/samoletovs/portaBaltica",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-25T08:11:55Z",
-    "createdAt": "2026-04-02T08:46:18Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "turgo",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/turgo",
@@ -256,24 +274,6 @@
     "openIssues": 2,
     "updatedAt": "2026-05-25T08:11:24Z",
     "createdAt": "2026-03-27T19:53:26Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "autoRefine",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/autoRefine",
-    "language": "Python",
-    "languages": [
-      "Python"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 6,
-    "updatedAt": "2026-05-24T07:48:23Z",
-    "createdAt": "2026-05-17T06:20:12Z",
     "homepage": null,
     "archived": false,
     "highlights": []
