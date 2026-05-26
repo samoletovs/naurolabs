@@ -1,30 +1,34 @@
 [
   {
-    "name": "portaBaltica",
-    "description": "Live maritime dashboard for Baltic ports - Riga, Ventspils, Liepaja",
-    "url": "https://github.com/samoletovs/portaBaltica",
-    "language": "TypeScript",
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
     "languages": [
-      "TypeScript",
       "JavaScript",
-      "PowerShell",
       "CSS",
-      "Bicep",
       "HTML"
     ],
-    "topics": [],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-05-25T10:10:00Z",
-    "createdAt": "2026-04-02T08:46:18Z",
-    "homepage": null,
+    "updatedAt": "2026-05-26T06:29:10Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
     "archived": false,
     "highlights": []
   },
   {
     "name": "atlas",
-    "description": "No description provided.",
+    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
     "url": "https://github.com/samoletovs/atlas",
     "language": "TypeScript",
     "languages": [
@@ -35,106 +39,29 @@
       "Bicep",
       "HTML"
     ],
-    "topics": [],
+    "topics": [
+      "ai",
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "education",
+      "github-oauth",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-25T10:01:39Z",
+    "openIssues": 0,
+    "updatedAt": "2026-05-25T16:59:38Z",
     "createdAt": "2026-05-09T18:07:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "autoRefine",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/autoRefine",
-    "language": "Python",
-    "languages": [
-      "Python"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 6,
-    "updatedAt": "2026-05-25T09:27:21Z",
-    "createdAt": "2026-05-17T06:20:12Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "nauroLabs-github",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/nauroLabs-github",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "PowerShell",
-      "HTML",
-      "JavaScript",
-      "Shell",
-      "TypeScript",
-      "Bicep"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 14,
-    "updatedAt": "2026-05-25T09:27:08Z",
-    "createdAt": "2026-04-06T18:07:15Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "tPlan",
-    "description": "Tplan - Training planner",
-    "url": "https://github.com/samoletovs/tPlan",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-25T09:24:38Z",
-    "createdAt": "2026-03-26T13:14:31Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": [
-      "AI-powered"
-    ]
-  },
-  {
-    "name": "naurolabs",
-    "description": "nauroLabs — A research lab where ideas get built, tested, and occasionally work.",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-25T08:58:38Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": null,
+    "homepage": "https://atlas.naurolabs.com",
     "archived": false,
     "highlights": []
   },
   {
     "name": "amberRepublic",
-    "description": "Amber Republic - Latvia political simulation game",
+    "description": "Latvia political and economic simulation game — shape the country's future",
     "url": "https://github.com/samoletovs/amberRepublic",
     "language": "TypeScript",
     "languages": [
@@ -146,21 +73,93 @@
       "Bicep",
       "HTML"
     ],
-    "topics": [],
+    "topics": [
+      "game",
+      "latvia",
+      "naurolabs",
+      "react",
+      "simulation",
+      "tailwindcss",
+      "typescript",
+      "vite"
+    ],
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-05-25T08:56:21Z",
+    "updatedAt": "2026-05-25T13:01:37Z",
     "createdAt": "2026-03-23T21:21:45Z",
-    "homepage": null,
+    "homepage": "https://amber.naurolabs.com",
     "archived": false,
     "highlights": [
       "Interactive simulation"
     ]
   },
   {
+    "name": "agentFlow",
+    "description": "Visualize how nauroLabs agents are built and how information flows through them",
+    "url": "https://github.com/samoletovs/agentFlow",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [
+      "agent-visualization",
+      "ai-agents",
+      "azure",
+      "azure-static-web-apps",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-25T12:19:50Z",
+    "createdAt": "2026-05-17T07:23:09Z",
+    "homepage": "https://agentflow.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "portaBaltica",
+    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
+    "url": "https://github.com/samoletovs/portaBaltica",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "data-visualization",
+      "estonia",
+      "latvia",
+      "lithuania",
+      "naurolabs",
+      "open-data",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-05-25T12:19:42Z",
+    "createdAt": "2026-04-02T08:46:18Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "rosette",
-    "description": "Rosette project",
+    "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
     "url": "https://github.com/samoletovs/rosette",
     "language": "TypeScript",
     "languages": [
@@ -172,195 +171,63 @@
       "Bicep",
       "JavaScript"
     ],
-    "topics": [],
+    "topics": [
+      "ai",
+      "azure",
+      "azure-openai",
+      "electrical-planning",
+      "gpt-4o",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-05-25T08:32:20Z",
+    "openIssues": 0,
+    "updatedAt": "2026-05-25T12:19:41Z",
     "createdAt": "2026-03-21T07:44:36Z",
-    "homepage": null,
+    "homepage": "https://rosette.naurolabs.com",
     "archived": false,
     "highlights": []
   },
   {
-    "name": "era",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/era",
+    "name": "tPlan",
+    "description": "AI workout generator from training methodology books — multi-user, multi-language",
+    "url": "https://github.com/samoletovs/tPlan",
     "language": "TypeScript",
     "languages": [
       "TypeScript",
       "CSS",
-      "Python",
-      "JavaScript",
-      "Bicep",
       "PowerShell",
-      "Shell",
-      "HTML",
-      "Dockerfile"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 3,
-    "updatedAt": "2026-05-25T08:13:05Z",
-    "createdAt": "2026-03-22T08:41:06Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "agentMode",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/agentMode",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "Bicep",
-      "PowerShell",
-      "Dockerfile",
-      "Shell"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-25T08:12:04Z",
-    "createdAt": "2026-03-25T06:50:39Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "turgo",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/turgo",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "PowerShell",
-      "Shell",
       "Bicep",
       "JavaScript",
-      "CSS",
-      "Dockerfile"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-25T08:11:51Z",
-    "createdAt": "2026-02-21T17:32:44Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "golazo",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/golazo",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "CSS",
-      "Python",
-      "PowerShell",
-      "Bicep",
       "HTML"
     ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-05-25T08:11:24Z",
-    "createdAt": "2026-03-27T19:53:26Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "mindMe",
-    "description": "A quiet companion that runs my Personal OS — Foundry hosted agent + Azure Functions harness. Tagline: can a quiet companion run a life?",
-    "url": "https://github.com/samoletovs/mindMe",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "Bicep",
-      "PowerShell"
+    "topics": [
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "fitness",
+      "multilingual",
+      "naurolabs",
+      "react",
+      "typescript",
+      "workout"
     ],
-    "topics": [],
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-05-24T07:16:33Z",
-    "createdAt": "2026-05-10T18:30:31Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "foundryLab",
-    "description": "Azure AI Foundry experiments - agents, evaluations, and research",
-    "url": "https://github.com/samoletovs/foundryLab",
-    "language": "Python",
-    "languages": [
-      "Python",
-      "PowerShell",
-      "Bicep"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-22T08:04:03Z",
-    "createdAt": "2026-05-09T11:46:05Z",
-    "homepage": null,
+    "updatedAt": "2026-05-25T12:19:39Z",
+    "createdAt": "2026-03-26T13:14:31Z",
+    "homepage": "https://tplan.naurolabs.com",
     "archived": false,
     "highlights": [
       "AI-powered"
     ]
   },
   {
-    "name": "payArc",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/payArc",
-    "language": null,
-    "languages": [],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 4,
-    "updatedAt": "2026-05-19T05:33:12Z",
-    "createdAt": "2026-05-16T16:27:49Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "agentFlow",
-    "description": "Visualize how nauroLabs agents work",
-    "url": "https://github.com/samoletovs/agentFlow",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-05-18T12:29:38Z",
-    "createdAt": "2026-05-17T07:23:09Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "playGround",
-    "description": "Apps and games playground",
+    "description": "Classic arcade games as single-file HTML pages — no build step, no framework",
     "url": "https://github.com/samoletovs/playGround",
     "language": "HTML",
     "languages": [
@@ -369,13 +236,22 @@
       "PowerShell",
       "Python"
     ],
-    "topics": [],
+    "topics": [
+      "arcade",
+      "canvas",
+      "games",
+      "github-pages",
+      "html",
+      "javascript",
+      "naurolabs",
+      "single-file"
+    ],
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-05-17T06:50:22Z",
+    "updatedAt": "2026-05-25T10:33:27Z",
     "createdAt": "2026-05-09T11:48:34Z",
-    "homepage": "https://playground.naurolabs.com/",
+    "homepage": "https://playground.naurolabs.com",
     "archived": false,
     "highlights": [
       "Interactive simulation",
@@ -384,20 +260,28 @@
   },
   {
     "name": "art",
-    "description": "Art gallery — single-file HTML pages at art.naurolabs.com",
+    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
     "url": "https://github.com/samoletovs/art",
     "language": "HTML",
     "languages": [
       "HTML",
       "PowerShell"
     ],
-    "topics": [],
+    "topics": [
+      "css",
+      "generative-art",
+      "github-pages",
+      "html",
+      "naurolabs",
+      "single-file",
+      "web-art"
+    ],
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-05-17T05:32:31Z",
+    "updatedAt": "2026-05-25T10:33:26Z",
     "createdAt": "2026-05-10T15:52:36Z",
-    "homepage": null,
+    "homepage": "https://art.naurolabs.com",
     "archived": false,
     "highlights": [
       "Live demo available"
