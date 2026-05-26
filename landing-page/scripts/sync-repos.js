@@ -29,10 +29,8 @@ async function fetchAllRepos() {
   const repos = [];
   let page = 1;
 
-  // Use authenticated endpoint for private repo access, fall back to public endpoint
-  const baseUrl = process.env.GITHUB_TOKEN
-    ? `https://api.github.com/user/repos?per_page=100&affiliation=owner&sort=updated`
-    : `https://api.github.com/users/${GITHUB_USER}/repos?per_page=100&sort=updated&type=owner`;
+  // Always use public endpoint — all NauroLabs repos are public; token provides rate-limit boost (5000/hr vs 60/hr)
+  const baseUrl = `https://api.github.com/users/${GITHUB_USER}/repos?per_page=100&sort=updated&type=owner`;
 
   while (true) {
     const url = `${baseUrl}&page=${page}`;
