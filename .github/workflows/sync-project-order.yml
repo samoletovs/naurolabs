@@ -27,7 +27,7 @@ jobs:
 
       - name: Sync project dates from GitHub
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: node landing-page/scripts/sync-repos.js
 
       - name: Check for changes
