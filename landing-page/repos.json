@@ -1,32 +1,5 @@
 [
   {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
-      "naurolabs",
-      "research-lab",
-      "vanilla-js"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-07T10:33:35Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "atlas",
     "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
     "url": "https://github.com/samoletovs/atlas",
@@ -52,8 +25,8 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-02T08:42:15Z",
+    "openIssues": 2,
+    "updatedAt": "2026-06-08T11:08:54Z",
     "createdAt": "2026-05-09T18:07:12Z",
     "homepage": "https://atlas.naurolabs.com",
     "archived": false,
@@ -85,8 +58,8 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-02T00:15:41Z",
+    "openIssues": 1,
+    "updatedAt": "2026-06-08T07:38:25Z",
     "createdAt": "2026-03-21T07:44:36Z",
     "homepage": "https://rosette.naurolabs.com",
     "archived": false,
@@ -119,7 +92,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-06-01T23:27:36Z",
+    "updatedAt": "2026-06-08T07:14:18Z",
     "createdAt": "2026-04-02T08:46:18Z",
     "homepage": null,
     "archived": false,
@@ -149,7 +122,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-06-01T12:00:56Z",
+    "updatedAt": "2026-06-08T04:55:39Z",
     "createdAt": "2026-05-17T07:23:09Z",
     "homepage": "https://agentflow.naurolabs.com",
     "archived": false,
@@ -181,8 +154,8 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-06-01T04:32:47Z",
+    "openIssues": 0,
+    "updatedAt": "2026-06-08T02:28:12Z",
     "createdAt": "2026-03-26T13:14:31Z",
     "homepage": "https://tplan.naurolabs.com",
     "archived": false,
@@ -217,13 +190,40 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-06-01T01:12:39Z",
+    "updatedAt": "2026-06-08T00:29:41Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": "https://amber.naurolabs.com",
     "archived": false,
     "highlights": [
       "Interactive simulation"
     ]
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-06-07T21:19:24Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
+    "archived": false,
+    "highlights": []
   },
   {
     "name": "playGround",
