@@ -107,7 +107,7 @@ function renderProjectCard(project, isAuthenticated) {
           <div class="project-card-header">
             <span class="project-icon">${icon}</span>
             <div>
-              <h3 class="project-name">${renderProjectName(project)}</h3>
+              <h2 class="project-name">${renderProjectName(project)}</h2>
               <p class="project-tagline">${project.tagline}</p>
             </div>
           </div>
@@ -154,7 +154,7 @@ function renderProjectCard(project, isAuthenticated) {
         <div class="project-card-header">
           <span class="project-icon">${icon}</span>
           <div>
-            <h3 class="project-name">${renderProjectName(project)}</h3>
+            <h2 class="project-name">${renderProjectName(project)}</h2>
             <p class="project-tagline">${project.tagline}</p>
           </div>
         </div>
