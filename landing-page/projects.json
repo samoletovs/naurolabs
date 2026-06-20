@@ -26,7 +26,7 @@
   },
   {
     "name": "portaBaltica",
-    "accentColor": "#0ea5e9",
+    "accentColor": "#0369a1",
     "repo": "portaBaltica",
     "lastUpdated": "2026-06-18T08:26:55Z",
     "tagline": "Can a public dashboard pay its own bills?",
@@ -163,7 +163,7 @@
   },
   {
     "name": "playGround",
-    "accentColor": "#4ade80",
+    "accentColor": "#15803d",
     "repo": "playGround",
     "lastUpdated": "2026-05-25T10:32:21Z",
     "tagline": "Can kids build their own games with AI?",
@@ -240,7 +240,7 @@
   },
   {
     "name": "agentMode",
-    "accentColor": "#F59E0B",
+    "accentColor": "#b45309",
     "repo": "agentMode",
     "lastUpdated": "2026-05-25T08:12:00Z",
     "tagline": "Do we still need apps if a chat agent can do the job?",
