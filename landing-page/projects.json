@@ -1,90 +1,34 @@
 [
   {
-    "name": "amberRepublic",
-    "accentColor": "#9E3039",
-    "repo": "amberRepublic",
-    "lastUpdated": "2026-06-18T08:28:40Z",
-    "tagline": "What if a nation sim used real statistics?",
-    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every policy decision ripples through the economy in ways you won't see for three turns — exactly how the real thing works.",
-    "appUrl": "https://amber.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "🏛️",
+    "name": "agentFlow",
+    "repo": "agentFlow",
+    "lastUpdated": "2026-06-21T08:19:33Z",
+    "tagline": "Can we make multi-agent logic visible and debuggable?",
+    "description": "A visual playground for understanding how nauroLabs agents collaborate. It maps agents, tool calls, and transitions into a live flow so complex orchestration is easier to inspect, explain, and improve.",
+    "appUrl": "https://agentflow.naurolabs.com",
+    "sourceUrl": "https://github.com/samoletovs/agentFlow",
+    "sourceVisibility": "public",
+    "icon": "🧬",
     "status": "in-development",
-    "category": "game",
+    "category": "tool",
     "stack": [
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA"
-    ],
-    "highlights": [
-      "Starting conditions from Latvia's actual 2025 statistics",
-      "Second-order effects — emigration causes workforce shortage causes more emigration",
-      "AI-generated events for unique playthroughs",
-      "Every decision is a painful trade-off"
-    ]
-  },
-  {
-    "name": "portaBaltica",
-    "accentColor": "#0369a1",
-    "repo": "portaBaltica",
-    "lastUpdated": "2026-06-18T08:26:55Z",
-    "tagline": "Can a public dashboard pay its own bills?",
-    "description": "NauroLabs' first experiment in self-funding. A live economic intelligence dashboard for the Baltics — 30+ economic, trade, labour, energy, environmental, and maritime indicators across Latvia, Estonia, and Lithuania, all from free government APIs with an AI layer reading the trends in real time. The hypothesis: free raw data is a commodity, but the interpretation isn't. Free public dashboard, paid API and alerts. Goal: cover its own infrastructure cost and fund the next experiment.",
-    "appUrl": "https://portabaltica.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "⚓",
-    "status": "experiment",
-    "category": "experiment",
-    "stack": [
-      "React",
       "TypeScript",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA",
-      "Eurostat",
-      "Open-Meteo",
-      "data.gov.lv"
+      "JavaScript",
+      "CSS",
+      "HTML"
     ],
     "highlights": [
-      "30+ live indicators across LV, EE, LT — economy, trade, labour, energy, property, environment",
-      "AI insights generated from live feeds, not canned summaries",
-      "Free dashboard, paid API and alerts — Moonshot v1 of the lab",
-      "All data from free public APIs: Eurostat, NordPool, ECB, Open-Meteo, data.gov.lv"
-    ]
-  },
-  {
-    "name": "tPlan",
-    "accentColor": "#2563EB",
-    "repo": "tPlan",
-    "lastUpdated": "2026-06-18T08:26:45Z",
-    "tagline": "Can AI turn a training book into a real coach?",
-    "description": "Can AI read a training methodology book and act as a coach — not a tracker, not a generator, an actual coach? Feed it a calisthenics manual, it parses the progression rules, builds your plan, tracks your reps, and advances you when the book says you're ready. Turns out it follows the rules more faithfully than most humans. Real training data in, real progression out — and any book becomes the methodology.",
-    "appUrl": "https://tplan.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "💪",
-    "status": "experiment",
-    "category": "experiment",
-    "stack": [
-      "React",
-      "Vite",
-      "Azure SWA",
-      "Azure Functions",
-      "Cosmos DB",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "Book → program: AI parses methodology into structured plans",
-      "Auto-progression follows the book's own advancement rules",
-      "Multilingual — English, Russian, Latvian, Spanish",
-      "Phase 2 web app live; user-uploaded books planned for Phase 3"
+      "Visual flow map of agent orchestration",
+      "Tracks agent handoffs and tool usage paths",
+      "Built to debug and explain complex agent behaviour",
+      "Focused experiment on making AI systems observable"
     ]
   },
   {
     "name": "rosette",
     "accentColor": "#F97316",
     "repo": "rosette",
-    "lastUpdated": "2026-06-18T08:25:51Z",
+    "lastUpdated": "2026-06-21T08:03:04Z",
     "tagline": "Where the hell do I put my sockets?",
     "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Latvian, Lithuanian, and Estonian codes are live — the kind of specialised knowledge that normally costs a consultant's hourly rate.",
     "appUrl": "https://rosette.naurolabs.com",
@@ -111,7 +55,7 @@
     "name": "atlas",
     "accentColor": "#d4a574",
     "repo": "atlas",
-    "lastUpdated": "2026-06-15T11:14:43Z",
+    "lastUpdated": "2026-06-21T08:02:59Z",
     "tagline": "Can AI teach you what AI just helped you build?",
     "description": "When Copilot writes the code, you get the result without the understanding. atlas closes that gap. It watches your GitHub activity, generates phone-readable lessons grounded in both your work and Microsoft Learn, and tracks what you've covered so it never repeats itself. A quiet librarian sitting between your build sessions and your understanding.",
     "appUrl": "https://atlas.naurolabs.com",
@@ -137,28 +81,84 @@
     ]
   },
   {
-    "name": "agentFlow",
-    "repo": "agentFlow",
-    "lastUpdated": "2026-06-15T04:58:03Z",
-    "tagline": "Can we make multi-agent logic visible and debuggable?",
-    "description": "A visual playground for understanding how nauroLabs agents collaborate. It maps agents, tool calls, and transitions into a live flow so complex orchestration is easier to inspect, explain, and improve.",
-    "appUrl": "https://agentflow.naurolabs.com",
-    "sourceUrl": "https://github.com/samoletovs/agentFlow",
-    "sourceVisibility": "public",
-    "icon": "🧬",
-    "status": "in-development",
-    "category": "tool",
+    "name": "portaBaltica",
+    "accentColor": "#0369a1",
+    "repo": "portaBaltica",
+    "lastUpdated": "2026-06-21T08:02:32Z",
+    "tagline": "Can a public dashboard pay its own bills?",
+    "description": "NauroLabs' first experiment in self-funding. A live economic intelligence dashboard for the Baltics — 30+ economic, trade, labour, energy, environmental, and maritime indicators across Latvia, Estonia, and Lithuania, all from free government APIs with an AI layer reading the trends in real time. The hypothesis: free raw data is a commodity, but the interpretation isn't. Free public dashboard, paid API and alerts. Goal: cover its own infrastructure cost and fund the next experiment.",
+    "appUrl": "https://portabaltica.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "⚓",
+    "status": "experiment",
+    "category": "experiment",
     "stack": [
+      "React",
       "TypeScript",
-      "JavaScript",
-      "CSS",
-      "HTML"
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA",
+      "Eurostat",
+      "Open-Meteo",
+      "data.gov.lv"
     ],
     "highlights": [
-      "Visual flow map of agent orchestration",
-      "Tracks agent handoffs and tool usage paths",
-      "Built to debug and explain complex agent behaviour",
-      "Focused experiment on making AI systems observable"
+      "30+ live indicators across LV, EE, LT — economy, trade, labour, energy, property, environment",
+      "AI insights generated from live feeds, not canned summaries",
+      "Free dashboard, paid API and alerts — Moonshot v1 of the lab",
+      "All data from free public APIs: Eurostat, NordPool, ECB, Open-Meteo, data.gov.lv"
+    ]
+  },
+  {
+    "name": "amberRepublic",
+    "accentColor": "#9E3039",
+    "repo": "amberRepublic",
+    "lastUpdated": "2026-06-21T08:02:26Z",
+    "tagline": "What if a nation sim used real statistics?",
+    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every policy decision ripples through the economy in ways you won't see for three turns — exactly how the real thing works.",
+    "appUrl": "https://amber.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "🏛️",
+    "status": "in-development",
+    "category": "game",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA"
+    ],
+    "highlights": [
+      "Starting conditions from Latvia's actual 2025 statistics",
+      "Second-order effects — emigration causes workforce shortage causes more emigration",
+      "AI-generated events for unique playthroughs",
+      "Every decision is a painful trade-off"
+    ]
+  },
+  {
+    "name": "tPlan",
+    "accentColor": "#2563EB",
+    "repo": "tPlan",
+    "lastUpdated": "2026-06-21T08:02:21Z",
+    "tagline": "Can AI turn a training book into a real coach?",
+    "description": "Can AI read a training methodology book and act as a coach — not a tracker, not a generator, an actual coach? Feed it a calisthenics manual, it parses the progression rules, builds your plan, tracks your reps, and advances you when the book says you're ready. Turns out it follows the rules more faithfully than most humans. Real training data in, real progression out — and any book becomes the methodology.",
+    "appUrl": "https://tplan.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "💪",
+    "status": "experiment",
+    "category": "experiment",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Cosmos DB",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "Book → program: AI parses methodology into structured plans",
+      "Auto-progression follows the book's own advancement rules",
+      "Multilingual — English, Russian, Latvian, Spanish",
+      "Phase 2 web app live; user-uploaded books planned for Phase 3"
     ]
   },
   {
