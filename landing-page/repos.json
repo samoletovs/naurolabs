@@ -1,33 +1,65 @@
 [
   {
-    "name": "agentFlow",
-    "description": "Visualize how nauroLabs agents are built and how information flows through them",
-    "url": "https://github.com/samoletovs/agentFlow",
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-06-21T11:42:34Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "tPlan",
+    "description": "AI workout generator from training methodology books — multi-user, multi-language",
+    "url": "https://github.com/samoletovs/tPlan",
     "language": "TypeScript",
     "languages": [
       "TypeScript",
       "CSS",
+      "PowerShell",
       "Bicep",
       "JavaScript",
       "HTML"
     ],
     "topics": [
-      "agent-visualization",
-      "ai-agents",
       "azure",
-      "azure-static-web-apps",
+      "azure-openai",
+      "cosmos-db",
+      "fitness",
+      "multilingual",
       "naurolabs",
       "react",
-      "typescript"
+      "typescript",
+      "workout"
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-21T08:19:36Z",
-    "createdAt": "2026-05-17T07:23:09Z",
-    "homepage": "https://agentflow.naurolabs.com",
+    "openIssues": 1,
+    "updatedAt": "2026-06-21T11:42:12Z",
+    "createdAt": "2026-03-26T13:14:31Z",
+    "homepage": "https://tplan.naurolabs.com",
     "archived": false,
-    "highlights": []
+    "highlights": [
+      "AI-powered"
+    ]
   },
   {
     "name": "rosette",
@@ -56,69 +88,9 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-06-21T08:03:07Z",
+    "updatedAt": "2026-06-21T11:42:07Z",
     "createdAt": "2026-03-21T07:44:36Z",
     "homepage": "https://rosette.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "atlas",
-    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
-    "url": "https://github.com/samoletovs/atlas",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "ai",
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "education",
-      "github-oauth",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-21T08:03:02Z",
-    "createdAt": "2026-05-09T18:07:12Z",
-    "homepage": "https://atlas.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
-      "naurolabs",
-      "research-lab",
-      "vanilla-js"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-21T08:02:40Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
     "archived": false,
     "highlights": []
   },
@@ -149,9 +121,42 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-06-21T08:02:36Z",
+    "updatedAt": "2026-06-21T11:42:02Z",
     "createdAt": "2026-04-02T08:46:18Z",
     "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "atlas",
+    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
+    "url": "https://github.com/samoletovs/atlas",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "ai",
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "education",
+      "github-oauth",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-06-21T11:41:51Z",
+    "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": "https://atlas.naurolabs.com",
     "archived": false,
     "highlights": []
   },
@@ -182,7 +187,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 1,
-    "updatedAt": "2026-06-21T08:02:30Z",
+    "updatedAt": "2026-06-21T11:39:44Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": "https://amber.naurolabs.com",
     "archived": false,
@@ -191,39 +196,34 @@
     ]
   },
   {
-    "name": "tPlan",
-    "description": "AI workout generator from training methodology books — multi-user, multi-language",
-    "url": "https://github.com/samoletovs/tPlan",
+    "name": "agentFlow",
+    "description": "Visualize how nauroLabs agents are built and how information flows through them",
+    "url": "https://github.com/samoletovs/agentFlow",
     "language": "TypeScript",
     "languages": [
       "TypeScript",
       "CSS",
-      "PowerShell",
       "Bicep",
       "JavaScript",
       "HTML"
     ],
     "topics": [
+      "agent-visualization",
+      "ai-agents",
       "azure",
-      "azure-openai",
-      "cosmos-db",
-      "fitness",
-      "multilingual",
+      "azure-static-web-apps",
       "naurolabs",
       "react",
-      "typescript",
-      "workout"
+      "typescript"
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-06-21T08:02:25Z",
-    "createdAt": "2026-03-26T13:14:31Z",
-    "homepage": "https://tplan.naurolabs.com",
+    "openIssues": 0,
+    "updatedAt": "2026-06-21T11:39:01Z",
+    "createdAt": "2026-05-17T07:23:09Z",
+    "homepage": "https://agentflow.naurolabs.com",
     "archived": false,
-    "highlights": [
-      "AI-powered"
-    ]
+    "highlights": []
   },
   {
     "name": "playGround",
