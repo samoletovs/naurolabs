@@ -1,5 +1,38 @@
 [
   {
+    "name": "portaBaltica",
+    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
+    "url": "https://github.com/samoletovs/portaBaltica",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "data-visualization",
+      "estonia",
+      "latvia",
+      "lithuania",
+      "naurolabs",
+      "open-data",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-06-24T10:46:43Z",
+    "createdAt": "2026-04-02T08:46:18Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "naurolabs",
     "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -20,7 +53,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-06-23T11:24:12Z",
+    "updatedAt": "2026-06-23T21:46:34Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": "https://naurolabs.com",
     "archived": false,
@@ -89,39 +122,6 @@
     "updatedAt": "2026-06-22T07:40:15Z",
     "createdAt": "2026-03-21T07:44:36Z",
     "homepage": "https://rosette.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "portaBaltica",
-    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
-    "url": "https://github.com/samoletovs/portaBaltica",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "data-visualization",
-      "estonia",
-      "latvia",
-      "lithuania",
-      "naurolabs",
-      "open-data",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-06-22T07:12:54Z",
-    "createdAt": "2026-04-02T08:46:18Z",
-    "homepage": null,
     "archived": false,
     "highlights": []
   },
