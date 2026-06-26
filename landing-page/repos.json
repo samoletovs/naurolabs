@@ -1,5 +1,32 @@
 [
   {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-06-25T21:48:48Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "tPlan",
     "description": "AI workout generator from training methodology books — multi-user, multi-language",
     "url": "https://github.com/samoletovs/tPlan",
@@ -64,33 +91,6 @@
     "updatedAt": "2026-06-25T15:59:14Z",
     "createdAt": "2026-03-21T07:44:36Z",
     "homepage": "https://rosette.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
-      "naurolabs",
-      "research-lab",
-      "vanilla-js"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-25T10:48:27Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
     "archived": false,
     "highlights": []
   },
