@@ -37,6 +37,15 @@ This repo is the **landing page**: a project catalog that links to every experim
 
 Azure Static Web Apps (Free tier). Deployed on push to `main` via GitHub Actions.
 
+## Shared agent run pattern
+
+Reusable unattended-run support is in `/home/runner/work/naurolabs/naurolabs/shared`:
+
+- session checkpoints
+- replay summary generation
+- acceptance checks for reviewer-ready output
+- wrappers for `agentMode`, `mindMe`, and `memex`
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
