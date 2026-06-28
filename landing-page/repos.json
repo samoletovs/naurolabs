@@ -1,28 +1,34 @@
 [
   {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
+    "name": "rosette",
+    "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
+    "url": "https://github.com/samoletovs/rosette",
+    "language": "TypeScript",
     "languages": [
-      "JavaScript",
+      "TypeScript",
+      "Python",
       "CSS",
-      "HTML"
+      "PowerShell",
+      "HTML",
+      "Bicep",
+      "JavaScript"
     ],
     "topics": [
+      "ai",
       "azure",
-      "azure-static-web-apps",
-      "landing-page",
+      "azure-openai",
+      "electrical-planning",
+      "gpt-4o",
       "naurolabs",
-      "research-lab",
-      "vanilla-js"
+      "react",
+      "typescript"
     ],
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-06-27T21:11:54Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
+    "updatedAt": "2026-06-28T15:55:10Z",
+    "createdAt": "2026-03-21T07:44:36Z",
+    "homepage": "https://rosette.naurolabs.com",
     "archived": false,
     "highlights": []
   },
@@ -52,47 +58,14 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-06-27T09:14:03Z",
+    "openIssues": 0,
+    "updatedAt": "2026-06-28T15:54:55Z",
     "createdAt": "2026-03-26T13:14:31Z",
     "homepage": "https://tplan.naurolabs.com",
     "archived": false,
     "highlights": [
       "AI-powered"
     ]
-  },
-  {
-    "name": "rosette",
-    "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
-    "url": "https://github.com/samoletovs/rosette",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "HTML",
-      "Bicep",
-      "JavaScript"
-    ],
-    "topics": [
-      "ai",
-      "azure",
-      "azure-openai",
-      "electrical-planning",
-      "gpt-4o",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-06-27T09:13:44Z",
-    "createdAt": "2026-03-21T07:44:36Z",
-    "homepage": "https://rosette.naurolabs.com",
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "portaBaltica",
@@ -120,8 +93,8 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-06-27T09:12:49Z",
+    "openIssues": 0,
+    "updatedAt": "2026-06-28T15:54:40Z",
     "createdAt": "2026-04-02T08:46:18Z",
     "homepage": null,
     "archived": false,
@@ -153,14 +126,41 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-06-27T09:12:18Z",
+    "openIssues": 0,
+    "updatedAt": "2026-06-28T15:54:23Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": "https://amber.naurolabs.com",
     "archived": false,
     "highlights": [
       "Interactive simulation"
     ]
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-06-28T13:30:13Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
+    "archived": false,
+    "highlights": []
   },
   {
     "name": "atlas",
