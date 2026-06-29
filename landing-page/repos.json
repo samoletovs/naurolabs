@@ -1,24 +1,24 @@
 [
   {
-    "name": "rosette",
-    "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
-    "url": "https://github.com/samoletovs/rosette",
+    "name": "atlas",
+    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
+    "url": "https://github.com/samoletovs/atlas",
     "language": "TypeScript",
     "languages": [
       "TypeScript",
       "Python",
       "CSS",
       "PowerShell",
-      "HTML",
       "Bicep",
-      "JavaScript"
+      "HTML"
     ],
     "topics": [
       "ai",
       "azure",
       "azure-openai",
-      "electrical-planning",
-      "gpt-4o",
+      "cosmos-db",
+      "education",
+      "github-oauth",
       "naurolabs",
       "react",
       "typescript"
@@ -26,9 +26,9 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-06-28T15:55:10Z",
-    "createdAt": "2026-03-21T07:44:36Z",
-    "homepage": "https://rosette.naurolabs.com",
+    "updatedAt": "2026-06-29T11:10:22Z",
+    "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": "https://atlas.naurolabs.com",
     "archived": false,
     "highlights": []
   },
@@ -58,47 +58,14 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-28T15:54:55Z",
+    "openIssues": 1,
+    "updatedAt": "2026-06-29T06:50:41Z",
     "createdAt": "2026-03-26T13:14:31Z",
     "homepage": "https://tplan.naurolabs.com",
     "archived": false,
     "highlights": [
       "AI-powered"
     ]
-  },
-  {
-    "name": "portaBaltica",
-    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
-    "url": "https://github.com/samoletovs/portaBaltica",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "data-visualization",
-      "estonia",
-      "latvia",
-      "lithuania",
-      "naurolabs",
-      "open-data",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-28T15:54:40Z",
-    "createdAt": "2026-04-02T08:46:18Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "amberRepublic",
@@ -126,74 +93,14 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-28T15:54:23Z",
+    "openIssues": 2,
+    "updatedAt": "2026-06-29T06:50:26Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": "https://amber.naurolabs.com",
     "archived": false,
     "highlights": [
       "Interactive simulation"
     ]
-  },
-  {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
-      "naurolabs",
-      "research-lab",
-      "vanilla-js"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-28T13:30:13Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "atlas",
-    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
-    "url": "https://github.com/samoletovs/atlas",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "ai",
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "education",
-      "github-oauth",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-22T11:13:44Z",
-    "createdAt": "2026-05-09T18:07:12Z",
-    "homepage": "https://atlas.naurolabs.com",
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "agentFlow",
@@ -218,10 +125,103 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-06-22T04:55:45Z",
+    "openIssues": 1,
+    "updatedAt": "2026-06-29T04:59:39Z",
     "createdAt": "2026-05-17T07:23:09Z",
     "homepage": "https://agentflow.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-06-28T21:10:40Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "rosette",
+    "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
+    "url": "https://github.com/samoletovs/rosette",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "PowerShell",
+      "HTML",
+      "Bicep",
+      "JavaScript"
+    ],
+    "topics": [
+      "ai",
+      "azure",
+      "azure-openai",
+      "electrical-planning",
+      "gpt-4o",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 8,
+    "updatedAt": "2026-06-28T15:55:10Z",
+    "createdAt": "2026-03-21T07:44:36Z",
+    "homepage": "https://rosette.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "portaBaltica",
+    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
+    "url": "https://github.com/samoletovs/portaBaltica",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "data-visualization",
+      "estonia",
+      "latvia",
+      "lithuania",
+      "naurolabs",
+      "open-data",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 5,
+    "updatedAt": "2026-06-28T15:54:40Z",
+    "createdAt": "2026-04-02T08:46:18Z",
+    "homepage": null,
     "archived": false,
     "highlights": []
   },
