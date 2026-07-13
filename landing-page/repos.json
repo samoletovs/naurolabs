@@ -1,32 +1,5 @@
 [
   {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
-      "naurolabs",
-      "research-lab",
-      "vanilla-js"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-07-12T09:57:23Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "atlas",
     "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
     "url": "https://github.com/samoletovs/atlas",
@@ -52,40 +25,10 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
-    "updatedAt": "2026-07-06T11:11:19Z",
+    "openIssues": 3,
+    "updatedAt": "2026-07-13T11:12:22Z",
     "createdAt": "2026-05-09T18:07:12Z",
     "homepage": "https://atlas.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "agentFlow",
-    "description": "Visualize how nauroLabs agents are built and how information flows through them",
-    "url": "https://github.com/samoletovs/agentFlow",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [
-      "agent-visualization",
-      "ai-agents",
-      "azure",
-      "azure-static-web-apps",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-07-06T09:19:00Z",
-    "createdAt": "2026-05-17T07:23:09Z",
-    "homepage": "https://agentflow.naurolabs.com",
     "archived": false,
     "highlights": []
   },
@@ -115,10 +58,43 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-07-06T08:28:07Z",
+    "openIssues": 2,
+    "updatedAt": "2026-07-13T07:42:20Z",
     "createdAt": "2026-03-21T07:44:36Z",
     "homepage": "https://rosette.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "portaBaltica",
+    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
+    "url": "https://github.com/samoletovs/portaBaltica",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "data-visualization",
+      "estonia",
+      "latvia",
+      "lithuania",
+      "naurolabs",
+      "open-data",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-07-13T07:17:30Z",
+    "createdAt": "2026-04-02T08:46:18Z",
+    "homepage": null,
     "archived": false,
     "highlights": []
   },
@@ -148,47 +124,14 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-07-06T08:21:26Z",
+    "openIssues": 1,
+    "updatedAt": "2026-07-13T02:32:00Z",
     "createdAt": "2026-03-26T13:14:31Z",
     "homepage": "https://tplan.naurolabs.com",
     "archived": false,
     "highlights": [
       "AI-powered"
     ]
-  },
-  {
-    "name": "portaBaltica",
-    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
-    "url": "https://github.com/samoletovs/portaBaltica",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "data-visualization",
-      "estonia",
-      "latvia",
-      "lithuania",
-      "naurolabs",
-      "open-data",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-07-06T07:59:29Z",
-    "createdAt": "2026-04-02T08:46:18Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "amberRepublic",
@@ -216,14 +159,71 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-07-06T07:59:17Z",
+    "openIssues": 1,
+    "updatedAt": "2026-07-13T00:30:43Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": "https://amber.naurolabs.com",
     "archived": false,
     "highlights": [
       "Interactive simulation"
     ]
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-07-12T20:58:39Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "agentFlow",
+    "description": "Visualize how nauroLabs agents are built and how information flows through them",
+    "url": "https://github.com/samoletovs/agentFlow",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [
+      "agent-visualization",
+      "ai-agents",
+      "azure",
+      "azure-static-web-apps",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 5,
+    "updatedAt": "2026-07-06T09:19:00Z",
+    "createdAt": "2026-05-17T07:23:09Z",
+    "homepage": "https://agentflow.naurolabs.com",
+    "archived": false,
+    "highlights": []
   },
   {
     "name": "playGround",
