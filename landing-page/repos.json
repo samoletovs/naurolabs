@@ -1,5 +1,38 @@
 [
   {
+    "name": "playGround",
+    "description": "Classic arcade games as single-file HTML pages — no build step, no framework",
+    "url": "https://github.com/samoletovs/playGround",
+    "language": "HTML",
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "PowerShell",
+      "Python"
+    ],
+    "topics": [
+      "arcade",
+      "canvas",
+      "games",
+      "github-pages",
+      "html",
+      "javascript",
+      "naurolabs",
+      "single-file"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 3,
+    "updatedAt": "2026-07-29T20:13:56Z",
+    "createdAt": "2026-05-09T11:48:34Z",
+    "homepage": "https://playground.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Interactive simulation",
+      "Live demo available"
+    ]
+  },
+  {
     "name": "naurolabs",
     "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -20,7 +53,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-07-29T10:27:41Z",
+    "updatedAt": "2026-07-29T10:48:30Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": "https://naurolabs.com",
     "archived": false,
@@ -52,7 +85,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
+    "openIssues": 4,
     "updatedAt": "2026-07-27T11:15:09Z",
     "createdAt": "2026-05-09T18:07:12Z",
     "homepage": "https://atlas.naurolabs.com",
@@ -85,45 +118,12 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 3,
+    "openIssues": 2,
     "updatedAt": "2026-07-27T07:42:32Z",
     "createdAt": "2026-03-21T07:44:36Z",
     "homepage": "https://rosette.naurolabs.com",
     "archived": false,
     "highlights": []
-  },
-  {
-    "name": "playGround",
-    "description": "Classic arcade games as single-file HTML pages — no build step, no framework",
-    "url": "https://github.com/samoletovs/playGround",
-    "language": "HTML",
-    "languages": [
-      "HTML",
-      "JavaScript",
-      "PowerShell",
-      "Python"
-    ],
-    "topics": [
-      "arcade",
-      "canvas",
-      "games",
-      "github-pages",
-      "html",
-      "javascript",
-      "naurolabs",
-      "single-file"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 4,
-    "updatedAt": "2026-07-27T07:33:49Z",
-    "createdAt": "2026-05-09T11:48:34Z",
-    "homepage": "https://playground.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Interactive simulation",
-      "Live demo available"
-    ]
   },
   {
     "name": "portaBaltica",
@@ -214,7 +214,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
+    "openIssues": 4,
     "updatedAt": "2026-07-27T06:15:28Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": "https://amber.naurolabs.com",
@@ -249,7 +249,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 1,
+    "openIssues": 0,
     "updatedAt": "2026-07-27T02:31:34Z",
     "createdAt": "2026-03-26T13:14:31Z",
     "homepage": "https://tplan.naurolabs.com",
@@ -278,7 +278,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 3,
+    "openIssues": 4,
     "updatedAt": "2026-05-25T10:33:26Z",
     "createdAt": "2026-05-10T15:52:36Z",
     "homepage": "https://art.naurolabs.com",
