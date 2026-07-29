@@ -314,5 +314,307 @@
       "Collectible player card with spider chart skills radar",
       "4 languages: Russian, Latvian, English, Spanish"
     ]
+  },
+  {
+    "name": "dealScout",
+    "accentColor": "#0f766e",
+    "repo": "dealScout",
+    "tagline": "Can an agent tell a real bargain from noise?",
+    "description": "Can an AI agent monitor menswear sales and surface only the deals worth acting on? dealScout scans for strong price-to-quality signals, filters routine discounts, and emails a concise buy recommendation when an offer clears the bar.",
+    "sourceUrl": "https://github.com/samoletovs/dealScout",
+    "sourceVisibility": "private",
+    "icon": "🏷️",
+    "status": "experiment",
+    "category": "ai-agent",
+    "stack": [
+      "Python",
+      "GitHub Actions",
+      "Email"
+    ],
+    "highlights": [
+      "Monitors menswear offers for unusually strong value",
+      "Filters ordinary promotions before they reach the user",
+      "Sends a focused buy signal instead of a deal feed",
+      "Runs automatically on a scheduled workflow"
+    ]
+  },
+  {
+    "name": "foundryLab",
+    "accentColor": "#0891b2",
+    "repo": "foundryLab",
+    "tagline": "When is a managed agent platform the right tool?",
+    "description": "Can one learning lab reveal when a managed agent platform is worth the added machinery? foundryLab builds focused agents for retrieval, scheduling, evaluation, multi-agent work, and vision, then records the cost and engineering trade-offs.",
+    "sourceVisibility": "private",
+    "icon": "🔬",
+    "status": "experiment",
+    "category": "research",
+    "stack": [
+      "Python",
+      "Microsoft Foundry",
+      "Azure Functions",
+      "Bicep"
+    ],
+    "highlights": [
+      "Five experiments spanning retrieval, scheduling, evaluation, orchestration, and vision",
+      "Shared comparison notes turn each build into reusable evidence",
+      "One resource group keeps infrastructure and cost visible",
+      "Smaller models are the default; stronger models are reserved for evaluation gates"
+    ]
+  },
+  {
+    "name": "homeScout",
+    "accentColor": "#16a34a",
+    "repo": "homeScout",
+    "tagline": "Can property data produce a useful shortlist?",
+    "description": "Can an agent combine fragmented property data into advice a home-buyer can act on? homeScout gathers and deduplicates listings, compares asking prices with registered sales, enriches each property with practical signals, and ranks a daily shortlist against explicit criteria.",
+    "sourceVisibility": "private",
+    "icon": "🏠",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "Python",
+      "Azure Functions",
+      "Cosmos DB",
+      "Telegram"
+    ],
+    "highlights": [
+      "Combines listings, developer inventory, auctions, and registered sales",
+      "Flags properties as over- or under-priced using nearby transactions",
+      "Applies hard filters before weighted scoring",
+      "Learns from shortlist feedback without exposing personal criteria"
+    ]
+  },
+  {
+    "name": "nauroBot",
+    "accentColor": "#ca8a04",
+    "repo": "nauroBot",
+    "tagline": "Can one tap govern an autonomous build loop?",
+    "description": "Can lightweight human approval keep autonomous software work accountable without slowing it down? nauroBot turns idea proposals into approve-or-decline actions, starts an automated build after approval, and feeds decline reasons back into the next round of ideation.",
+    "sourceVisibility": "private",
+    "icon": "✅",
+    "status": "in-development",
+    "category": "ai-agent",
+    "stack": [
+      "Python",
+      "Azure Functions",
+      "Telegram",
+      "GitHub API"
+    ],
+    "highlights": [
+      "Closes the loop from proposed idea to approved build",
+      "Uses issues as the shared message bus instead of a database",
+      "Captures decline reasons for better future proposals",
+      "Designed to extend to deployments, status checks, and plan triggers"
+    ]
+  },
+  {
+    "name": "payArc",
+    "accentColor": "#2563eb",
+    "repo": "payArc",
+    "tagline": "Can agents simplify payment operations?",
+    "description": "Can agent-assisted onboarding, routing, and fraud review make payment operations viable for a lean team? payArc is a research experiment mapping the architecture, controls, and risks before any transaction-processing code is built.",
+    "sourceVisibility": "private",
+    "icon": "💳",
+    "status": "experiment",
+    "category": "research",
+    "stack": [
+      "Research",
+      "Architecture",
+      "Risk Modelling"
+    ],
+    "highlights": [
+      "Tests faster merchant onboarding with agent-assisted verification",
+      "Explores per-transaction routing and retry decisions",
+      "Stages fraud controls from deterministic rules to learned models",
+      "Treats merchant abuse as a first-class operational risk"
+    ]
+  },
+  {
+    "name": "mindMe",
+    "accentColor": "#7c3aed",
+    "repo": "mindMe",
+    "tagline": "Can a personal agent reduce daily friction?",
+    "description": "Can a deliberately small personal agent make a private knowledge system useful every day? mindMe delivers a morning briefing, captures thoughts into an inbox, and answers simple status commands while keeping personal content out of logs and public surfaces.",
+    "sourceVisibility": "private",
+    "icon": "🧠",
+    "status": "in-development",
+    "category": "ai-agent",
+    "stack": [
+      "Python",
+      "Microsoft Foundry",
+      "Azure Functions",
+      "Azure Blob Storage",
+      "Telegram"
+    ],
+    "highlights": [
+      "Focused first release: briefing, capture, status, and help",
+      "Mirrors markdown knowledge into a private cloud workspace",
+      "Logs only operational metadata, never personal content",
+      "Uses managed identity and a strict monthly cost ceiling"
+    ]
+  },
+  {
+    "name": "autoRefine",
+    "accentColor": "#64748b",
+    "repo": "autoRefine",
+    "tagline": "Can software projects improve themselves?",
+    "description": "Can an agent continuously evaluate a software project and safely turn gaps into tested changes? autoRefine reads the project's intent and code, researches alternatives, prioritizes improvements, and either opens a change or asks for a decision when confidence is low.",
+    "sourceVisibility": "private",
+    "icon": "🔧",
+    "status": "in-development",
+    "category": "ai-agent",
+    "stack": [
+      "Python",
+      "Microsoft Foundry",
+      "Azure OpenAI",
+      "GitHub API",
+      "pytest"
+    ],
+    "highlights": [
+      "Runs discovery, research, evaluation, planning, testing, and change creation",
+      "Supports direct refinement and idea-filing modes",
+      "Escalates uncertain or risky changes for human review",
+      "Uses tiered models to keep recurring evaluations inexpensive"
+    ]
+  },
+  {
+    "name": "memex",
+    "accentColor": "#9333ea",
+    "repo": "memex",
+    "tagline": "Can one link become durable knowledge?",
+    "description": "Can dropping a link into chat reliably produce useful, cross-linked knowledge instead of another unread bookmark? memex fetches supported sources, extracts durable concepts and decisions, writes structured markdown pages, and opens a reviewable change in the correct vault.",
+    "sourceVisibility": "private",
+    "icon": "🗂️",
+    "status": "in-development",
+    "category": "ai-agent",
+    "stack": [
+      "Python",
+      "Azure Functions",
+      "Cosmos DB",
+      "Azure Service Bus",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "Routes one ingestion engine across three separately governed vaults",
+      "Handles articles, transcripts, discussions, podcasts, and documents",
+      "Produces cross-linked markdown through a reviewable change",
+      "Keeps raw content private with lifecycle-managed storage"
+    ]
+  },
+  {
+    "name": "glassBox",
+    "accentColor": "#0d9488",
+    "repo": "glassBox",
+    "tagline": "Can a useful AI app ship without embedded AI?",
+    "description": "Can a thin interface let a human and an external agent cooperate without embedding a model in the product? glassBox exposes semantic state and safe actions to the user's own agent, while approvals, an action log, and rollback keep the human in control.",
+    "appUrl": "https://glassbox.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "📦",
+    "status": "experiment",
+    "category": "research",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Azure SWA",
+      "Cosmos DB"
+    ],
+    "highlights": [
+      "Ships no embedded model or AI SDK",
+      "Uses semantic HTML and stable state for reliable agent operation",
+      "Requires approval for consequential actions",
+      "Provides an action log, live co-presence, and one-click rollback"
+    ]
+  },
+  {
+    "name": "courier",
+    "accentColor": "#dc2626",
+    "repo": "courier",
+    "tagline": "Can one tiny service handle every lab email?",
+    "description": "Can a shared notification service remove repeated email plumbing without becoming an open relay? courier accepts server-to-server messages from lab projects and sends them through one managed email resource with identity-based authentication and a recipient allowlist.",
+    "sourceVisibility": "private",
+    "icon": "✉️",
+    "status": "in-development",
+    "category": "infrastructure",
+    "stack": [
+      "Python",
+      "Azure Functions",
+      "Azure Communication Services",
+      "Managed Identity"
+    ],
+    "highlights": [
+      "Provides one send endpoint for every lab project",
+      "Supports formatted messages, text fallback, copy, and blind copy",
+      "Rejects recipients outside a configured allowlist",
+      "Uses managed identity instead of connection strings"
+    ]
+  },
+  {
+    "name": "folio",
+    "accentColor": "#0369a1",
+    "repo": "folio",
+    "tagline": "Can AI explain a portfolio without controlling it?",
+    "description": "Can a local-first portfolio tool add useful AI explanation without surrendering financial data or trading authority? folio unifies portfolio views, checks decisions against a written policy, and drafts rebalancing suggestions for human approval while keeping real figures on-device.",
+    "sourceVisibility": "private",
+    "icon": "💼",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "Local-first storage"
+    ],
+    "highlights": [
+      "Extends a deterministic portfolio engine instead of rebuilding one",
+      "Explains and checks decisions but never executes trades",
+      "Keeps holdings, balances, and transaction history off the network",
+      "Sends only figure-free structure to optional cloud models"
+    ]
+  },
+  {
+    "name": "prime",
+    "accentColor": "#65a30d",
+    "repo": "prime",
+    "tagline": "Can a weekly brief make health trends actionable?",
+    "description": "Can a personal health coach turn private trend data into one or two realistic next steps each week? prime analyzes locally prepared health and habit signals, flags meaningful drift, and produces a concise coaching brief without exposing raw medical records.",
+    "sourceVisibility": "private",
+    "icon": "💚",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "Python",
+      "Azure Functions",
+      "Cosmos DB",
+      "Telegram"
+    ],
+    "highlights": [
+      "Processes large health exports as a stream",
+      "Tracks short- and medium-term direction instead of isolated readings",
+      "Falls back to deterministic coaching when no model is configured",
+      "Keeps raw medical data outside the repository and agent context"
+    ]
+  },
+  {
+    "name": "kiosk",
+    "accentColor": "#c2410c",
+    "repo": "kiosk",
+    "tagline": "Can an agent run a real local business?",
+    "description": "Can agent-runnability be the first filter when choosing a real local business, rather than a later optimization? kiosk captures ideas, decomposes their operating loops, scores build-versus-acquire candidates on one rubric, and advances only the businesses an agent could run end to end.",
+    "sourceVisibility": "private",
+    "icon": "🏪",
+    "status": "experiment",
+    "category": "research",
+    "stack": [
+      "Python",
+      "Research",
+      "Public business data"
+    ],
+    "highlights": [
+      "Evaluates new ventures and acquisition candidates with one rubric",
+      "Weights agent-runnability above conventional attractiveness",
+      "Breaks each business into seven operating stages",
+      "Moves candidates through ideation, evaluation, planning, and operation"
+    ]
   }
 ]
