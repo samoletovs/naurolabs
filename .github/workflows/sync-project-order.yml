@@ -2,8 +2,9 @@ name: Sync Project Order
 
 on:
   schedule:
-    # Run at 08:00 and 20:00 UTC (twice per day — safety net)
-    - cron: '0 8,20 * * *'
+    # Daily at 08:00 UTC. Only a safety net - a real change arrives through
+    # repository_dispatch within seconds, so the second sweep never had anything to find.
+    - cron: '0 8 * * *'
   repository_dispatch:
     types: [project-deployed]
   workflow_dispatch: # Allow manual trigger
