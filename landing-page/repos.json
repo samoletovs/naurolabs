@@ -25,39 +25,45 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 7,
-    "updatedAt": "2026-08-02T11:33:48Z",
+    "openIssues": 10,
+    "updatedAt": "2026-08-03T11:16:22Z",
     "createdAt": "2026-05-09T18:07:12Z",
     "homepage": "https://atlas.naurolabs.com",
     "archived": false,
     "highlights": []
   },
   {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
+    "name": "playGround",
+    "description": "Classic arcade games as single-file HTML pages — no build step, no framework",
+    "url": "https://github.com/samoletovs/playGround",
+    "language": "HTML",
     "languages": [
+      "HTML",
       "JavaScript",
-      "CSS",
-      "HTML"
+      "PowerShell",
+      "Python"
     ],
     "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
+      "arcade",
+      "canvas",
+      "games",
+      "github-pages",
+      "html",
+      "javascript",
       "naurolabs",
-      "research-lab",
-      "vanilla-js"
+      "single-file"
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-02T11:33:41Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
+    "openIssues": 3,
+    "updatedAt": "2026-08-03T10:45:55Z",
+    "createdAt": "2026-05-09T11:48:34Z",
+    "homepage": "https://playground.naurolabs.com",
     "archived": false,
-    "highlights": []
+    "highlights": [
+      "Interactive simulation",
+      "Live demo available"
+    ]
   },
   {
     "name": "rosette",
@@ -85,46 +91,40 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 8,
-    "updatedAt": "2026-08-02T11:24:54Z",
+    "openIssues": 9,
+    "updatedAt": "2026-08-03T10:45:29Z",
     "createdAt": "2026-03-21T07:44:36Z",
     "homepage": "https://rosette.naurolabs.com",
     "archived": false,
     "highlights": []
   },
   {
-    "name": "tPlan",
-    "description": "AI workout generator from training methodology books — multi-user, multi-language",
-    "url": "https://github.com/samoletovs/tPlan",
-    "language": "TypeScript",
+    "name": "art",
+    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
+    "url": "https://github.com/samoletovs/art",
+    "language": "HTML",
     "languages": [
-      "TypeScript",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "JavaScript",
-      "HTML"
+      "HTML",
+      "PowerShell"
     ],
     "topics": [
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "fitness",
-      "multilingual",
+      "css",
+      "generative-art",
+      "github-pages",
+      "html",
       "naurolabs",
-      "react",
-      "typescript",
-      "workout"
+      "single-file",
+      "web-art"
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 4,
-    "updatedAt": "2026-08-02T11:24:49Z",
-    "createdAt": "2026-03-26T13:14:31Z",
-    "homepage": "https://tplan.naurolabs.com",
+    "openIssues": 10,
+    "updatedAt": "2026-08-03T10:44:56Z",
+    "createdAt": "2026-05-10T15:52:36Z",
+    "homepage": "https://art.naurolabs.com",
     "archived": false,
     "highlights": [
-      "AI-powered"
+      "Live demo available"
     ]
   },
   {
@@ -154,11 +154,76 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 4,
-    "updatedAt": "2026-08-02T11:24:46Z",
+    "updatedAt": "2026-08-03T10:44:11Z",
     "createdAt": "2026-04-02T08:46:18Z",
     "homepage": null,
     "archived": false,
     "highlights": []
+  },
+  {
+    "name": "agentFlow",
+    "description": "Visualize how nauroLabs agents are built and how information flows through them",
+    "url": "https://github.com/samoletovs/agentFlow",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [
+      "agent-visualization",
+      "ai-agents",
+      "azure",
+      "azure-static-web-apps",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-03T04:58:29Z",
+    "createdAt": "2026-05-17T07:23:09Z",
+    "homepage": "https://agentflow.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "tPlan",
+    "description": "AI workout generator from training methodology books — multi-user, multi-language",
+    "url": "https://github.com/samoletovs/tPlan",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "fitness",
+      "multilingual",
+      "naurolabs",
+      "react",
+      "typescript",
+      "workout"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 3,
+    "updatedAt": "2026-08-03T02:32:15Z",
+    "createdAt": "2026-03-26T13:14:31Z",
+    "homepage": "https://tplan.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "AI-powered"
+    ]
   },
   {
     "name": "amberRepublic",
@@ -186,8 +251,8 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 11,
-    "updatedAt": "2026-08-02T11:24:10Z",
+    "openIssues": 13,
+    "updatedAt": "2026-08-03T00:31:25Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": "https://amber.naurolabs.com",
     "archived": false,
@@ -196,95 +261,30 @@
     ]
   },
   {
-    "name": "agentFlow",
-    "description": "Visualize how nauroLabs agents are built and how information flows through them",
-    "url": "https://github.com/samoletovs/agentFlow",
-    "language": "TypeScript",
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
     "languages": [
-      "TypeScript",
-      "CSS",
-      "Bicep",
       "JavaScript",
+      "CSS",
       "HTML"
     ],
     "topics": [
-      "agent-visualization",
-      "ai-agents",
       "azure",
       "azure-static-web-apps",
+      "landing-page",
       "naurolabs",
-      "react",
-      "typescript"
+      "research-lab",
+      "vanilla-js"
     ],
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-08-02T11:20:35Z",
-    "createdAt": "2026-05-17T07:23:09Z",
-    "homepage": "https://agentflow.naurolabs.com",
+    "updatedAt": "2026-08-02T11:45:59Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
     "archived": false,
     "highlights": []
-  },
-  {
-    "name": "playGround",
-    "description": "Classic arcade games as single-file HTML pages — no build step, no framework",
-    "url": "https://github.com/samoletovs/playGround",
-    "language": "HTML",
-    "languages": [
-      "HTML",
-      "JavaScript",
-      "PowerShell",
-      "Python"
-    ],
-    "topics": [
-      "arcade",
-      "canvas",
-      "games",
-      "github-pages",
-      "html",
-      "javascript",
-      "naurolabs",
-      "single-file"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 4,
-    "updatedAt": "2026-07-29T20:13:56Z",
-    "createdAt": "2026-05-09T11:48:34Z",
-    "homepage": "https://playground.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Interactive simulation",
-      "Live demo available"
-    ]
-  },
-  {
-    "name": "art",
-    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
-    "url": "https://github.com/samoletovs/art",
-    "language": "HTML",
-    "languages": [
-      "HTML",
-      "PowerShell"
-    ],
-    "topics": [
-      "css",
-      "generative-art",
-      "github-pages",
-      "html",
-      "naurolabs",
-      "single-file",
-      "web-art"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 11,
-    "updatedAt": "2026-05-25T10:33:26Z",
-    "createdAt": "2026-05-10T15:52:36Z",
-    "homepage": "https://art.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Live demo available"
-    ]
   }
 ]

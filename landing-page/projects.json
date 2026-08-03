@@ -3,7 +3,7 @@
     "name": "atlas",
     "accentColor": "#d4a574",
     "repo": "atlas",
-    "lastUpdated": "2026-08-02T11:33:25Z",
+    "lastUpdated": "2026-08-03T11:14:04Z",
     "tagline": "Can AI teach you what AI just helped you build?",
     "description": "When Copilot writes the code, you get the result without the understanding. atlas closes that gap. It watches your GitHub activity, generates phone-readable lessons grounded in both your work and Microsoft Learn, and tracks what you've covered so it never repeats itself. A quiet librarian sitting between your build sessions and your understanding.",
     "appUrl": "https://atlas.naurolabs.com",
@@ -29,64 +29,60 @@
     ]
   },
   {
-    "name": "tPlan",
-    "accentColor": "#2563EB",
-    "repo": "tPlan",
-    "lastUpdated": "2026-08-02T11:24:45Z",
-    "tagline": "Can AI turn a training book into a real coach?",
-    "description": "Can AI read a training methodology book and act as a coach — not a tracker, not a generator, an actual coach? Feed it a calisthenics manual, it parses the progression rules, builds your plan, tracks your reps, and advances you when the book says you're ready. Turns out it follows the rules more faithfully than most humans. Real training data in, real progression out — and any book becomes the methodology.",
-    "appUrl": "https://tplan.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "💪",
+    "name": "art",
+    "repo": "art",
+    "lastUpdated": "2026-08-03T10:43:50Z",
+    "tagline": "Can a personal gallery be just a folder of HTML files?",
+    "description": "An experiment in publishing without infrastructure. A folder of single-file HTML pages where each piece is its own little corner of the web — no CMS, no database, no build pipeline. The hypothesis: when AI handles the markup and CSS, the work matters more than the stack, and a non-developer can run their own site indefinitely.",
+    "appUrl": "https://art.naurolabs.com",
+    "sourceUrl": "https://github.com/samoletovs/art",
+    "sourceVisibility": "public",
+    "icon": "🎨",
     "status": "experiment",
     "category": "experiment",
     "stack": [
-      "React",
-      "Vite",
-      "Azure SWA",
-      "Azure Functions",
-      "Cosmos DB",
-      "Azure OpenAI"
+      "HTML",
+      "CSS",
+      "GitHub Pages"
     ],
     "highlights": [
-      "Book → program: AI parses methodology into structured plans",
-      "Auto-progression follows the book's own advancement rules",
-      "Multilingual — English, Russian, Latvian, Spanish",
-      "Phase 2 web app live; user-uploaded books planned for Phase 3"
+      "Single-file HTML pages — readable source, no toolchain",
+      "Push to main, live in a minute on GitHub Pages",
+      "Sister project to playGround — same pattern, different audience",
+      "Built for people who paint and write, not people who deploy"
     ]
   },
   {
-    "name": "rosette",
-    "accentColor": "#F97316",
-    "repo": "rosette",
-    "lastUpdated": "2026-08-02T11:24:41Z",
-    "tagline": "Where the hell do I put my sockets?",
-    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Latvian, Lithuanian, and Estonian codes are live — the kind of specialised knowledge that normally costs a consultant's hourly rate.",
-    "appUrl": "https://rosette.naurolabs.com",
-    "sourceUrl": null,
-    "sourceVisibility": "private",
-    "icon": "🔌",
-    "status": "in-development",
-    "category": "tool",
+    "name": "playGround",
+    "accentColor": "#15803d",
+    "repo": "playGround",
+    "lastUpdated": "2026-08-03T10:43:44Z",
+    "tagline": "Can kids build their own games with AI?",
+    "description": "An experiment in lowering the floor for who gets to ship software. The starter shelf has four classic arcade games — Snake, Tetris, Breakout, Table Tennis — each built as a single self-contained HTML file so a kid can open the source, change it, and put it back online. The hypothesis: when AI handles the boring parts, the catalog grows with whatever kids actually want to make. Four games today. The rest is up to whoever shows up.",
+    "appUrl": "https://playground.naurolabs.com",
+    "sourceUrl": "https://github.com/samoletovs/playGround",
+    "sourceVisibility": "public",
+    "icon": "🎮",
+    "status": "experiment",
+    "category": "game",
     "stack": [
-      "React",
-      "Vite",
-      "Azure SWA",
-      "Azure Functions",
-      "Azure OpenAI"
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "GitHub Pages"
     ],
     "highlights": [
-      "AI analyzes floor plans to detect rooms and dimensions",
-      "Country-specific socket rules (LV, LT, EE)",
-      "SVG circuit and wiring diagrams",
-      "Possibly the world's most niche AI application"
+      "Workspace for young creators, not a finished games arcade",
+      "Four starter games — Snake, Tetris, Breakout, Table Tennis",
+      "Single-file source — readable, remixable, no toolchain",
+      "Catalog grows as kids ship their own ideas"
     ]
   },
   {
     "name": "portaBaltica",
     "accentColor": "#0369a1",
     "repo": "portaBaltica",
-    "lastUpdated": "2026-08-02T11:24:36Z",
+    "lastUpdated": "2026-08-03T10:43:32Z",
     "tagline": "Can a public dashboard pay its own bills?",
     "description": "NauroLabs' first experiment in self-funding. A live economic intelligence dashboard for the Baltics — 30+ economic, trade, labour, energy, environmental, and maritime indicators across Latvia, Estonia, and Lithuania, all from free government APIs with an AI layer reading the trends in real time. The hypothesis: free raw data is a commodity, but the interpretation isn't. Free public dashboard, paid API and alerts. Goal: cover its own infrastructure cost and fund the next experiment.",
     "appUrl": "https://portabaltica.naurolabs.com",
@@ -112,10 +108,37 @@
     ]
   },
   {
+    "name": "rosette",
+    "accentColor": "#F97316",
+    "repo": "rosette",
+    "lastUpdated": "2026-08-03T10:43:18Z",
+    "tagline": "Where the hell do I put my sockets?",
+    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Latvian, Lithuanian, and Estonian codes are live — the kind of specialised knowledge that normally costs a consultant's hourly rate.",
+    "appUrl": "https://rosette.naurolabs.com",
+    "sourceUrl": null,
+    "sourceVisibility": "private",
+    "icon": "🔌",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "AI analyzes floor plans to detect rooms and dimensions",
+      "Country-specific socket rules (LV, LT, EE)",
+      "SVG circuit and wiring diagrams",
+      "Possibly the world's most niche AI application"
+    ]
+  },
+  {
     "name": "amberRepublic",
     "accentColor": "#9E3039",
     "repo": "amberRepublic",
-    "lastUpdated": "2026-08-02T11:23:53Z",
+    "lastUpdated": "2026-08-03T10:10:14Z",
     "tagline": "What if a nation sim used real statistics?",
     "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every policy decision ripples through the economy in ways you won't see for three turns — exactly how the real thing works.",
     "appUrl": "https://amber.naurolabs.com",
@@ -139,7 +162,7 @@
   {
     "name": "agentFlow",
     "repo": "agentFlow",
-    "lastUpdated": "2026-08-02T11:20:26Z",
+    "lastUpdated": "2026-08-03T04:58:34Z",
     "tagline": "Can we make multi-agent logic visible and debuggable?",
     "description": "A visual playground for understanding how nauroLabs agents collaborate. It maps agents, tool calls, and transitions into a live flow so complex orchestration is easier to inspect, explain, and improve.",
     "appUrl": "https://agentflow.naurolabs.com",
@@ -162,53 +185,30 @@
     ]
   },
   {
-    "name": "playGround",
-    "accentColor": "#15803d",
-    "repo": "playGround",
-    "lastUpdated": "2026-07-29T20:13:44Z",
-    "tagline": "Can kids build their own games with AI?",
-    "description": "An experiment in lowering the floor for who gets to ship software. The starter shelf has four classic arcade games — Snake, Tetris, Breakout, Table Tennis — each built as a single self-contained HTML file so a kid can open the source, change it, and put it back online. The hypothesis: when AI handles the boring parts, the catalog grows with whatever kids actually want to make. Four games today. The rest is up to whoever shows up.",
-    "appUrl": "https://playground.naurolabs.com",
-    "sourceUrl": "https://github.com/samoletovs/playGround",
-    "sourceVisibility": "public",
-    "icon": "🎮",
-    "status": "experiment",
-    "category": "game",
-    "stack": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "GitHub Pages"
-    ],
-    "highlights": [
-      "Workspace for young creators, not a finished games arcade",
-      "Four starter games — Snake, Tetris, Breakout, Table Tennis",
-      "Single-file source — readable, remixable, no toolchain",
-      "Catalog grows as kids ship their own ideas"
-    ]
-  },
-  {
-    "name": "art",
-    "repo": "art",
-    "lastUpdated": "2026-05-25T10:31:14Z",
-    "tagline": "Can a personal gallery be just a folder of HTML files?",
-    "description": "An experiment in publishing without infrastructure. A folder of single-file HTML pages where each piece is its own little corner of the web — no CMS, no database, no build pipeline. The hypothesis: when AI handles the markup and CSS, the work matters more than the stack, and a non-developer can run their own site indefinitely.",
-    "appUrl": "https://art.naurolabs.com",
-    "sourceUrl": "https://github.com/samoletovs/art",
-    "sourceVisibility": "public",
-    "icon": "🎨",
+    "name": "tPlan",
+    "accentColor": "#2563EB",
+    "repo": "tPlan",
+    "lastUpdated": "2026-08-03T02:32:18Z",
+    "tagline": "Can AI turn a training book into a real coach?",
+    "description": "Can AI read a training methodology book and act as a coach — not a tracker, not a generator, an actual coach? Feed it a calisthenics manual, it parses the progression rules, builds your plan, tracks your reps, and advances you when the book says you're ready. Turns out it follows the rules more faithfully than most humans. Real training data in, real progression out — and any book becomes the methodology.",
+    "appUrl": "https://tplan.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "💪",
     "status": "experiment",
     "category": "experiment",
     "stack": [
-      "HTML",
-      "CSS",
-      "GitHub Pages"
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Cosmos DB",
+      "Azure OpenAI"
     ],
     "highlights": [
-      "Single-file HTML pages — readable source, no toolchain",
-      "Push to main, live in a minute on GitHub Pages",
-      "Sister project to playGround — same pattern, different audience",
-      "Built for people who paint and write, not people who deploy"
+      "Book → program: AI parses methodology into structured plans",
+      "Auto-progression follows the book's own advancement rules",
+      "Multilingual — English, Russian, Latvian, Spanish",
+      "Phase 2 web app live; user-uploaded books planned for Phase 3"
     ]
   },
   {
