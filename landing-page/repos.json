@@ -26,9 +26,36 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 10,
-    "updatedAt": "2026-08-03T11:16:22Z",
+    "updatedAt": "2026-08-03T13:44:17Z",
     "createdAt": "2026-05-09T18:07:12Z",
     "homepage": "https://atlas.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-03T11:23:56Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
     "archived": false,
     "highlights": []
   },
@@ -55,7 +82,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 3,
+    "openIssues": 4,
     "updatedAt": "2026-08-03T10:45:55Z",
     "createdAt": "2026-05-09T11:48:34Z",
     "homepage": "https://playground.naurolabs.com",
@@ -118,7 +145,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 10,
+    "openIssues": 11,
     "updatedAt": "2026-08-03T10:44:56Z",
     "createdAt": "2026-05-10T15:52:36Z",
     "homepage": "https://art.naurolabs.com",
@@ -216,7 +243,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 3,
+    "openIssues": 4,
     "updatedAt": "2026-08-03T02:32:15Z",
     "createdAt": "2026-03-26T13:14:31Z",
     "homepage": "https://tplan.naurolabs.com",
@@ -259,32 +286,5 @@
     "highlights": [
       "Interactive simulation"
     ]
-  },
-  {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
-      "naurolabs",
-      "research-lab",
-      "vanilla-js"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-02T11:45:59Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
-    "archived": false,
-    "highlights": []
   }
 ]
