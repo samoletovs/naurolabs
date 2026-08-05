@@ -26,11 +26,75 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 10,
-    "updatedAt": "2026-08-03T13:44:17Z",
+    "updatedAt": "2026-08-05T08:38:24Z",
     "createdAt": "2026-05-09T18:07:12Z",
     "homepage": "https://atlas.naurolabs.com",
     "archived": false,
     "highlights": []
+  },
+  {
+    "name": "art",
+    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
+    "url": "https://github.com/samoletovs/art",
+    "language": "HTML",
+    "languages": [
+      "HTML",
+      "PowerShell"
+    ],
+    "topics": [
+      "css",
+      "generative-art",
+      "github-pages",
+      "html",
+      "naurolabs",
+      "single-file",
+      "web-art"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 11,
+    "updatedAt": "2026-08-05T08:38:08Z",
+    "createdAt": "2026-05-10T15:52:36Z",
+    "homepage": "https://art.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Live demo available"
+    ]
+  },
+  {
+    "name": "tPlan",
+    "description": "AI workout generator from training methodology books — multi-user, multi-language",
+    "url": "https://github.com/samoletovs/tPlan",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "fitness",
+      "multilingual",
+      "naurolabs",
+      "react",
+      "typescript",
+      "workout"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 6,
+    "updatedAt": "2026-08-05T08:37:48Z",
+    "createdAt": "2026-03-26T13:14:31Z",
+    "homepage": "https://tplan.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "AI-powered"
+    ]
   },
   {
     "name": "naurolabs",
@@ -53,7 +117,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-08-03T11:23:56Z",
+    "updatedAt": "2026-08-04T10:39:51Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": "https://naurolabs.com",
     "archived": false,
@@ -126,35 +190,6 @@
     "highlights": []
   },
   {
-    "name": "art",
-    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
-    "url": "https://github.com/samoletovs/art",
-    "language": "HTML",
-    "languages": [
-      "HTML",
-      "PowerShell"
-    ],
-    "topics": [
-      "css",
-      "generative-art",
-      "github-pages",
-      "html",
-      "naurolabs",
-      "single-file",
-      "web-art"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 11,
-    "updatedAt": "2026-08-03T10:44:56Z",
-    "createdAt": "2026-05-10T15:52:36Z",
-    "homepage": "https://art.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Live demo available"
-    ]
-  },
-  {
     "name": "portaBaltica",
     "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
     "url": "https://github.com/samoletovs/portaBaltica",
@@ -218,41 +253,6 @@
     "highlights": []
   },
   {
-    "name": "tPlan",
-    "description": "AI workout generator from training methodology books — multi-user, multi-language",
-    "url": "https://github.com/samoletovs/tPlan",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "fitness",
-      "multilingual",
-      "naurolabs",
-      "react",
-      "typescript",
-      "workout"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 4,
-    "updatedAt": "2026-08-03T02:32:15Z",
-    "createdAt": "2026-03-26T13:14:31Z",
-    "homepage": "https://tplan.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "AI-powered"
-    ]
-  },
-  {
     "name": "amberRepublic",
     "description": "Latvia political and economic simulation game — shape the country's future",
     "url": "https://github.com/samoletovs/amberRepublic",
@@ -278,7 +278,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 13,
+    "openIssues": 15,
     "updatedAt": "2026-08-03T00:31:25Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": "https://amber.naurolabs.com",
