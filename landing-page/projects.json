@@ -3,7 +3,7 @@
     "name": "rosette",
     "accentColor": "#F97316",
     "repo": "rosette",
-    "lastUpdated": "2026-08-07T00:42:57Z",
+    "lastUpdated": "2026-08-07T00:45:18Z",
     "tagline": "Where the hell do I put my sockets?",
     "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Latvian, Lithuanian, and Estonian codes are live — the kind of specialised knowledge that normally costs a consultant's hourly rate.",
     "appUrl": "https://rosette.naurolabs.com",
