@@ -1,30 +1,139 @@
 [
   {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
+    "name": "rosette",
+    "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
+    "url": "https://github.com/samoletovs/rosette",
+    "language": "TypeScript",
     "languages": [
-      "JavaScript",
+      "TypeScript",
+      "Python",
       "CSS",
+      "PowerShell",
+      "HTML",
+      "Bicep",
+      "JavaScript"
+    ],
+    "topics": [
+      "ai",
+      "azure",
+      "azure-openai",
+      "electrical-planning",
+      "gpt-4o",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 1,
+    "updatedAt": "2026-08-07T00:42:15Z",
+    "createdAt": "2026-03-21T07:44:36Z",
+    "homepage": "https://rosette.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "amberRepublic",
+    "description": "Latvia political and economic simulation game — shape the country's future",
+    "url": "https://github.com/samoletovs/amberRepublic",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "game",
+      "latvia",
+      "naurolabs",
+      "react",
+      "simulation",
+      "tailwindcss",
+      "typescript",
+      "vite"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 6,
+    "updatedAt": "2026-08-07T00:41:37Z",
+    "createdAt": "2026-03-23T21:21:45Z",
+    "homepage": "https://amber.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Interactive simulation"
+    ]
+  },
+  {
+    "name": "portaBaltica",
+    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
+    "url": "https://github.com/samoletovs/portaBaltica",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "PowerShell",
+      "CSS",
+      "Bicep",
       "HTML"
     ],
     "topics": [
       "azure",
-      "azure-static-web-apps",
-      "landing-page",
+      "data-visualization",
+      "estonia",
+      "latvia",
+      "lithuania",
       "naurolabs",
-      "research-lab",
-      "vanilla-js"
+      "open-data",
+      "react",
+      "typescript"
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-05T10:36:15Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
+    "openIssues": 4,
+    "updatedAt": "2026-08-06T18:58:40Z",
+    "createdAt": "2026-04-02T08:46:18Z",
+    "homepage": null,
     "archived": false,
     "highlights": []
+  },
+  {
+    "name": "tPlan",
+    "description": "AI workout generator from training methodology books — multi-user, multi-language",
+    "url": "https://github.com/samoletovs/tPlan",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "fitness",
+      "multilingual",
+      "naurolabs",
+      "react",
+      "typescript",
+      "workout"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 10,
+    "updatedAt": "2026-08-06T18:57:13Z",
+    "createdAt": "2026-03-26T13:14:31Z",
+    "homepage": "https://tplan.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "AI-powered"
+    ]
   },
   {
     "name": "atlas",
@@ -53,9 +162,36 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 10,
-    "updatedAt": "2026-08-05T08:38:24Z",
+    "updatedAt": "2026-08-06T18:57:12Z",
     "createdAt": "2026-05-09T18:07:12Z",
     "homepage": "https://atlas.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-06T10:39:53Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
     "archived": false,
     "highlights": []
   },
@@ -86,41 +222,6 @@
     "archived": false,
     "highlights": [
       "Live demo available"
-    ]
-  },
-  {
-    "name": "tPlan",
-    "description": "AI workout generator from training methodology books — multi-user, multi-language",
-    "url": "https://github.com/samoletovs/tPlan",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "fitness",
-      "multilingual",
-      "naurolabs",
-      "react",
-      "typescript",
-      "workout"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 10,
-    "updatedAt": "2026-08-05T08:37:48Z",
-    "createdAt": "2026-03-26T13:14:31Z",
-    "homepage": "https://tplan.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "AI-powered"
     ]
   },
   {
@@ -157,72 +258,6 @@
     ]
   },
   {
-    "name": "rosette",
-    "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
-    "url": "https://github.com/samoletovs/rosette",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "HTML",
-      "Bicep",
-      "JavaScript"
-    ],
-    "topics": [
-      "ai",
-      "azure",
-      "azure-openai",
-      "electrical-planning",
-      "gpt-4o",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 9,
-    "updatedAt": "2026-08-03T10:45:29Z",
-    "createdAt": "2026-03-21T07:44:36Z",
-    "homepage": "https://rosette.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "portaBaltica",
-    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
-    "url": "https://github.com/samoletovs/portaBaltica",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "data-visualization",
-      "estonia",
-      "latvia",
-      "lithuania",
-      "naurolabs",
-      "open-data",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 4,
-    "updatedAt": "2026-08-03T10:44:11Z",
-    "createdAt": "2026-04-02T08:46:18Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "agentFlow",
     "description": "Visualize how nauroLabs agents are built and how information flows through them",
     "url": "https://github.com/samoletovs/agentFlow",
@@ -251,40 +286,5 @@
     "homepage": "https://agentflow.naurolabs.com",
     "archived": false,
     "highlights": []
-  },
-  {
-    "name": "amberRepublic",
-    "description": "Latvia political and economic simulation game — shape the country's future",
-    "url": "https://github.com/samoletovs/amberRepublic",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "Python",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "game",
-      "latvia",
-      "naurolabs",
-      "react",
-      "simulation",
-      "tailwindcss",
-      "typescript",
-      "vite"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 17,
-    "updatedAt": "2026-08-03T00:31:25Z",
-    "createdAt": "2026-03-23T21:21:45Z",
-    "homepage": "https://amber.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Interactive simulation"
-    ]
   }
 ]
