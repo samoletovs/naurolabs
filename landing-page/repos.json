@@ -1,5 +1,71 @@
 [
   {
+    "name": "playGround",
+    "description": "Classic arcade games as single-file HTML pages — no build step, no framework",
+    "url": "https://github.com/samoletovs/playGround",
+    "language": "HTML",
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "PowerShell",
+      "Python"
+    ],
+    "topics": [
+      "arcade",
+      "canvas",
+      "games",
+      "github-pages",
+      "html",
+      "javascript",
+      "naurolabs",
+      "single-file"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 7,
+    "updatedAt": "2026-08-07T14:56:25Z",
+    "createdAt": "2026-05-09T11:48:34Z",
+    "homepage": "https://playground.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Interactive simulation",
+      "Live demo available"
+    ]
+  },
+  {
+    "name": "atlas",
+    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
+    "url": "https://github.com/samoletovs/atlas",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "ai",
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "education",
+      "github-oauth",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 13,
+    "updatedAt": "2026-08-07T14:54:27Z",
+    "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": "https://atlas.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "naurolabs",
     "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -20,7 +86,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-08-07T07:40:13Z",
+    "updatedAt": "2026-08-07T09:01:14Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": "https://naurolabs.com",
     "archived": false,
@@ -87,7 +153,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
+    "openIssues": 2,
     "updatedAt": "2026-08-07T00:45:21Z",
     "createdAt": "2026-03-21T07:44:36Z",
     "homepage": "https://rosette.naurolabs.com",
@@ -163,39 +229,6 @@
     ]
   },
   {
-    "name": "atlas",
-    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
-    "url": "https://github.com/samoletovs/atlas",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "ai",
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "education",
-      "github-oauth",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 13,
-    "updatedAt": "2026-08-06T18:57:12Z",
-    "createdAt": "2026-05-09T18:07:12Z",
-    "homepage": "https://atlas.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "art",
     "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
     "url": "https://github.com/samoletovs/art",
@@ -215,45 +248,12 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 11,
+    "openIssues": 14,
     "updatedAt": "2026-08-05T08:38:08Z",
     "createdAt": "2026-05-10T15:52:36Z",
     "homepage": "https://art.naurolabs.com",
     "archived": false,
     "highlights": [
-      "Live demo available"
-    ]
-  },
-  {
-    "name": "playGround",
-    "description": "Classic arcade games as single-file HTML pages — no build step, no framework",
-    "url": "https://github.com/samoletovs/playGround",
-    "language": "HTML",
-    "languages": [
-      "HTML",
-      "JavaScript",
-      "PowerShell",
-      "Python"
-    ],
-    "topics": [
-      "arcade",
-      "canvas",
-      "games",
-      "github-pages",
-      "html",
-      "javascript",
-      "naurolabs",
-      "single-file"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 4,
-    "updatedAt": "2026-08-03T10:45:55Z",
-    "createdAt": "2026-05-09T11:48:34Z",
-    "homepage": "https://playground.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Interactive simulation",
       "Live demo available"
     ]
   },
