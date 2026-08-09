@@ -1,28 +1,34 @@
 [
   {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
+    "name": "atlas",
+    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
+    "url": "https://github.com/samoletovs/atlas",
+    "language": "TypeScript",
     "languages": [
-      "JavaScript",
+      "TypeScript",
+      "Python",
       "CSS",
+      "PowerShell",
+      "Bicep",
       "HTML"
     ],
     "topics": [
+      "ai",
       "azure",
-      "azure-static-web-apps",
-      "landing-page",
+      "azure-openai",
+      "cosmos-db",
+      "education",
+      "github-oauth",
       "naurolabs",
-      "research-lab",
-      "vanilla-js"
+      "react",
+      "typescript"
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-09T07:01:11Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
+    "openIssues": 15,
+    "updatedAt": "2026-08-09T14:36:46Z",
+    "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": "https://atlas.naurolabs.com",
     "archived": false,
     "highlights": []
   },
@@ -49,8 +55,8 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 7,
-    "updatedAt": "2026-08-07T14:56:25Z",
+    "openIssues": 6,
+    "updatedAt": "2026-08-09T14:36:44Z",
     "createdAt": "2026-05-09T11:48:34Z",
     "homepage": "https://playground.naurolabs.com",
     "archived": false,
@@ -60,37 +66,68 @@
     ]
   },
   {
-    "name": "atlas",
-    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
-    "url": "https://github.com/samoletovs/atlas",
-    "language": "TypeScript",
+    "name": "art",
+    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
+    "url": "https://github.com/samoletovs/art",
+    "language": "HTML",
     "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "HTML"
+      "HTML",
+      "PowerShell"
     ],
     "topics": [
-      "ai",
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "education",
-      "github-oauth",
+      "css",
+      "generative-art",
+      "github-pages",
+      "html",
       "naurolabs",
-      "react",
-      "typescript"
+      "single-file",
+      "web-art"
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 16,
-    "updatedAt": "2026-08-07T14:54:27Z",
-    "createdAt": "2026-05-09T18:07:12Z",
-    "homepage": "https://atlas.naurolabs.com",
+    "openIssues": 13,
+    "updatedAt": "2026-08-09T14:36:34Z",
+    "createdAt": "2026-05-10T15:52:36Z",
+    "homepage": "https://art.naurolabs.com",
     "archived": false,
-    "highlights": []
+    "highlights": [
+      "Live demo available"
+    ]
+  },
+  {
+    "name": "tPlan",
+    "description": "AI workout generator from training methodology books — multi-user, multi-language",
+    "url": "https://github.com/samoletovs/tPlan",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "fitness",
+      "multilingual",
+      "naurolabs",
+      "react",
+      "typescript",
+      "workout"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 9,
+    "updatedAt": "2026-08-09T14:36:15Z",
+    "createdAt": "2026-03-26T13:14:31Z",
+    "homepage": "https://tplan.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "AI-powered"
+    ]
   },
   {
     "name": "amberRepublic",
@@ -118,8 +155,8 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 7,
-    "updatedAt": "2026-08-07T07:18:51Z",
+    "openIssues": 8,
+    "updatedAt": "2026-08-09T14:35:46Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": "https://amber.naurolabs.com",
     "archived": false,
@@ -153,10 +190,37 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-08-07T00:45:21Z",
+    "openIssues": 1,
+    "updatedAt": "2026-08-09T14:35:43Z",
     "createdAt": "2026-03-21T07:44:36Z",
     "homepage": "https://rosette.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-09T08:43:31Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
     "archived": false,
     "highlights": []
   },
@@ -192,70 +256,6 @@
     "homepage": null,
     "archived": false,
     "highlights": []
-  },
-  {
-    "name": "tPlan",
-    "description": "AI workout generator from training methodology books — multi-user, multi-language",
-    "url": "https://github.com/samoletovs/tPlan",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "fitness",
-      "multilingual",
-      "naurolabs",
-      "react",
-      "typescript",
-      "workout"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 10,
-    "updatedAt": "2026-08-06T18:57:13Z",
-    "createdAt": "2026-03-26T13:14:31Z",
-    "homepage": "https://tplan.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "AI-powered"
-    ]
-  },
-  {
-    "name": "art",
-    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
-    "url": "https://github.com/samoletovs/art",
-    "language": "HTML",
-    "languages": [
-      "HTML",
-      "PowerShell"
-    ],
-    "topics": [
-      "css",
-      "generative-art",
-      "github-pages",
-      "html",
-      "naurolabs",
-      "single-file",
-      "web-art"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 14,
-    "updatedAt": "2026-08-05T08:38:08Z",
-    "createdAt": "2026-05-10T15:52:36Z",
-    "homepage": "https://art.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Live demo available"
-    ]
   },
   {
     "name": "agentFlow",
