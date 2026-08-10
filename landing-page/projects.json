@@ -1,5 +1,30 @@
 [
   {
+    "name": "amberRepublic",
+    "accentColor": "#9E3039",
+    "repo": "amberRepublic",
+    "lastUpdated": "2026-08-10T01:52:27Z",
+    "tagline": "What if a nation sim used real statistics?",
+    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every policy decision ripples through the economy in ways you won't see for three turns — exactly how the real thing works.",
+    "appUrl": "https://amber.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "🏛️",
+    "status": "in-development",
+    "category": "game",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA"
+    ],
+    "highlights": [
+      "Starting conditions from Latvia's actual 2025 statistics",
+      "Second-order effects — emigration causes workforce shortage causes more emigration",
+      "AI-generated events for unique playthroughs",
+      "Every decision is a painful trade-off"
+    ]
+  },
+  {
     "name": "art",
     "repo": "art",
     "lastUpdated": "2026-08-09T14:36:10Z",
@@ -130,31 +155,6 @@
       "Country-specific socket rules (LV, LT, EE)",
       "SVG circuit and wiring diagrams",
       "Possibly the world's most niche AI application"
-    ]
-  },
-  {
-    "name": "amberRepublic",
-    "accentColor": "#9E3039",
-    "repo": "amberRepublic",
-    "lastUpdated": "2026-08-09T14:35:19Z",
-    "tagline": "What if a nation sim used real statistics?",
-    "description": "Can real national statistics and AI make a governance simulation genuinely educational — and still fun? You run Latvia starting from actual 2025 data: 1.86M people, 20,000 emigrating annually, NATO border tensions, unfinished megaprojects. Every policy decision ripples through the economy in ways you won't see for three turns — exactly how the real thing works.",
-    "appUrl": "https://amber.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "🏛️",
-    "status": "in-development",
-    "category": "game",
-    "stack": [
-      "React",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA"
-    ],
-    "highlights": [
-      "Starting conditions from Latvia's actual 2025 statistics",
-      "Second-order effects — emigration causes workforce shortage causes more emigration",
-      "AI-generated events for unique playthroughs",
-      "Every decision is a painful trade-off"
     ]
   },
   {
