@@ -1,5 +1,67 @@
 [
   {
+    "name": "art",
+    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
+    "url": "https://github.com/samoletovs/art",
+    "language": "HTML",
+    "languages": [
+      "HTML",
+      "PowerShell"
+    ],
+    "topics": [
+      "css",
+      "generative-art",
+      "github-pages",
+      "html",
+      "naurolabs",
+      "single-file",
+      "web-art"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 13,
+    "updatedAt": "2026-08-11T08:58:50Z",
+    "createdAt": "2026-05-10T15:52:36Z",
+    "homepage": "https://art.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Live demo available"
+    ]
+  },
+  {
+    "name": "playGround",
+    "description": "Classic arcade games as single-file HTML pages — no build step, no framework",
+    "url": "https://github.com/samoletovs/playGround",
+    "language": "HTML",
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "PowerShell",
+      "Python"
+    ],
+    "topics": [
+      "arcade",
+      "canvas",
+      "games",
+      "github-pages",
+      "html",
+      "javascript",
+      "naurolabs",
+      "single-file"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 6,
+    "updatedAt": "2026-08-11T08:58:44Z",
+    "createdAt": "2026-05-09T11:48:34Z",
+    "homepage": "https://playground.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Interactive simulation",
+      "Live demo available"
+    ]
+  },
+  {
     "name": "atlas",
     "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
     "url": "https://github.com/samoletovs/atlas",
@@ -25,12 +87,47 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 17,
-    "updatedAt": "2026-08-10T11:13:59Z",
+    "openIssues": 15,
+    "updatedAt": "2026-08-11T08:58:31Z",
     "createdAt": "2026-05-09T18:07:12Z",
     "homepage": "https://atlas.naurolabs.com",
     "archived": false,
     "highlights": []
+  },
+  {
+    "name": "amberRepublic",
+    "description": "Latvia political and economic simulation game — shape the country's future",
+    "url": "https://github.com/samoletovs/amberRepublic",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "game",
+      "latvia",
+      "naurolabs",
+      "react",
+      "simulation",
+      "tailwindcss",
+      "typescript",
+      "vite"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 8,
+    "updatedAt": "2026-08-11T08:58:20Z",
+    "createdAt": "2026-03-23T21:21:45Z",
+    "homepage": "https://amber.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Interactive simulation"
+    ]
   },
   {
     "name": "naurolabs",
@@ -53,7 +150,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-08-10T09:23:27Z",
+    "updatedAt": "2026-08-11T08:57:19Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": "https://naurolabs.com",
     "archived": false,
@@ -188,103 +285,6 @@
     "archived": false,
     "highlights": [
       "AI-powered"
-    ]
-  },
-  {
-    "name": "amberRepublic",
-    "description": "Latvia political and economic simulation game — shape the country's future",
-    "url": "https://github.com/samoletovs/amberRepublic",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "Python",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "game",
-      "latvia",
-      "naurolabs",
-      "react",
-      "simulation",
-      "tailwindcss",
-      "typescript",
-      "vite"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 10,
-    "updatedAt": "2026-08-10T01:52:30Z",
-    "createdAt": "2026-03-23T21:21:45Z",
-    "homepage": "https://amber.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Interactive simulation"
-    ]
-  },
-  {
-    "name": "playGround",
-    "description": "Classic arcade games as single-file HTML pages — no build step, no framework",
-    "url": "https://github.com/samoletovs/playGround",
-    "language": "HTML",
-    "languages": [
-      "HTML",
-      "JavaScript",
-      "PowerShell",
-      "Python"
-    ],
-    "topics": [
-      "arcade",
-      "canvas",
-      "games",
-      "github-pages",
-      "html",
-      "javascript",
-      "naurolabs",
-      "single-file"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 8,
-    "updatedAt": "2026-08-09T14:36:44Z",
-    "createdAt": "2026-05-09T11:48:34Z",
-    "homepage": "https://playground.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Interactive simulation",
-      "Live demo available"
-    ]
-  },
-  {
-    "name": "art",
-    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
-    "url": "https://github.com/samoletovs/art",
-    "language": "HTML",
-    "languages": [
-      "HTML",
-      "PowerShell"
-    ],
-    "topics": [
-      "css",
-      "generative-art",
-      "github-pages",
-      "html",
-      "naurolabs",
-      "single-file",
-      "web-art"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 15,
-    "updatedAt": "2026-08-09T14:36:34Z",
-    "createdAt": "2026-05-10T15:52:36Z",
-    "homepage": "https://art.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Live demo available"
     ]
   }
 ]
