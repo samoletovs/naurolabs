@@ -1,5 +1,65 @@
 [
   {
+    "name": "atlas",
+    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
+    "url": "https://github.com/samoletovs/atlas",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "ai",
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "education",
+      "github-oauth",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 17,
+    "updatedAt": "2026-08-10T11:13:59Z",
+    "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": "https://atlas.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-10T09:23:27Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "rosette",
     "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
     "url": "https://github.com/samoletovs/rosette",
@@ -131,33 +191,6 @@
     ]
   },
   {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
-      "naurolabs",
-      "research-lab",
-      "vanilla-js"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-10T01:54:48Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "amberRepublic",
     "description": "Latvia political and economic simulation game — shape the country's future",
     "url": "https://github.com/samoletovs/amberRepublic",
@@ -183,7 +216,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 9,
+    "openIssues": 10,
     "updatedAt": "2026-08-10T01:52:30Z",
     "createdAt": "2026-03-23T21:21:45Z",
     "homepage": "https://amber.naurolabs.com",
@@ -191,39 +224,6 @@
     "highlights": [
       "Interactive simulation"
     ]
-  },
-  {
-    "name": "atlas",
-    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
-    "url": "https://github.com/samoletovs/atlas",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "ai",
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "education",
-      "github-oauth",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 15,
-    "updatedAt": "2026-08-09T14:36:46Z",
-    "createdAt": "2026-05-09T18:07:12Z",
-    "homepage": "https://atlas.naurolabs.com",
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "playGround",
@@ -248,7 +248,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 7,
+    "openIssues": 8,
     "updatedAt": "2026-08-09T14:36:44Z",
     "createdAt": "2026-05-09T11:48:34Z",
     "homepage": "https://playground.naurolabs.com",
@@ -278,7 +278,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 14,
+    "openIssues": 15,
     "updatedAt": "2026-08-09T14:36:34Z",
     "createdAt": "2026-05-10T15:52:36Z",
     "homepage": "https://art.naurolabs.com",
