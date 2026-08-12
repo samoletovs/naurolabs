@@ -1,5 +1,40 @@
 [
   {
+    "name": "amberRepublic",
+    "description": "Latvia political and economic simulation game — shape the country's future",
+    "url": "https://github.com/samoletovs/amberRepublic",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "game",
+      "latvia",
+      "naurolabs",
+      "react",
+      "simulation",
+      "tailwindcss",
+      "typescript",
+      "vite"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 8,
+    "updatedAt": "2026-08-12T08:20:37Z",
+    "createdAt": "2026-03-23T21:21:45Z",
+    "homepage": "https://amber.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Interactive simulation"
+    ]
+  },
+  {
     "name": "naurolabs",
     "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -20,7 +55,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-08-11T09:01:51Z",
+    "updatedAt": "2026-08-11T09:19:11Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": "https://naurolabs.com",
     "archived": false,
@@ -46,7 +81,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 13,
+    "openIssues": 17,
     "updatedAt": "2026-08-11T08:58:50Z",
     "createdAt": "2026-05-10T15:52:36Z",
     "homepage": "https://art.naurolabs.com",
@@ -78,7 +113,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 6,
+    "openIssues": 7,
     "updatedAt": "2026-08-11T08:58:44Z",
     "createdAt": "2026-05-09T11:48:34Z",
     "homepage": "https://playground.naurolabs.com",
@@ -120,41 +155,6 @@
     "homepage": "https://atlas.naurolabs.com",
     "archived": false,
     "highlights": []
-  },
-  {
-    "name": "amberRepublic",
-    "description": "Latvia political and economic simulation game — shape the country's future",
-    "url": "https://github.com/samoletovs/amberRepublic",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "Python",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "game",
-      "latvia",
-      "naurolabs",
-      "react",
-      "simulation",
-      "tailwindcss",
-      "typescript",
-      "vite"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 8,
-    "updatedAt": "2026-08-11T08:58:20Z",
-    "createdAt": "2026-03-23T21:21:45Z",
-    "homepage": "https://amber.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Interactive simulation"
-    ]
   },
   {
     "name": "rosette",
@@ -215,7 +215,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 4,
+    "openIssues": 7,
     "updatedAt": "2026-08-10T07:43:15Z",
     "createdAt": "2026-04-02T08:46:18Z",
     "homepage": null,
@@ -278,7 +278,7 @@
     ],
     "stars": 0,
     "forks": 0,
-    "openIssues": 10,
+    "openIssues": 12,
     "updatedAt": "2026-08-10T02:32:21Z",
     "createdAt": "2026-03-26T13:14:31Z",
     "homepage": "https://tplan.naurolabs.com",
