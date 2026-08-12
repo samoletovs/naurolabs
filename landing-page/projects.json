@@ -1,5 +1,29 @@
 [
   {
+    "name": "art",
+    "repo": "art",
+    "lastUpdated": "2026-08-12T08:44:23Z",
+    "tagline": "Can a personal gallery be just a folder of HTML files?",
+    "description": "An experiment in publishing without infrastructure. A folder of single-file HTML pages where each piece is its own little corner of the web — no CMS, no database, no build pipeline. The hypothesis: when AI handles the markup and CSS, the work matters more than the stack, and a non-developer can run their own site indefinitely.",
+    "appUrl": "https://art.naurolabs.com",
+    "sourceUrl": "https://github.com/samoletovs/art",
+    "sourceVisibility": "public",
+    "icon": "🎨",
+    "status": "experiment",
+    "category": "experiment",
+    "stack": [
+      "HTML",
+      "CSS",
+      "GitHub Pages"
+    ],
+    "highlights": [
+      "Single-file HTML pages — readable source, no toolchain",
+      "Push to main, live in a minute on GitHub Pages",
+      "Sister project to playGround — same pattern, different audience",
+      "Built for people who paint and write, not people who deploy"
+    ]
+  },
+  {
     "name": "amberRepublic",
     "accentColor": "#9E3039",
     "repo": "amberRepublic",
@@ -22,30 +46,6 @@
       "Second-order effects — emigration causes workforce shortage causes more emigration",
       "AI-generated events for unique playthroughs",
       "Every decision is a painful trade-off"
-    ]
-  },
-  {
-    "name": "art",
-    "repo": "art",
-    "lastUpdated": "2026-08-11T08:58:24Z",
-    "tagline": "Can a personal gallery be just a folder of HTML files?",
-    "description": "An experiment in publishing without infrastructure. A folder of single-file HTML pages where each piece is its own little corner of the web — no CMS, no database, no build pipeline. The hypothesis: when AI handles the markup and CSS, the work matters more than the stack, and a non-developer can run their own site indefinitely.",
-    "appUrl": "https://art.naurolabs.com",
-    "sourceUrl": "https://github.com/samoletovs/art",
-    "sourceVisibility": "public",
-    "icon": "🎨",
-    "status": "experiment",
-    "category": "experiment",
-    "stack": [
-      "HTML",
-      "CSS",
-      "GitHub Pages"
-    ],
-    "highlights": [
-      "Single-file HTML pages — readable source, no toolchain",
-      "Push to main, live in a minute on GitHub Pages",
-      "Sister project to playGround — same pattern, different audience",
-      "Built for people who paint and write, not people who deploy"
     ]
   },
   {
