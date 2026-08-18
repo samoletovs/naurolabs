@@ -1,5 +1,32 @@
 [
   {
+    "name": "rosette",
+    "accentColor": "#F97316",
+    "repo": "rosette",
+    "lastUpdated": "2026-08-18T07:28:10Z",
+    "tagline": "Where the hell do I put my sockets?",
+    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Latvian, Lithuanian, and Estonian codes are live — the kind of specialised knowledge that normally costs a consultant's hourly rate.",
+    "appUrl": "https://rosette.naurolabs.com",
+    "sourceUrl": null,
+    "sourceVisibility": "private",
+    "icon": "🔌",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "React",
+      "Vite",
+      "Azure SWA",
+      "Azure Functions",
+      "Azure OpenAI"
+    ],
+    "highlights": [
+      "AI analyzes floor plans to detect rooms and dimensions",
+      "Country-specific socket rules (LV, LT, EE)",
+      "SVG circuit and wiring diagrams",
+      "Possibly the world's most niche AI application"
+    ]
+  },
+  {
     "name": "tPlan",
     "accentColor": "#2563EB",
     "repo": "tPlan",
@@ -24,33 +51,6 @@
       "Auto-progression follows the book's own advancement rules",
       "Multilingual — English, Russian, Latvian, Spanish",
       "Phase 2 web app live; user-uploaded books planned for Phase 3"
-    ]
-  },
-  {
-    "name": "rosette",
-    "accentColor": "#F97316",
-    "repo": "rosette",
-    "lastUpdated": "2026-08-18T07:22:35Z",
-    "tagline": "Where the hell do I put my sockets?",
-    "description": "Upload a floor plan, get a standards-compliant electrical plan. This experiment tests whether AI can parse construction codes well enough to tell you exactly where sockets should go, how many you need per room, and which circuits need dedicated protection. Latvian, Lithuanian, and Estonian codes are live — the kind of specialised knowledge that normally costs a consultant's hourly rate.",
-    "appUrl": "https://rosette.naurolabs.com",
-    "sourceUrl": null,
-    "sourceVisibility": "private",
-    "icon": "🔌",
-    "status": "in-development",
-    "category": "tool",
-    "stack": [
-      "React",
-      "Vite",
-      "Azure SWA",
-      "Azure Functions",
-      "Azure OpenAI"
-    ],
-    "highlights": [
-      "AI analyzes floor plans to detect rooms and dimensions",
-      "Country-specific socket rules (LV, LT, EE)",
-      "SVG circuit and wiring diagrams",
-      "Possibly the world's most niche AI application"
     ]
   },
   {
