@@ -1,5 +1,29 @@
 [
   {
+    "name": "golazo",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/golazo",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "CSS",
+      "PowerShell",
+      "Python",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-20T10:57:28Z",
+    "createdAt": "2026-03-27T19:53:26Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "portaBaltica",
     "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
     "url": "https://github.com/samoletovs/portaBaltica",
@@ -96,30 +120,6 @@
     "updatedAt": "2026-08-20T10:55:33Z",
     "createdAt": "2026-05-17T07:23:09Z",
     "homepage": "https://agentflow.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "golazo",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/golazo",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "CSS",
-      "PowerShell",
-      "Python",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-20T10:49:48Z",
-    "createdAt": "2026-03-27T19:53:26Z",
-    "homepage": null,
     "archived": false,
     "highlights": []
   },
