@@ -1,5 +1,58 @@
 [
   {
+    "name": "golazo",
+    "description": "No description provided.",
+    "url": "https://github.com/samoletovs/golazo",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "CSS",
+      "PowerShell",
+      "Python",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-20T08:47:59Z",
+    "createdAt": "2026-03-27T19:53:26Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "art",
+    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
+    "url": "https://github.com/samoletovs/art",
+    "language": "HTML",
+    "languages": [
+      "HTML",
+      "PowerShell"
+    ],
+    "topics": [
+      "css",
+      "generative-art",
+      "github-pages",
+      "html",
+      "naurolabs",
+      "single-file",
+      "web-art"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-20T08:47:08Z",
+    "createdAt": "2026-05-10T15:52:36Z",
+    "homepage": "https://art.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Live demo available"
+    ]
+  },
+  {
     "name": "naurolabs",
     "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
     "url": "https://github.com/samoletovs/naurolabs",
@@ -23,30 +76,6 @@
     "updatedAt": "2026-08-20T08:38:43Z",
     "createdAt": "2026-03-25T14:46:12Z",
     "homepage": "https://naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "golazo",
-    "description": "No description provided.",
-    "url": "https://github.com/samoletovs/golazo",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "CSS",
-      "Python",
-      "PowerShell",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-20T08:24:47Z",
-    "createdAt": "2026-03-27T19:53:26Z",
-    "homepage": null,
     "archived": false,
     "highlights": []
   },
@@ -214,34 +243,5 @@
     "homepage": "https://rosette.naurolabs.com",
     "archived": false,
     "highlights": []
-  },
-  {
-    "name": "art",
-    "description": "Generative web art — single-file HTML pages at art.naurolabs.com",
-    "url": "https://github.com/samoletovs/art",
-    "language": "HTML",
-    "languages": [
-      "HTML",
-      "PowerShell"
-    ],
-    "topics": [
-      "css",
-      "generative-art",
-      "github-pages",
-      "html",
-      "naurolabs",
-      "single-file",
-      "web-art"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-18T07:22:40Z",
-    "createdAt": "2026-05-10T15:52:36Z",
-    "homepage": "https://art.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Live demo available"
-    ]
   }
 ]
