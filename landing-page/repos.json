@@ -1,5 +1,68 @@
 [
   {
+    "name": "amberRepublic",
+    "description": "Latvia political and economic simulation game — shape the country's future",
+    "url": "https://github.com/samoletovs/amberRepublic",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "game",
+      "latvia",
+      "naurolabs",
+      "react",
+      "simulation",
+      "tailwindcss",
+      "typescript",
+      "vite"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-08-20T10:37:27Z",
+    "createdAt": "2026-03-23T21:21:45Z",
+    "homepage": "https://amber.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Interactive simulation",
+      "Topics: game, latvia, naurolabs"
+    ]
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-20T08:50:42Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "portaBaltica",
     "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
     "url": "https://github.com/samoletovs/portaBaltica",
@@ -29,33 +92,6 @@
     "updatedAt": "2026-08-20T08:50:01Z",
     "createdAt": "2026-04-02T08:46:18Z",
     "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
-      "naurolabs",
-      "research-lab",
-      "vanilla-js"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-20T08:49:07Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
     "archived": false,
     "highlights": []
   },
