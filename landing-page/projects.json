@@ -1,9 +1,38 @@
 [
   {
+    "name": "portaBaltica",
+    "accentColor": "#0369a1",
+    "repo": "portaBaltica",
+    "lastUpdated": "2026-08-20T22:11:37Z",
+    "tagline": "Can a public dashboard pay its own bills?",
+    "description": "NauroLabs' first experiment in self-funding. A live economic intelligence dashboard for the Baltics — 30+ economic, trade, labour, energy, environmental, and maritime indicators across Latvia, Estonia, and Lithuania, all from free government APIs with an AI layer reading the trends in real time. The hypothesis: free raw data is a commodity, but the interpretation isn't. Free public dashboard, paid API and alerts. Goal: cover its own infrastructure cost and fund the next experiment.",
+    "appUrl": "https://portabaltica.naurolabs.com",
+    "sourceVisibility": "private",
+    "icon": "⚓",
+    "status": "experiment",
+    "category": "experiment",
+    "stack": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Azure SWA",
+      "Eurostat",
+      "Open-Meteo",
+      "data.gov.lv"
+    ],
+    "highlights": [
+      "30+ live indicators across LV, EE, LT — economy, trade, labour, energy, property, environment",
+      "AI insights generated from live feeds, not canned summaries",
+      "Free dashboard, paid API and alerts — Moonshot v1 of the lab",
+      "All data from free public APIs: Eurostat, NordPool, ECB, Open-Meteo, data.gov.lv"
+    ]
+  },
+  {
     "name": "tPlan",
     "accentColor": "#2563EB",
     "repo": "tPlan",
-    "lastUpdated": "2026-08-20T22:04:12Z",
+    "lastUpdated": "2026-08-20T22:11:34Z",
     "tagline": "Can AI turn a training book into a real coach?",
     "description": "Can AI read a training methodology book and act as a coach — not a tracker, not a generator, an actual coach? Feed it a calisthenics manual, it parses the progression rules, builds your plan, tracks your reps, and advances you when the book says you're ready. Turns out it follows the rules more faithfully than most humans. Real training data in, real progression out — and any book becomes the methodology.",
     "appUrl": "https://tplan.naurolabs.com",
@@ -51,35 +80,6 @@
       "Country-specific socket rules (LV, LT, EE)",
       "SVG circuit and wiring diagrams",
       "Possibly the world's most niche AI application"
-    ]
-  },
-  {
-    "name": "portaBaltica",
-    "accentColor": "#0369a1",
-    "repo": "portaBaltica",
-    "lastUpdated": "2026-08-20T22:03:41Z",
-    "tagline": "Can a public dashboard pay its own bills?",
-    "description": "NauroLabs' first experiment in self-funding. A live economic intelligence dashboard for the Baltics — 30+ economic, trade, labour, energy, environmental, and maritime indicators across Latvia, Estonia, and Lithuania, all from free government APIs with an AI layer reading the trends in real time. The hypothesis: free raw data is a commodity, but the interpretation isn't. Free public dashboard, paid API and alerts. Goal: cover its own infrastructure cost and fund the next experiment.",
-    "appUrl": "https://portabaltica.naurolabs.com",
-    "sourceVisibility": "private",
-    "icon": "⚓",
-    "status": "experiment",
-    "category": "experiment",
-    "stack": [
-      "React",
-      "TypeScript",
-      "Vite",
-      "Tailwind CSS",
-      "Azure SWA",
-      "Eurostat",
-      "Open-Meteo",
-      "data.gov.lv"
-    ],
-    "highlights": [
-      "30+ live indicators across LV, EE, LT — economy, trade, labour, energy, property, environment",
-      "AI insights generated from live feeds, not canned summaries",
-      "Free dashboard, paid API and alerts — Moonshot v1 of the lab",
-      "All data from free public APIs: Eurostat, NordPool, ECB, Open-Meteo, data.gov.lv"
     ]
   },
   {
