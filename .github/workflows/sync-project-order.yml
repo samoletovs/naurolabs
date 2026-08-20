@@ -14,7 +14,12 @@ permissions:
 
 concurrency:
   group: sync-project-order
-  cancel-in-progress: false
+  # This job re-derives the whole file from GitHub's current state, so a newer
+  # run always subsumes an older one - there is nothing in an in-flight run
+  # worth waiting for. Queueing them instead (cancel-in-progress: false) meant
+  # every project deploy fired a repository_dispatch and each queued run raced
+  # the last one to commit the same regenerated file.
+  cancel-in-progress: true
 
 jobs:
   sync:
@@ -26,22 +31,44 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Sync project dates from GitHub
+      - name: Sync project dates, commit, and push
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node landing-page/scripts/sync-repos.js
-
-      - name: Check for changes
-        id: changes
         run: |
-          git diff --quiet landing-page/projects.json landing-page/repos.json || echo "changed=true" >> "$GITHUB_OUTPUT"
-
-      - name: Commit and push
-        if: steps.changes.outputs.changed == 'true'
-        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add landing-page/projects.json landing-page/repos.json
-          git commit -m "chore: sync project order from GitHub activity"
-          git pull --rebase
-          git push
+
+          # Order matters. This used to generate, commit, and only THEN rebase,
+          # which conflicts every time origin has moved: both sides have rewritten
+          # the same generated lines, and git has no way to pick. Rebase is the
+          # wrong tool for a generated artefact - the file is not a change to
+          # merge, it is a function of the repo's current state. So: fetch first,
+          # reset onto origin, and regenerate on top. The result is correct by
+          # construction rather than by conflict resolution.
+          for attempt in 1 2 3; do
+            git fetch --quiet origin "${GITHUB_REF_NAME}"
+            git reset --quiet --hard "origin/${GITHUB_REF_NAME}"
+
+            node landing-page/scripts/sync-repos.js
+
+            if git diff --quiet landing-page/projects.json landing-page/repos.json; then
+              echo "No change after regenerating on top of origin — nothing to push."
+              exit 0
+            fi
+
+            git add landing-page/projects.json landing-page/repos.json
+            git commit --quiet -m "chore: sync project order from GitHub activity"
+
+            if git push --quiet; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+
+            echo "::notice::Push rejected — origin moved. Re-deriving (attempt ${attempt})."
+          done
+
+          echo "::error::Could not push after 3 attempts. Origin is moving faster than"
+          echo "::error::this job can re-derive; check what else is committing to"
+          echo "::error::landing-page/repos.json."
+          exit 1
