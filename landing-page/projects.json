@@ -1,5 +1,30 @@
 [
   {
+    "name": "agentFlow",
+    "repo": "agentFlow",
+    "lastUpdated": "2026-08-20T08:48:09Z",
+    "tagline": "Can we make multi-agent logic visible and debuggable?",
+    "description": "A visual playground for understanding how nauroLabs agents collaborate. It maps agents, tool calls, and transitions into a live flow so complex orchestration is easier to inspect, explain, and improve.",
+    "appUrl": "https://agentflow.naurolabs.com",
+    "sourceUrl": "https://github.com/samoletovs/agentFlow",
+    "sourceVisibility": "public",
+    "icon": "🧬",
+    "status": "in-development",
+    "category": "tool",
+    "stack": [
+      "TypeScript",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "highlights": [
+      "Visual flow map of agent orchestration",
+      "Tracks agent handoffs and tool usage paths",
+      "Built to debug and explain complex agent behaviour",
+      "Focused experiment on making AI systems observable"
+    ]
+  },
+  {
     "name": "tPlan",
     "accentColor": "#2563EB",
     "repo": "tPlan",
@@ -158,31 +183,6 @@
       "Push to main, live in a minute on GitHub Pages",
       "Sister project to playGround — same pattern, different audience",
       "Built for people who paint and write, not people who deploy"
-    ]
-  },
-  {
-    "name": "agentFlow",
-    "repo": "agentFlow",
-    "lastUpdated": "2026-08-20T08:45:43Z",
-    "tagline": "Can we make multi-agent logic visible and debuggable?",
-    "description": "A visual playground for understanding how nauroLabs agents collaborate. It maps agents, tool calls, and transitions into a live flow so complex orchestration is easier to inspect, explain, and improve.",
-    "appUrl": "https://agentflow.naurolabs.com",
-    "sourceUrl": "https://github.com/samoletovs/agentFlow",
-    "sourceVisibility": "public",
-    "icon": "🧬",
-    "status": "in-development",
-    "category": "tool",
-    "stack": [
-      "TypeScript",
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "highlights": [
-      "Visual flow map of agent orchestration",
-      "Tracks agent handoffs and tool usage paths",
-      "Built to debug and explain complex agent behaviour",
-      "Focused experiment on making AI systems observable"
     ]
   },
   {

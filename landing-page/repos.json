@@ -1,5 +1,137 @@
 [
   {
+    "name": "agentFlow",
+    "description": "Visualize how nauroLabs agents are built and how information flows through them",
+    "url": "https://github.com/samoletovs/agentFlow",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [
+      "agent-visualization",
+      "ai-agents",
+      "azure",
+      "azure-static-web-apps",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-20T08:48:51Z",
+    "createdAt": "2026-05-17T07:23:09Z",
+    "homepage": "https://agentflow.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "rosette",
+    "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
+    "url": "https://github.com/samoletovs/rosette",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "PowerShell",
+      "HTML",
+      "Bicep",
+      "JavaScript"
+    ],
+    "topics": [
+      "ai",
+      "azure",
+      "azure-openai",
+      "electrical-planning",
+      "gpt-4o",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-20T08:48:43Z",
+    "createdAt": "2026-03-21T07:44:36Z",
+    "homepage": "https://rosette.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "tPlan",
+    "description": "AI workout generator from training methodology books — multi-user, multi-language",
+    "url": "https://github.com/samoletovs/tPlan",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "fitness",
+      "multilingual",
+      "naurolabs",
+      "react",
+      "typescript",
+      "workout"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-20T08:48:38Z",
+    "createdAt": "2026-03-26T13:14:31Z",
+    "homepage": "https://tplan.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "AI-powered"
+    ]
+  },
+  {
+    "name": "atlas",
+    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
+    "url": "https://github.com/samoletovs/atlas",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "ai",
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "education",
+      "github-oauth",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-08-20T08:48:03Z",
+    "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": "https://atlas.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "golazo",
     "description": "No description provided.",
     "url": "https://github.com/samoletovs/golazo",
@@ -80,74 +212,6 @@
     "highlights": []
   },
   {
-    "name": "tPlan",
-    "description": "AI workout generator from training methodology books — multi-user, multi-language",
-    "url": "https://github.com/samoletovs/tPlan",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "fitness",
-      "multilingual",
-      "naurolabs",
-      "react",
-      "typescript",
-      "workout"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-20T08:24:36Z",
-    "createdAt": "2026-03-26T13:14:31Z",
-    "homepage": "https://tplan.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "AI-powered"
-    ]
-  },
-  {
-    "name": "atlas",
-    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
-    "url": "https://github.com/samoletovs/atlas",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "ai",
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "education",
-      "github-oauth",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-08-20T08:24:16Z",
-    "createdAt": "2026-05-09T18:07:12Z",
-    "homepage": "https://atlas.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "portaBaltica",
     "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
     "url": "https://github.com/samoletovs/portaBaltica",
@@ -177,70 +241,6 @@
     "updatedAt": "2026-08-20T08:24:12Z",
     "createdAt": "2026-04-02T08:46:18Z",
     "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "agentFlow",
-    "description": "Visualize how nauroLabs agents are built and how information flows through them",
-    "url": "https://github.com/samoletovs/agentFlow",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [
-      "agent-visualization",
-      "ai-agents",
-      "azure",
-      "azure-static-web-apps",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-20T08:23:01Z",
-    "createdAt": "2026-05-17T07:23:09Z",
-    "homepage": "https://agentflow.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "rosette",
-    "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
-    "url": "https://github.com/samoletovs/rosette",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "HTML",
-      "Bicep",
-      "JavaScript"
-    ],
-    "topics": [
-      "ai",
-      "azure",
-      "azure-openai",
-      "electrical-planning",
-      "gpt-4o",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-20T08:22:53Z",
-    "createdAt": "2026-03-21T07:44:36Z",
-    "homepage": "https://rosette.naurolabs.com",
     "archived": false,
     "highlights": []
   }
