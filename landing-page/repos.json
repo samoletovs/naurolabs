@@ -26,7 +26,7 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-08-20T21:29:42Z",
+    "updatedAt": "2026-08-20T22:04:50Z",
     "createdAt": "2026-03-26T13:14:31Z",
     "homepage": "https://tplan.naurolabs.com",
     "archived": false,
@@ -61,9 +61,69 @@
     "stars": 0,
     "forks": 0,
     "openIssues": 0,
-    "updatedAt": "2026-08-20T21:28:52Z",
+    "updatedAt": "2026-08-20T22:04:29Z",
     "createdAt": "2026-03-21T07:44:36Z",
     "homepage": "https://rosette.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "portaBaltica",
+    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
+    "url": "https://github.com/samoletovs/portaBaltica",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "data-visualization",
+      "estonia",
+      "latvia",
+      "lithuania",
+      "naurolabs",
+      "open-data",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-20T22:04:19Z",
+    "createdAt": "2026-04-02T08:46:18Z",
+    "homepage": null,
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-20T21:31:52Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
     "archived": false,
     "highlights": []
   },
@@ -126,66 +186,6 @@
       "Interactive simulation",
       "Topics: game, latvia, naurolabs"
     ]
-  },
-  {
-    "name": "portaBaltica",
-    "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
-    "url": "https://github.com/samoletovs/portaBaltica",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "data-visualization",
-      "estonia",
-      "latvia",
-      "lithuania",
-      "naurolabs",
-      "open-data",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-20T21:11:25Z",
-    "createdAt": "2026-04-02T08:46:18Z",
-    "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
-      "naurolabs",
-      "research-lab",
-      "vanilla-js"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-20T21:09:58Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
-    "archived": false,
-    "highlights": []
   },
   {
     "name": "atlas",
