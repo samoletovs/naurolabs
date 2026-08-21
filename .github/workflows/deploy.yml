@@ -30,6 +30,11 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Refresh public repository visibility
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node landing-page/scripts/sync-repo-visibility.js
+
       - name: Validate project descriptions
         run: node landing-page/scripts/validate-projects.js
 

@@ -1,121 +1,96 @@
 #!/usr/bin/env node
-/**
- * Validates projects.json against NauroLabs description rules.
- * Run: node scripts/validate-projects.js
- * Exit code 1 on violations.
- *
- * Rules enforced:
- *   1. English only — no non-ASCII letter sequences (Cyrillic, CJK, etc.)
- *   2. No competitor/product mentions
- *   3. No age-specific language ("X-year-old")
- *   4. Unique icons across all projects
- *   5. Required fields present
- */
 
-const fs = require('fs');
-const path = require('path');
+const fs = require("node:fs");
+const path = require("node:path");
 
-const PROJECTS_PATH = path.resolve(__dirname, '..', 'projects.json');
-
-// Banned product/brand names (case-insensitive)
+const PROJECTS_PATH = path.resolve(__dirname, "..", "projects.json");
+const VISIBILITY_PATH = path.resolve(__dirname, "..", "public-repos.json");
+const QUESTION_IDS = new Set(["q1", "q2", "q3", "q4"]);
+const REQUIRED_FIELDS = ["name", "repo", "question", "stage", "description"];
 const BANNED_BRANDS = [
-  'fifa', 'duolingo', 'simcity', 'convict conditioning',
-  'minecraft', 'roblox', 'fortnite', 'tiktok', 'chatgpt',
-  'notion', 'trello', 'asana', 'jira', 'slack', 'discord',
-  'uber', 'airbnb', 'stripe', 'shopify', 'quickbooks',
-  'xero', 'sap', 'oracle', 'salesforce',
+  "airbnb", "chatgpt", "discord", "duolingo", "fifa", "jira", "notion",
+  "oracle", "salesforce", "sap", "shopify", "simcity", "slack", "stripe",
+  "trello", "uber", "xero"
 ];
-
-// Non-Latin script ranges (Cyrillic, CJK, Arabic, Hebrew, Devanagari, Thai, etc.)
 const NON_LATIN_RE = /[\u0400-\u04FF\u0500-\u052F\u2DE0-\u2DFF\uA640-\uA69F\u4E00-\u9FFF\u3040-\u30FF\u0600-\u06FF\u0590-\u05FF\u0900-\u097F\u0E00-\u0E7F]/;
-
-// Age-specific pattern: "X-year-old" or "X year old"
 const AGE_RE = /\d+[\s-]?year[\s-]?old/i;
-
-const REQUIRED_FIELDS = ['name', 'tagline', 'description', 'icon', 'category', 'status'];
-const TEXT_FIELDS = ['name', 'tagline', 'description'];
 
 let errors = 0;
 
 function fail(project, field, message) {
-  console.error(`  ✗ [${project}] ${field}: ${message}`);
-  errors++;
+  console.error(`  x [${project}] ${field}: ${message}`);
+  errors += 1;
 }
 
-function checkText(projectName, fieldName, text) {
-  if (typeof text !== 'string') return;
+function parseJson(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
 
-  // Non-Latin characters
-  if (NON_LATIN_RE.test(text)) {
-    fail(projectName, fieldName, `Contains non-English characters: "${text.match(NON_LATIN_RE)[0]}..."`);
+function validateText(project, field, value) {
+  if (NON_LATIN_RE.test(value)) {
+    fail(project, field, "Contains non-English characters");
   }
-
-  // Banned brands
-  const lower = text.toLowerCase();
-  for (const brand of BANNED_BRANDS) {
+  if (AGE_RE.test(value)) {
+    fail(project, field, "Contains age-specific language");
+  }
+  const lower = value.toLowerCase();
+  BANNED_BRANDS.forEach(brand => {
     if (lower.includes(brand)) {
-      fail(projectName, fieldName, `References competitor/product "${brand}"`);
+      fail(project, field, `References competitor or product "${brand}"`);
     }
-  }
-
-  // Age-specific language
-  if (AGE_RE.test(text)) {
-    fail(projectName, fieldName, `Contains age-specific language: "${text.match(AGE_RE)[0]}"`);
-  }
+  });
 }
 
-// --- Main ---
+function main() {
+  const projects = parseJson(PROJECTS_PATH);
+  const visibility = parseJson(VISIBILITY_PATH);
+  const names = new Set();
 
-let projects;
+  console.log(`Validating ${projects.length} catalog entries...`);
+
+  projects.forEach(project => {
+    REQUIRED_FIELDS.forEach(field => {
+      if (!project[field]) fail(project.name || "(unnamed)", field, "Required field is missing");
+    });
+
+    if (names.has(project.name)) fail(project.name, "name", "Duplicate project name");
+    names.add(project.name);
+
+    if (!QUESTION_IDS.has(project.question)) {
+      fail(project.name, "question", `Unknown question "${project.question}"`);
+    }
+    if (!/^(Can|An experiment in)/.test(project.description)) {
+      fail(project.name, "description", "Must lead with the research question or experiment");
+    }
+    if (!/[?.]$/.test(project.description)) {
+      fail(project.name, "description", "Must be one complete sentence");
+    }
+    validateText(project.name, "description", project.description);
+
+    if ("sourceUrl" in project) {
+      fail(project.name, "sourceUrl", "Source URLs must be derived from repository visibility");
+    }
+  });
+
+  if (projects.length !== 26) {
+    fail("catalog", "count", `Expected 26 Vision entries, found ${projects.length}`);
+  }
+
+  if (!Array.isArray(visibility.publicRepos)) {
+    fail("visibility", "publicRepos", "Must be an array");
+  }
+
+  if (errors) {
+    console.error(`\n${errors} validation error(s).`);
+    process.exit(1);
+  }
+
+  console.log("Catalog and visibility snapshot are valid.");
+}
+
 try {
-  const raw = fs.readFileSync(PROJECTS_PATH, 'utf8');
-  projects = JSON.parse(raw);
-} catch (err) {
-  console.error(`Failed to read/parse projects.json: ${err.message}`);
+  main();
+} catch (error) {
+  console.error(`Validation failed: ${error.message}`);
   process.exit(1);
-}
-
-console.log(`Validating ${projects.length} projects...\n`);
-
-// Check each project
-for (const p of projects) {
-  const name = p.name || '(unnamed)';
-
-  // Required fields
-  for (const field of REQUIRED_FIELDS) {
-    if (!p[field]) {
-      fail(name, field, 'Required field is missing');
-    }
-  }
-
-  // Text fields
-  for (const field of TEXT_FIELDS) {
-    checkText(name, field, p[field]);
-  }
-
-  // Highlights array
-  if (Array.isArray(p.highlights)) {
-    p.highlights.forEach((h, i) => checkText(name, `highlights[${i}]`, h));
-  }
-}
-
-// Unique icons
-const iconMap = new Map();
-for (const p of projects) {
-  if (!p.icon) continue;
-  const name = p.name || '(unnamed)';
-  if (iconMap.has(p.icon)) {
-    fail(name, 'icon', `Duplicate icon "${p.icon}" — also used by "${iconMap.get(p.icon)}"`);
-  } else {
-    iconMap.set(p.icon, name);
-  }
-}
-
-// Summary
-console.log('');
-if (errors > 0) {
-  console.error(`✗ ${errors} violation(s) found. See rules: .github/PROJECT_DESCRIPTIONS.md`);
-  process.exit(1);
-} else {
-  console.log('✓ All projects pass description rules.');
 }

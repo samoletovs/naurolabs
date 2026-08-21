@@ -1,240 +1,207 @@
-/* Landing page — renders project cards from projects.json
-   Auth-aware: teaser cards for anonymous, full cards for authenticated users */
+const GITHUB_OWNER = "samoletovs";
+const PUBLIC_REPOS_URL = `https://api.github.com/users/${GITHUB_OWNER}/repos?per_page=100&type=owner`;
 
-const CATEGORY_ICONS = {
-  game:        '🎲',
-  tool:        '🔌',
-  saas:        '📊',
-  marketplace: '🤝',
-  'ai-agent':  '☕',
-  personal:    '💪',
-  experiment:   '🧪',
+const QUESTIONS = {
+  q1: {
+    title: "Do we still need apps?",
+    summary: "Testing whether the interface survives contact with a capable agent, from chat-only systems to software designed for agents as primary readers."
+  },
+  q2: {
+    title: "Where is the AI-human boundary?",
+    summary: "Testing how much judgement can be delegated before trust breaks, and where deliberate human approval still matters."
+  },
+  q3: {
+    title: "What is worth selling?",
+    summary: "Testing where durable value sits when software is cheap to build: trusted data, privacy, aggregation, local knowledge, or an operating loop."
+  },
+  q4: {
+    title: "Can a company run itself?",
+    summary: "The lab managing the lab: governance, shared infrastructure, agent visibility, and the control surfaces that keep autonomous work accountable."
+  }
 };
 
-const STATUS_LABELS = {
-  'in-development': 'In development',
-  'experiment':      'Experiment',
-};
-
-let currentUser = null;
-
-function timeAgo(dateStr) {
-  if (!dateStr) return null;
-  const diff = Date.now() - new Date(dateStr).getTime();
-  const mins = Math.floor(diff / 60000);
-  if (mins < 60) return 'just now';
-  const hours = Math.floor(mins / 60);
-  if (hours < 24) return `${hours}h ago`;
-  const days = Math.floor(hours / 24);
-  if (days === 1) return 'yesterday';
-  if (days < 30) return `${days}d ago`;
-  const months = Math.floor(days / 30);
-  return months === 1 ? '1 month ago' : `${months} months ago`;
+function normaliseRepoName(name) {
+  return String(name || "").toLowerCase();
 }
 
-async function getAuthUser() {
+async function loadPublicRepos() {
+  const snapshotRequest = fetch("public-repos.json").then(response => {
+    if (!response.ok) throw new Error(`Snapshot request failed: ${response.status}`);
+    return response.json();
+  });
+
+  const liveRequest = fetch(PUBLIC_REPOS_URL, {
+    headers: { Accept: "application/vnd.github+json" }
+  }).then(response => {
+    if (!response.ok) throw new Error(`GitHub request failed: ${response.status}`);
+    return response.json();
+  });
+
   try {
-    const res = await fetch('/.auth/me');
-    const data = await res.json();
-    if (data.clientPrincipal) return data.clientPrincipal;
-  } catch { /* not logged in */ }
-  return null;
-}
-
-function renderAuthUI(user) {
-  const container = document.getElementById('header-actions');
-
-  if (user) {
-    const name = user.userDetails || user.userId || 'User';
-    container.innerHTML = `
-      <span class="auth-user">
-        <span class="auth-user-name">${name}</span>
-        <a href="/.auth/logout?post_logout_redirect_uri=/" class="auth-link">Sign out</a>
-      </span>
-    `;
+    const repos = await liveRequest;
+    return new Set(repos.map(repo => normaliseRepoName(repo.name)));
+  } catch (error) {
+    console.info("Using the generated repository visibility snapshot.", error);
+    const snapshot = await snapshotRequest;
+    return new Set(snapshot.publicRepos.map(normaliseRepoName));
   }
 }
 
-function renderStats(projects) {
-  const container = document.getElementById('stats');
-  const techs = new Set();
-  projects.forEach(p => (p.stack || []).forEach(t => techs.add(t)));
-
-  container.innerHTML = `
-    <div class="stat">
-      <span class="stat-value">${projects.length}</span>
-      <span class="stat-label">Projects</span>
-    </div>
-    <div class="stat">
-      <span class="stat-value">${techs.size}</span>
-      <span class="stat-label">Technologies</span>
-    </div>
-  `;
-}
-
-/**
- * Render a project name with the second word colored (lowerCamelCase split).
- * e.g. "amberRepublic" → amber<span style="color:#9E3039">Republic</span>
- * Single-word names render plain. Uses project.accentColor if present.
- */
 function renderProjectName(project) {
-  const name = project.name;
-  const color = project.accentColor;
-  if (!color) return name;
-  // Split at first uppercase letter that marks the second word
-  const match = name.match(/^([a-z]+)([A-Z].*)$/);
-  if (!match) return name;
-  return `${match[1]}<span style="color:${color}">${match[2]}</span>`;
-}
+  const heading = document.createElement("h3");
+  const match = project.name.match(/^([a-z]+)([A-Z].*)$/);
 
-function renderProjectCard(project, isAuthenticated) {
-  const icon = project.icon || CATEGORY_ICONS[project.category] || '📦';
-  const statusLabel = STATUS_LABELS[project.status] || project.status || '';
-
-  const statusBadge = statusLabel
-    ? `<span class="status-badge">${statusLabel}</span>`
-    : '';
-
-  const updatedBadge = project.lastUpdated
-    ? `<span class="updated-badge" title="Last pushed ${new Date(project.lastUpdated).toLocaleDateString()}">${timeAgo(project.lastUpdated)}</span>`
-    : '';
-
-  // Teaser card for anonymous users — just the header
-  if (!isAuthenticated) {
-    return `
-      <article class="project-card">
-        <div class="project-card-top">
-          <div class="project-card-header">
-            <span class="project-icon">${icon}</span>
-            <div>
-              <h2 class="project-name">${renderProjectName(project)}</h2>
-              <p class="project-tagline">${project.tagline}</p>
-            </div>
-          </div>
-          <div class="badge-group">
-            ${statusBadge}
-            ${updatedBadge}
-          </div>
-        </div>
-      </article>
-    `;
+  if (!match || !project.accentColor) {
+    heading.textContent = project.name;
+    return heading;
   }
 
-  // Full card for authenticated users
-  const highlights = project.highlights
-    ? `<ul class="project-highlights">${project.highlights.map(h => `<li>${h}</li>`).join('')}</ul>`
-    : '';
-
-  const stack = project.stack && project.stack.length > 0
-    ? `<div class="project-stack">${project.stack.map(t => `<span class="stack-tag">${t}</span>`).join('')}</div>`
-    : '';
-
-  const appLink = project.appUrl
-    ? `<a href="${project.appUrl}" class="project-action" target="_blank" rel="noopener noreferrer">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3H3v10h10v-3M9 2h5v5M14 2L7 9"/></svg>
-        Open app
-      </a>`
-    : '';
-
-  const sourceLink = project.sourceUrl
-    ? `<a href="${project.sourceUrl}" class="project-action project-action-secondary" target="_blank" rel="noopener noreferrer">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-        Source
-      </a>`
-    : '';
-
-  const hasActions = appLink || sourceLink;
-  const actionsBlock = hasActions
-    ? `<div class="project-actions">${appLink}${sourceLink}</div>`
-    : '';
-
-  return `
-    <article class="project-card">
-      <div class="project-card-top">
-        <div class="project-card-header">
-          <span class="project-icon">${icon}</span>
-          <div>
-            <h2 class="project-name">${renderProjectName(project)}</h2>
-            <p class="project-tagline">${project.tagline}</p>
-          </div>
-        </div>
-        <div class="badge-group">
-          ${statusBadge}
-          ${updatedBadge}
-        </div>
-      </div>
-
-      <p class="project-description">${project.description}</p>
-
-      ${highlights}
-      ${stack}
-      ${actionsBlock}
-    </article>
-  `;
+  heading.append(document.createTextNode(match[1]));
+  const accent = document.createElement("span");
+  accent.style.color = project.accentColor;
+  accent.textContent = match[2];
+  heading.append(accent);
+  return heading;
 }
 
-async function trackLogin(user) {
-  try {
-    await fetch('/api/track-login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name: user.userDetails || user.userId,
-        provider: user.identityProvider,
-        timestamp: new Date().toISOString()
-      })
-    });
-  } catch { /* tracking is best-effort */ }
+function createLink(url, text) {
+  const link = document.createElement("a");
+  link.href = url;
+  link.textContent = text;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  return link;
+}
+
+function renderProject(project, publicRepos) {
+  const card = document.createElement("article");
+  card.className = "project-card";
+
+  const header = document.createElement("div");
+  header.className = "project-card__header";
+  header.append(renderProjectName(project));
+
+  const stage = document.createElement("span");
+  stage.className = "stage";
+  stage.dataset.stage = project.stage;
+  stage.textContent = project.stage;
+  header.append(stage);
+
+  const description = document.createElement("p");
+  description.className = "project-card__description";
+  description.textContent = project.description;
+
+  const links = document.createElement("div");
+  links.className = "project-card__links";
+
+  if (project.domain) {
+    links.append(createLink(`https://${project.domain}`, `Visit ${project.name}`));
+  }
+
+  const isPublic = publicRepos.has(normaliseRepoName(project.repo));
+  if (project.sourceAllowed !== false && isPublic) {
+    links.append(createLink(
+      `https://github.com/${GITHUB_OWNER}/${project.repo}`,
+      `View ${project.name} source`
+    ));
+  }
+
+  card.append(header, description);
+
+  if (project.note) {
+    const note = document.createElement("p");
+    note.className = "project-card__note";
+    note.textContent = project.note;
+    card.append(note);
+  }
+
+  card.append(links);
+  return card;
+}
+
+function renderStats(projects, publicRepos) {
+  const sourceCount = projects.filter(project =>
+    project.sourceAllowed !== false &&
+    publicRepos.has(normaliseRepoName(project.repo))
+  ).length;
+
+  const stats = [
+    [projects.length, "Projects and lab systems"],
+    [Object.keys(QUESTIONS).length, "Research questions"],
+    [sourceCount, "Public source repositories"]
+  ];
+
+  const container = document.getElementById("stats");
+  stats.forEach(([value, label]) => {
+    const item = document.createElement("div");
+    item.className = "stat";
+    const term = document.createElement("dt");
+    term.textContent = label;
+    const detail = document.createElement("dd");
+    detail.textContent = value;
+    item.append(term, detail);
+    container.append(item);
+  });
+}
+
+function renderCatalog(projects, publicRepos) {
+  const container = document.getElementById("questions");
+
+  Object.entries(QUESTIONS).forEach(([questionId, question], index) => {
+    const section = document.createElement("section");
+    section.className = "question";
+    section.id = questionId;
+    section.setAttribute("aria-labelledby", `${questionId}-title`);
+
+    const questionHeader = document.createElement("header");
+    questionHeader.className = "question__header";
+
+    const titleGroup = document.createElement("div");
+    const number = document.createElement("p");
+    number.className = "question__number";
+    number.textContent = `Question ${index + 1}`;
+    const title = document.createElement("h2");
+    title.id = `${questionId}-title`;
+    title.textContent = question.title;
+    titleGroup.append(number, title);
+
+    const summary = document.createElement("p");
+    summary.className = "question__summary";
+    summary.textContent = question.summary;
+    questionHeader.append(titleGroup, summary);
+
+    const grid = document.createElement("div");
+    grid.className = "project-grid";
+    projects
+      .filter(project => project.question === questionId)
+      .forEach(project => grid.append(renderProject(project, publicRepos)));
+
+    section.append(questionHeader, grid);
+    container.append(section);
+  });
 }
 
 async function init() {
+  const status = document.getElementById("catalog-status");
+
   try {
-    // Check auth status and load projects in parallel
-    const [user, projectsRes] = await Promise.all([
-      getAuthUser(),
-      fetch('projects.json')
+    const [projectsResponse, publicRepos] = await Promise.all([
+      fetch("projects.json"),
+      loadPublicRepos()
     ]);
 
-    currentUser = user;
-    const projects = await projectsRes.json();
-    const isAuthenticated = !!currentUser;
-
-    renderAuthUI(currentUser);
-    renderStats(projects);
-
-    // Track login for authenticated users
-    if (isAuthenticated) {
-      trackLogin(currentUser);
-      if (typeof gtag === 'function') {
-        gtag('event', 'login', { method: 'google', user_id: currentUser.userId });
-      }
+    if (!projectsResponse.ok) {
+      throw new Error(`Project catalog request failed: ${projectsResponse.status}`);
     }
 
-    // Sort by last updated — most recently active projects first
-    projects.sort((a, b) => {
-      const da = a.lastUpdated ? new Date(a.lastUpdated).getTime() : 0;
-      const db = b.lastUpdated ? new Date(b.lastUpdated).getTime() : 0;
-      return db - da;
-    });
-
-    // Warn about duplicate icons
-    const iconMap = new Map();
-    projects.forEach(p => {
-      const icon = p.icon || CATEGORY_ICONS[p.category] || '📦';
-      if (iconMap.has(icon)) {
-        console.warn(`Duplicate icon "${icon}" used by "${iconMap.get(icon)}" and "${p.name}". Add a unique "icon" field to projects.json.`);
-      } else {
-        iconMap.set(icon, p.name);
-      }
-    });
-
-    const grid = document.getElementById('projects-grid');
-    grid.innerHTML = projects.map(p => renderProjectCard(p, isAuthenticated)).join('');
-  } catch (err) {
-    console.error('Failed to load projects:', err);
-    document.getElementById('projects-grid').innerHTML =
-      '<p style="color:var(--text-secondary)">Could not load projects.</p>';
+    const projects = await projectsResponse.json();
+    renderStats(projects, publicRepos);
+    renderCatalog(projects, publicRepos);
+    status.hidden = true;
+  } catch (error) {
+    console.error("Failed to load the portfolio.", error);
+    status.textContent = "The portfolio could not be loaded. Please try again later.";
   }
 }
 
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener("DOMContentLoaded", init);

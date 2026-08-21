@@ -25,7 +25,10 @@ Static landing page for naurolabs.com — project catalog showcasing all NauroLa
 │   ├── style.css              # Styles
 │   ├── app.js                 # Client JS
 │   ├── projects.json          # Project catalog data
-│   ├── repos.json             # GitHub repo metadata
+│   ├── public-repos.json      # Generated public-source snapshot
+│   ├── scripts/
+│   │   ├── sync-repo-visibility.js
+│   │   └── validate-projects.js
 │   └── staticwebapp.config.json
 └── .github/
     └── workflows/
@@ -36,5 +39,5 @@ Static landing page for naurolabs.com — project catalog showcasing all NauroLa
 
 - Keep it simple — vanilla HTML/CSS/JS, no build tools
 - Project data lives in projects.json — update there when adding/removing projects
-- Follow existing visual style (dark theme, NauroLabs brand)
+- Follow the existing nauroLabs brand and question-led layout
 - Keep changes minimal and focused on the issue

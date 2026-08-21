@@ -31,34 +31,29 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Sync project dates, commit, and push
+      - name: Sync public repository visibility, commit, and push
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Order matters. This used to generate, commit, and only THEN rebase,
-          # which conflicts every time origin has moved: both sides have rewritten
-          # the same generated lines, and git has no way to pick. Rebase is the
-          # wrong tool for a generated artefact - the file is not a change to
-          # merge, it is a function of the repo's current state. So: fetch first,
-          # reset onto origin, and regenerate on top. The result is correct by
-          # construction rather than by conflict resolution.
+          # Fetch first, then regenerate the visibility snapshot from current
+          # GitHub state so publication changes never leave stale source links.
           for attempt in 1 2 3; do
             git fetch --quiet origin "${GITHUB_REF_NAME}"
             git reset --quiet --hard "origin/${GITHUB_REF_NAME}"
 
-            node landing-page/scripts/sync-repos.js
+            node landing-page/scripts/sync-repo-visibility.js
 
-            if git diff --quiet landing-page/projects.json landing-page/repos.json; then
+            if git diff --quiet landing-page/public-repos.json; then
               echo "No change after regenerating on top of origin — nothing to push."
               exit 0
             fi
 
-            git add landing-page/projects.json landing-page/repos.json
-            git commit --quiet -m "chore: sync project order from GitHub activity"
+            git add landing-page/public-repos.json
+            git commit --quiet -m "chore: sync public repository visibility"
 
             if git push --quiet; then
               echo "Pushed on attempt ${attempt}."
@@ -70,5 +65,5 @@ jobs:
 
           echo "::error::Could not push after 3 attempts. Origin is moving faster than"
           echo "::error::this job can re-derive; check what else is committing to"
-          echo "::error::landing-page/repos.json."
+          echo "::error::landing-page/public-repos.json."
           exit 1
