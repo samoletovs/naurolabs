@@ -3,3 +3,9 @@ node_modules/
 .playwright-mcp/
 screenshots/
 *.png
+
+# Copied in by .github/scripts/install-leak-audit.ps1 for the pre-push hook.
+# Belongs to the governance repo; never publish it from the site repo.
+scripts/audit-leaks.ps1
+scripts/.leak-patterns*.txt
+
