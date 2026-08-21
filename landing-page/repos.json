@@ -1,5 +1,132 @@
 [
   {
+    "name": "amberRepublic",
+    "description": "Latvia political and economic simulation game — shape the country's future",
+    "url": "https://github.com/samoletovs/amberRepublic",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "game",
+      "latvia",
+      "naurolabs",
+      "react",
+      "simulation",
+      "tailwindcss",
+      "typescript",
+      "vite"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-08-21T06:48:04Z",
+    "createdAt": "2026-03-23T21:21:45Z",
+    "homepage": "https://amber.naurolabs.com",
+    "archived": false,
+    "highlights": [
+      "Interactive simulation",
+      "Topics: game, latvia, naurolabs"
+    ]
+  },
+  {
+    "name": "atlas",
+    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
+    "url": "https://github.com/samoletovs/atlas",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "PowerShell",
+      "Bicep",
+      "HTML"
+    ],
+    "topics": [
+      "ai",
+      "azure",
+      "azure-openai",
+      "cosmos-db",
+      "education",
+      "github-oauth",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 2,
+    "updatedAt": "2026-08-21T06:47:42Z",
+    "createdAt": "2026-05-09T18:07:12Z",
+    "homepage": "https://atlas.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "agentFlow",
+    "description": "Visualize how nauroLabs agents are built and how information flows through them",
+    "url": "https://github.com/samoletovs/agentFlow",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "PowerShell",
+      "CSS",
+      "Bicep",
+      "JavaScript",
+      "HTML"
+    ],
+    "topics": [
+      "agent-visualization",
+      "ai-agents",
+      "azure",
+      "azure-static-web-apps",
+      "naurolabs",
+      "react",
+      "typescript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-21T06:47:34Z",
+    "createdAt": "2026-05-17T07:23:09Z",
+    "homepage": "https://agentflow.naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
+    "name": "naurolabs",
+    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
+    "url": "https://github.com/samoletovs/naurolabs",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "topics": [
+      "azure",
+      "azure-static-web-apps",
+      "landing-page",
+      "naurolabs",
+      "research-lab",
+      "vanilla-js"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "updatedAt": "2026-08-20T22:13:54Z",
+    "createdAt": "2026-03-25T14:46:12Z",
+    "homepage": "https://naurolabs.com",
+    "archived": false,
+    "highlights": []
+  },
+  {
     "name": "portaBaltica",
     "description": "Baltic data intelligence — 30+ economic, trade, labour, energy, and environmental indicators for Latvia, Estonia, Lithuania",
     "url": "https://github.com/samoletovs/portaBaltica",
@@ -68,33 +195,6 @@
     ]
   },
   {
-    "name": "naurolabs",
-    "description": "NauroLabs research lab landing page — project catalog at naurolabs.com",
-    "url": "https://github.com/samoletovs/naurolabs",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "topics": [
-      "azure",
-      "azure-static-web-apps",
-      "landing-page",
-      "naurolabs",
-      "research-lab",
-      "vanilla-js"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-20T22:07:01Z",
-    "createdAt": "2026-03-25T14:46:12Z",
-    "homepage": "https://naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
     "name": "rosette",
     "description": "AI-powered electrical socket planner for Baltic properties — upload floor plan, get placement diagram",
     "url": "https://github.com/samoletovs/rosette",
@@ -148,106 +248,6 @@
     "updatedAt": "2026-08-20T21:13:39Z",
     "createdAt": "2026-03-27T19:53:26Z",
     "homepage": null,
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "amberRepublic",
-    "description": "Latvia political and economic simulation game — shape the country's future",
-    "url": "https://github.com/samoletovs/amberRepublic",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "JavaScript",
-      "Python",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "game",
-      "latvia",
-      "naurolabs",
-      "react",
-      "simulation",
-      "tailwindcss",
-      "typescript",
-      "vite"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-08-20T21:11:53Z",
-    "createdAt": "2026-03-23T21:21:45Z",
-    "homepage": "https://amber.naurolabs.com",
-    "archived": false,
-    "highlights": [
-      "Interactive simulation",
-      "Topics: game, latvia, naurolabs"
-    ]
-  },
-  {
-    "name": "atlas",
-    "description": "Personal teacher that turns GitHub repo activity into phone-readable lessons",
-    "url": "https://github.com/samoletovs/atlas",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Python",
-      "CSS",
-      "PowerShell",
-      "Bicep",
-      "HTML"
-    ],
-    "topics": [
-      "ai",
-      "azure",
-      "azure-openai",
-      "cosmos-db",
-      "education",
-      "github-oauth",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 2,
-    "updatedAt": "2026-08-20T21:08:41Z",
-    "createdAt": "2026-05-09T18:07:12Z",
-    "homepage": "https://atlas.naurolabs.com",
-    "archived": false,
-    "highlights": []
-  },
-  {
-    "name": "agentFlow",
-    "description": "Visualize how nauroLabs agents are built and how information flows through them",
-    "url": "https://github.com/samoletovs/agentFlow",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "PowerShell",
-      "CSS",
-      "Bicep",
-      "JavaScript",
-      "HTML"
-    ],
-    "topics": [
-      "agent-visualization",
-      "ai-agents",
-      "azure",
-      "azure-static-web-apps",
-      "naurolabs",
-      "react",
-      "typescript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "openIssues": 0,
-    "updatedAt": "2026-08-20T21:07:49Z",
-    "createdAt": "2026-05-17T07:23:09Z",
-    "homepage": "https://agentflow.naurolabs.com",
     "archived": false,
     "highlights": []
   },
