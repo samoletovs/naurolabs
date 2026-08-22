@@ -1,10 +1,21 @@
 {
   "owner": "samoletovs",
   "publicRepos": [
+    "agentFlow",
+    "amberRepublic",
+    "atlas",
+    "autoRefine",
+    "era",
     "folio",
     "foundryLab",
     "glassBox",
+    "golazo",
     "homeScout",
-    "nauroBot"
+    "nauroBot",
+    "payArc",
+    "portaBaltica",
+    "rosette",
+    "tPlan",
+    "turgo"
   ]
 }
