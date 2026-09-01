@@ -15,6 +15,12 @@ const BANNED_BRANDS = [
 const NON_LATIN_RE = /[\u0400-\u04FF\u0500-\u052F\u2DE0-\u2DFF\uA640-\uA69F\u4E00-\u9FFF\u3040-\u30FF\u0600-\u06FF\u0590-\u05FF\u0900-\u097F\u0E00-\u0E7F]/;
 const AGE_RE = /\d+[\s-]?year[\s-]?old/i;
 
+// Deliberately a hand-maintained number, not projects.length. It is a tripwire
+// against an entry being dropped or duplicated by a bad merge - a count derived
+// from the file it is meant to check would agree with any value and catch
+// nothing. Bump it in the same commit that adds or removes a project.
+const EXPECTED_ENTRIES = 27;
+
 let errors = 0;
 
 function fail(project, field, message) {
@@ -72,8 +78,8 @@ function main() {
     }
   });
 
-  if (projects.length !== 26) {
-    fail("catalog", "count", `Expected 26 Vision entries, found ${projects.length}`);
+  if (projects.length !== EXPECTED_ENTRIES) {
+    fail("catalog", "count", `Expected ${EXPECTED_ENTRIES} Vision entries, found ${projects.length}`);
   }
 
   if (!Array.isArray(visibility.publicRepos)) {

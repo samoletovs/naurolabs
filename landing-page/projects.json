@@ -224,8 +224,7 @@
     "description": "Can focused agent experiments show when a managed platform is worth its cost and when custom infrastructure is simpler?",
     "accentColor": "#0891B2",
     "note": "Dormant research: one agent is implemented; the remaining candidates are not started."
-  }
-,
+  },
   {
     "name": "bRoom",
     "repo": "bRoom",
