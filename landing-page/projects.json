@@ -224,5 +224,14 @@
     "description": "Can focused agent experiments show when a managed platform is worth its cost and when custom infrastructure is simpler?",
     "accentColor": "#0891B2",
     "note": "Dormant research: one agent is implemented; the remaining candidates are not started."
+  },
+  {
+    "name": "bRoom",
+    "repo": "bRoom",
+    "question": "q3",
+    "stage": "scaffolding",
+    "description": "Can a structured model of what a product actually is make price comparison honest in a market where naming is deliberately ambiguous?",
+    "domain": "broom.naurolabs.com",
+    "accentColor": "#2530C6"
   }
 ]
