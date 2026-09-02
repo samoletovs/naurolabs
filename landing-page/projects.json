@@ -26,6 +26,15 @@
     "domain": "turgo.naurolabs.com"
   },
   {
+    "name": "elvScout",
+    "repo": "elvScout",
+    "question": "q1",
+    "stage": "active",
+    "description": "Can a saved search be replaced by a conversation? A vacancy watcher with no settings screen, where criteria are stated in plain language and refined by reacting to what arrives rather than by editing a filter.",
+    "accentColor": "#4F46E5",
+    "sourceAllowed": false
+  },
+  {
     "name": "glassBox",
     "repo": "glassBox",
     "question": "q1",
