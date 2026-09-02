@@ -19,7 +19,7 @@ const AGE_RE = /\d+[\s-]?year[\s-]?old/i;
 // against an entry being dropped or duplicated by a bad merge - a count derived
 // from the file it is meant to check would agree with any value and catch
 // nothing. Bump it in the same commit that adds or removes a project.
-const EXPECTED_ENTRIES = 27;
+const EXPECTED_ENTRIES = 28;
 
 let errors = 0;
 
