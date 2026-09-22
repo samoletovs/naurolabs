@@ -101,9 +101,10 @@
     "name": "rosette",
     "repo": "rosette",
     "question": "q2",
-    "stage": "active",
+    "stage": "dormant",
     "description": "Can AI apply country-specific electrical standards well enough to produce a useful first-pass socket and circuit plan?",
-    "domain": "rosette.naurolabs.com"
+    "domain": "rosette.naurolabs.com",
+    "note": "Parked experiment; the existing demonstration remains available."
   },
   {
     "name": "dealScout",
