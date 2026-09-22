@@ -37,6 +37,10 @@ This repo is the **landing page**: a project catalog that links to every experim
 
 Azure Static Web Apps (Free tier). Deployed on push to `main` via GitHub Actions.
 
+Pull requests get staging environments. The deployment workflow subscribes to
+`closed` events so its existing cleanup job removes each preview after closure
+or merge; otherwise stale previews can exhaust the staging quota.
+
 ## Shared agent run pattern
 
 Reusable unattended-run support is in `/home/runner/work/naurolabs/naurolabs/shared`:
