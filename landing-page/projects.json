@@ -12,7 +12,7 @@
     "name": "era",
     "repo": "era",
     "question": "q1",
-    "stage": "active",
+    "stage": "dormant",
     "description": "Can a minimal-interface ERP let people provide business facts while AI applies accounting, tax, and posting rules?",
     "domain": "era.naurolabs.com",
     "accentColor": "#0A7B62"
@@ -23,7 +23,8 @@
     "question": "q1",
     "stage": "active",
     "description": "Can an agent handle the full classifieds lifecycle while still offering quick and manual paths when people want control?",
-    "domain": "turgo.naurolabs.com"
+    "domain": "turgo.naurolabs.com",
+    "note": "Maintained as a rapid-build demonstration, not an active marketplace-growth project."
   },
   {
     "name": "elvScout",
@@ -33,15 +34,6 @@
     "description": "Can a saved search be replaced by a conversation? A vacancy watcher with no settings screen, where criteria are stated in plain language and refined by reacting to what arrives rather than by editing a filter.",
     "accentColor": "#4F46E5",
     "sourceAllowed": false
-  },
-  {
-    "name": "glassBox",
-    "repo": "glassBox",
-    "question": "q1",
-    "stage": "research",
-    "description": "Can a thin, reversible interface serve an external agent as its primary reader without embedding a model in the app?",
-    "domain": "glassbox.naurolabs.com",
-    "accentColor": "#0D9488"
   },
   {
     "name": "mindMe",
@@ -56,7 +48,7 @@
     "name": "memex",
     "repo": "memex",
     "question": "q1",
-    "stage": "scaffolding",
+    "stage": "active",
     "description": "Can dropping a link into chat reliably turn it into durable, cross-linked knowledge with no separate interface?",
     "sourceAllowed": false
   },
@@ -152,7 +144,7 @@
     "name": "golazo",
     "repo": "golazo",
     "question": "q3",
-    "stage": "active",
+    "stage": "dormant",
     "description": "Can a player-first development record become useful football infrastructure in a market where that data source is missing?",
     "domain": "golazo.naurolabs.com"
   },
@@ -160,7 +152,7 @@
     "name": "homeScout",
     "repo": "homeScout",
     "question": "q3",
-    "stage": "scaffold",
+    "stage": "active",
     "description": "Can fragmented listings, registered sales, auctions, and practical location signals produce a useful home-buying shortlist?",
     "accentColor": "#16A34A"
   },
@@ -174,19 +166,10 @@
     "note": "Dormant after the local addon was scaffolded; there is no hosted service."
   },
   {
-    "name": "payArc",
-    "repo": "payArc",
-    "question": "q3",
-    "stage": "dormant",
-    "description": "Can agent-assisted onboarding, payment routing, and fraud review make payment operations viable for a lean team?",
-    "accentColor": "#2563EB",
-    "note": "Dormant at the idea stage."
-  },
-  {
     "name": "kiosk",
     "repo": "kiosk",
     "question": "q3",
-    "stage": "discovery",
+    "stage": "active",
     "description": "Can agent-runnability be the first filter for choosing a real local business rather than a later optimisation?",
     "sourceAllowed": false
   },
@@ -238,7 +221,7 @@
     "name": "bRoom",
     "repo": "bRoom",
     "question": "q3",
-    "stage": "scaffolding",
+    "stage": "dormant",
     "description": "Can a structured model of what a product actually is make price comparison honest in a market where naming is deliberately ambiguous?",
     "domain": "broom.naurolabs.com",
     "accentColor": "#2530C6"
